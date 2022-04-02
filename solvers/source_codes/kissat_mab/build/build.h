@@ -1,0 +1,5 @@
+#define VERSION "1.0.3"
+#define COMPILER "gcc (GCC) 8.3.1 20190311 (Red Hat 8.3.1-3) -W -Wall -O3 -DNEMBEDDED -DNDEBUG -DNMETRICS -DNSTATISTICS"
+#define ID "79d8d8f20465e71fd2b0f193b468898cd803a59a"
+#define BUILD "Sat Apr 2 03:00:47 EDT 2022 Linux panda6 3.10.0-1160.36.2.el7.x86_64 x86_64"
+#define DIR "/pub/data/zxd/shuffle/solvers/kissat_mab/build"

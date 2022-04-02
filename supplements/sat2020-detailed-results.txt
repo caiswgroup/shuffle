@@ -1,0 +1,992 @@
+
+
+pakis(kissat-MAB)   kissat-MAB-sat      kissat+LA           kissat+RS           kissat+LA+s         kissat+RS+s         kissat+RS+d         kissat+RS+d+s       instance_name
+sat, 1499.13        sat, 2443.02        sat, 1183.14        sat, 1720.38        sat, 329.74         sat, 185.51         sat, 856.71         sat, 346.8          01-integer-programming-20-30-40.cnf
+unknown, 10000.0    unknown, 10000.0    unknown, 10000.0    unknown, 10000.0    unknown, 10000.0    unknown, 10000.0    unknown, 10000.0    unknown, 10000.0    01-integer-programming-5-10-100.cnf
+dataset: 01-integer-programming ( 2 instances)
++-------------------+------+----------+--------+------------+------+---------+-------+-------+
+|       solver      | #SAT | PAR2-SAT | #UNSAT | PAR2-UNSAT | #ALL |   PAR2  | #MONO | #BEST |
++-------------------+------+----------+--------+------------+------+---------+-------+-------+
+| pakis(kissat-MAB) |  1   | 1499.13  |   0    |   10000    |  1   | 5749.57 |   0   |   0   |
+|   kissat-MAB-sat  |  1   | 2443.02  |   0    |   10000    |  1   | 6221.51 |   0   |   0   |
+|     kissat+LA     |  1   | 1183.14  |   0    |   10000    |  1   | 5591.57 |   0   |   0   |
+|     kissat+RS     |  1   | 1720.38  |   0    |   10000    |  1   | 5860.19 |   0   |   0   |
+|    kissat+LA+s    |  1   |  329.74  |   0    |   10000    |  1   | 5164.87 |   0   |   0   |
+|    kissat+RS+s    |  1   |  185.51  |   0    |   10000    |  1   | 5092.75 |   0   |   1   |
+|    kissat+RS+d    |  1   |  856.71  |   0    |   10000    |  1   | 5428.36 |   0   |   0   |
+|   kissat+RS+d+s   |  1   |  346.8   |   0    |   10000    |  1   |  5173.4 |   0   |   0   |
++-------------------+------+----------+--------+------------+------+---------+-------+-------+
+
+
+pakis(kissat-MAB)   kissat-MAB-sat      kissat+LA           kissat+RS           kissat+LA+s         kissat+RS+s         kissat+RS+d         kissat+RS+d+s       instance_name
+sat, 9.15           sat, 10.28          sat, 10.35          sat, 9.23           sat, 14.1           sat, 14.46          sat, 17.66          sat, 37.5           schur-triples-7-60.cnf
+sat, 84.38          sat, 839.71         sat, 35.38          sat, 145.2          sat, 57.22          sat, 58.2           sat, 380.76         sat, 154.11         schur-triples-7-90.cnf
+dataset: schur-coloring ( 2 instances)
++-------------------+------+----------+--------+------------+------+--------+-------+-------+
+|       solver      | #SAT | PAR2-SAT | #UNSAT | PAR2-UNSAT | #ALL |  PAR2  | #MONO | #BEST |
++-------------------+------+----------+--------+------------+------+--------+-------+-------+
+| pakis(kissat-MAB) |  2   |  46.76   |   0    |   10000    |  2   | 46.76  |   0   |   1   |
+|   kissat-MAB-sat  |  2   |  425.0   |   0    |   10000    |  2   | 425.0  |   0   |   0   |
+|     kissat+LA     |  2   |  22.87   |   0    |   10000    |  2   | 22.87  |   0   |   1   |
+|     kissat+RS     |  2   |  77.22   |   0    |   10000    |  2   | 77.22  |   0   |   0   |
+|    kissat+LA+s    |  2   |  35.66   |   0    |   10000    |  2   | 35.66  |   0   |   0   |
+|    kissat+RS+s    |  2   |  36.33   |   0    |   10000    |  2   | 36.33  |   0   |   0   |
+|    kissat+RS+d    |  2   |  199.21  |   0    |   10000    |  2   | 199.21 |   0   |   0   |
+|   kissat+RS+d+s   |  2   |  95.81   |   0    |   10000    |  2   | 95.81  |   0   |   0   |
++-------------------+------+----------+--------+------------+------+--------+-------+-------+
+
+
+pakis(kissat-MAB)   kissat-MAB-sat      kissat+LA           kissat+RS           kissat+LA+s         kissat+RS+s         kissat+RS+d         kissat+RS+d+s       instance_name
+sat, 23.41          sat, 342.69         sat, 44.3           sat, 2.89           sat, 79.06          sat, 42.07          sat, 27.89          sat, 10.07          fermat-33106286870663.cnf
+sat, 561.72         sat, 3986.8         sat, 843.44         sat, 600.36         sat, 978.16         sat, 250.16         sat, 1304.9         sat, 130.12         fermat-770131695059117.cnf
+unknown, 10000.0    unknown, 10000.0    unknown, 10000.0    unknown, 10000.0    unknown, 10000.0    sat, 103.12         unknown, 10000.0    sat, 1095.38        fermat-834855329100173267.cnf
+sat, 51.83          sat, 1659.77        sat, 16.36          sat, 19.9           sat, 34.04          sat, 104.09         sat, 11.99          sat, 49.09          fermat-907547022132073.cnf
+unknown, 10000.0    unknown, 10000.0    unknown, 10000.0    unknown, 10000.0    unknown, 10000.0    sat, 783.32         unknown, 10000.0    unknown, 10000.0    fermat-931960058139995587.cnf
+dataset: fermat ( 5 instances)
++-------------------+------+----------+--------+------------+------+---------+-------+-------+
+|       solver      | #SAT | PAR2-SAT | #UNSAT | PAR2-UNSAT | #ALL |   PAR2  | #MONO | #BEST |
++-------------------+------+----------+--------+------------+------+---------+-------+-------+
+| pakis(kissat-MAB) |  3   |  127.39  |   0    |   10000    |  3   | 4127.39 |   0   |   0   |
+|   kissat-MAB-sat  |  3   | 1197.85  |   0    |   10000    |  3   | 5197.85 |   0   |   0   |
+|     kissat+LA     |  3   |  180.82  |   0    |   10000    |  3   | 4180.82 |   0   |   0   |
+|     kissat+RS     |  3   |  124.63  |   0    |   10000    |  3   | 4124.63 |   0   |   1   |
+|    kissat+LA+s    |  3   |  218.25  |   0    |   10000    |  3   | 4218.25 |   0   |   0   |
+|    kissat+RS+s    |  5   |  256.55  |   0    |   10000    |  5   |  256.55 |   1   |   2   |
+|    kissat+RS+d    |  3   |  268.96  |   0    |   10000    |  3   | 4268.96 |   0   |   1   |
+|   kissat+RS+d+s   |  4   |  256.93  |   0    |   10000    |  4   | 2256.93 |   0   |   1   |
++-------------------+------+----------+--------+------------+------+---------+-------+-------+
+
+
+pakis(kissat-MAB)   kissat-MAB-sat      kissat+LA           kissat+RS           kissat+LA+s         kissat+RS+s         kissat+RS+d         kissat+RS+d+s       instance_name
+sat, 2196.22        unknown, 10000.0    sat, 2220.6         sat, 1352.81        sat, 3275.37        sat, 1821.96        sat, 1578.44        sat, 1271.89        ssp-0.046166496845693274.cnf
+sat, 86.85          unknown, 10000.0    unknown, 10000.0    sat, 1502.76        sat, 370.11         sat, 4285.92        sat, 14.62          sat, 84.33          ssp-0.497665446947731.cnf
+dataset: sum-subset ( 2 instances)
++-------------------+------+----------+--------+------------+------+---------+-------+-------+
+|       solver      | #SAT | PAR2-SAT | #UNSAT | PAR2-UNSAT | #ALL |   PAR2  | #MONO | #BEST |
++-------------------+------+----------+--------+------------+------+---------+-------+-------+
+| pakis(kissat-MAB) |  2   | 1141.54  |   0    |   10000    |  2   | 1141.54 |   0   |   0   |
+|   kissat-MAB-sat  |  0   |   0.0    |   0    |   10000    |  0   | 10000.0 |   0   |   0   |
+|     kissat+LA     |  1   |  1110.3  |   0    |   10000    |  1   |  6110.3 |   0   |   0   |
+|     kissat+RS     |  2   | 1427.78  |   0    |   10000    |  2   | 1427.78 |   0   |   0   |
+|    kissat+LA+s    |  2   | 1822.74  |   0    |   10000    |  2   | 1822.74 |   0   |   0   |
+|    kissat+RS+s    |  2   | 3053.94  |   0    |   10000    |  2   | 3053.94 |   0   |   0   |
+|    kissat+RS+d    |  2   |  796.53  |   0    |   10000    |  2   |  796.53 |   0   |   1   |
+|   kissat+RS+d+s   |  2   |  678.11  |   0    |   10000    |  2   |  678.11 |   0   |   1   |
++-------------------+------+----------+--------+------------+------+---------+-------+-------+
+
+
+pakis(kissat-MAB)   kissat-MAB-sat      kissat+LA           kissat+RS           kissat+LA+s         kissat+RS+s         kissat+RS+d         kissat+RS+d+s       instance_name
+unknown, 10000.0    unknown, 10000.0    unknown, 10000.0    unknown, 10000.0    unknown, 10000.0    unknown, 10000.0    unknown, 10000.0    unknown, 10000.0    abw-I-ash85.mtx-w24.cnf
+unknown, 10000.0    unknown, 10000.0    unknown, 10000.0    unknown, 10000.0    unknown, 10000.0    unknown, 10000.0    unknown, 10000.0    unknown, 10000.0    abw-I-ash85.mtx-w25.cnf
+unknown, 10000.0    unknown, 10000.0    sat, 1260.85        sat, 366.98         sat, 1082.24        sat, 952.35         sat, 286.32         sat, 3507.83        abw-K-dwt__234.mtx-w51.cnf
+unknown, 10000.0    unknown, 10000.0    unknown, 10000.0    unknown, 10000.0    unknown, 10000.0    unknown, 10000.0    unknown, 10000.0    unknown, 10000.0    abw-K-dwt__234.mtx-w54.cnf
+unsat, 749.86       unsat, 1388.93      unsat, 1094.43      unsat, 804.46       unsat, 433.44       unsat, 135.29       unsat, 715.92       unsat, 132.25       abw-K-dwt__234.mtx-w55.cnf
+sat, 835.49         sat, 2200.8         sat, 640.25         sat, 576.34         sat, 332.83         sat, 857.04         sat, 889.47         sat, 972.98         abw-N-bcsstk07.mtx-w35.cnf
+unknown, 10000.0    unknown, 10000.0    unknown, 10000.0    unknown, 10000.0    unknown, 10000.0    unknown, 10000.0    unknown, 10000.0    unknown, 10000.0    abw-N-bcsstk07.mtx-w38.cnf
+unsat, 91.43        unsat, 623.41       unsat, 302.33       unsat, 273.29       unsat, 228.67       unsat, 128.06       unsat, 147.98       unsat, 128.98       abw-N-bcsstk07.mtx-w44.cnf
+sat, 413.59         sat, 690.74         sat, 174.43         sat, 170.68         sat, 87.47          sat, 189.61         sat, 251.79         sat, 350.02         abw-O-impcol_d.mtx-w101.cnf
+sat, 1584.7         sat, 1815.39        sat, 862.38         sat, 931.8          sat, 413.45         sat, 744.91         sat, 694.85         sat, 1133.68        abw-Q-494_bus.mtx-w208.cnf
+unknown, 10000.0    unknown, 10000.0    unknown, 10000.0    unknown, 10000.0    unknown, 10000.0    unknown, 10000.0    unknown, 10000.0    unknown, 10000.0    abw-Q-494_bus.mtx-w242.cnf
+unknown, 10000.0    sat, 1733.4         sat, 1116.14        sat, 505.64         sat, 1080.91        sat, 4255.09        sat, 1106.3         sat, 3388.87        abw-R-dwt__503.mtx-w64.cnf
+sat, 2251.49        sat, 1672.32        sat, 1460.44        sat, 1142.76        sat, 1029.82        sat, 808.57         sat, 1862.53        sat, 1952.22        abw-V-nos6.mtx-w220.cnf
+sat, 4025.4         sat, 2619.53        sat, 680.17         sat, 882.67         sat, 1086.82        sat, 3554.87        sat, 1371.69        sat, 1748.48        abw-X-can__715.mtx-w103.cnf
+dataset: antibandwidth ( 14 instances)
++-------------------+------+----------+--------+------------+------+---------+-------+-------+
+|       solver      | #SAT | PAR2-SAT | #UNSAT | PAR2-UNSAT | #ALL |   PAR2  | #MONO | #BEST |
++-------------------+------+----------+--------+------------+------+---------+-------+-------+
+| pakis(kissat-MAB) |  5   | 1301.52  |   2    |   168.26   |  7   | 5710.85 |   0   |   1   |
+|   kissat-MAB-sat  |  6   | 1533.17  |   2    |   402.47   |  8   | 5196.04 |   0   |   0   |
+|     kissat+LA     |  7   |  884.95  |   2    |   279.35   |  9   | 4113.67 |   0   |   1   |
+|     kissat+RS     |  7   |  653.84  |   2    |   215.55   |  9   | 3975.33 |   0   |   1   |
+|    kissat+LA+s    |  7   |  730.51  |   2    |   132.42   |  9   | 3983.97 |   0   |   3   |
+|    kissat+RS+s    |  7   |  1623.2  |   2    |   52.67    |  9   | 4401.84 |   0   |   1   |
+|    kissat+RS+d    |  7   |  923.28  |   2    |   172.78   |  9   | 4094.77 |   0   |   1   |
+|   kissat+RS+d+s   |  7   | 1864.87  |   2    |   52.25    |  9   | 4522.52 |   0   |   1   |
++-------------------+------+----------+--------+------------+------+---------+-------+-------+
+
+
+pakis(kissat-MAB)   kissat-MAB-sat      kissat+LA           kissat+RS           kissat+LA+s         kissat+RS+s         kissat+RS+d         kissat+RS+d+s       instance_name
+sat, 140.34         sat, 276.51         sat, 260.11         sat, 108.11         sat, 204.1          sat, 84.15          sat, 150.39         sat, 62.0           baseballcover11with22_and2positions.cnf
+sat, 196.93         sat, 203.25         sat, 160.56         sat, 183.99         sat, 210.4          sat, 86.28          sat, 221.58         sat, 85.06          baseballcover11with25_and5positions.cnf
+unsat, 359.88       unsat, 1025.17      unsat, 671.75       unsat, 660.57       unsat, 608.93       unsat, 348.69       unsat, 315.63       unsat, 230.31       baseballcover12with22_and2positions.cnf
+sat, 291.36         sat, 272.5          sat, 278.53         sat, 229.46         sat, 242.09         sat, 115.3          sat, 275.49         sat, 136.58         baseballcover12with23_and2positions.cnf
+sat, 168.28         sat, 261.68         sat, 205.47         sat, 179.55         sat, 161.9          sat, 92.7           sat, 103.83         sat, 79.95          baseballcover12with24_and2positions.cnf
+unknown, 10000.0    unknown, 10000.0    unknown, 10000.0    unknown, 10000.0    unknown, 10000.0    unknown, 10000.0    unknown, 10000.0    unsat, 4254.4       baseballcover12with25_and5positions.cnf
+sat, 106.3          sat, 146.51         sat, 118.11         sat, 76.44          sat, 74.51          sat, 36.69          sat, 131.21         sat, 44.31          baseballcover13with25_and1positions.cnf
+unsat, 1034.6       unsat, 3062.15      unsat, 1992.78      unsat, 1718.76      unsat, 1317.82      unsat, 1478.08      unsat, 889.53       unsat, 906.56       baseballcover13with25_and3positions.cnf
+sat, 97.61          sat, 58.63          sat, 75.5           sat, 69.56          sat, 54.42          sat, 33.42          sat, 67.2           sat, 29.7           baseballcover13with25.cnf
+unsat, 170.63       unsat, 292.92       unsat, 216.57       unsat, 205.44       unsat, 215.36       unsat, 69.61        unsat, 141.8        unsat, 45.13        baseballcover14with25_and1positions.cnf
+unsat, 175.13       unsat, 382.53       unsat, 420.39       unsat, 297.27       unsat, 387.92       unsat, 145.77       unsat, 228.83       unsat, 133.1        baseballcover14with25_and2positions.cnf
+unsat, 132.81       unsat, 356.76       unsat, 206.83       unsat, 182.25       unsat, 291.41       unsat, 59.59        unsat, 124.46       unsat, 68.21        baseballcover14with25.cnf
+unsat, 73.58        unsat, 127.4        unsat, 133.42       unsat, 121.15       unsat, 123.42       unsat, 41.2         unsat, 100.49       unsat, 42.43        baseballcover15with25.cnf
+dataset: baseball-lineup ( 13 instances)
++-------------------+------+----------+--------+------------+------+---------+-------+-------+
+|       solver      | #SAT | PAR2-SAT | #UNSAT | PAR2-UNSAT | #ALL |   PAR2  | #MONO | #BEST |
++-------------------+------+----------+--------+------------+------+---------+-------+-------+
+| pakis(kissat-MAB) |  6   |  166.8   |   6    |   278.09   |  12  |  995.96 |   0   |   0   |
+|   kissat-MAB-sat  |  6   |  203.18  |   6    |   749.56   |  12  | 1266.62 |   0   |   0   |
+|     kissat+LA     |  6   |  183.05  |   6    |   520.25   |  12  | 1133.85 |   0   |   0   |
+|     kissat+RS     |  6   |  141.19  |   6    |   455.06   |  12  | 1079.43 |   0   |   0   |
+|    kissat+LA+s    |  6   |  157.91  |   6    |   420.69   |  12  | 1068.64 |   0   |   0   |
+|    kissat+RS+s    |  6   |  74.76   |   6    |   306.13   |  12  |  968.58 |   0   |   4   |
+|    kissat+RS+d    |  6   |  158.28  |   6    |   257.25   |  12  |  980.8  |   0   |   1   |
+|   kissat+RS+d+s   |  6   |  72.93   |   7    |   811.45   |  13  |  470.6  |   1   |   8   |
++-------------------+------+----------+--------+------------+------+---------+-------+-------+
+
+
+pakis(kissat-MAB)   kissat-MAB-sat      kissat+LA           kissat+RS           kissat+LA+s         kissat+RS+s         kissat+RS+d         kissat+RS+d+s       instance_name
+unsat, 1030.1       unknown, 10000.0    unknown, 10000.0    unknown, 10000.0    unknown, 10000.0    unknown, 10000.0    unsat, 2480.58      unsat, 209.12       bv-term-small-rw_1159.smt2.cnf
+unknown, 10000.0    unknown, 10000.0    unknown, 10000.0    unknown, 10000.0    unknown, 10000.0    unknown, 10000.0    unknown, 10000.0    unknown, 10000.0    bv-term-small-rw_1220.smt2.cnf
+unknown, 10000.0    unknown, 10000.0    unknown, 10000.0    unknown, 10000.0    unknown, 10000.0    unknown, 10000.0    unknown, 10000.0    unknown, 10000.0    bv-term-small-rw_206.smt2.cnf
+unknown, 10000.0    unknown, 10000.0    unknown, 10000.0    unknown, 10000.0    unknown, 10000.0    unknown, 10000.0    unknown, 10000.0    unknown, 10000.0    bv-term-small-rw_350.smt2.cnf
+unsat, 2690.42      unknown, 10000.0    unknown, 10000.0    unknown, 10000.0    unknown, 10000.0    unknown, 10000.0    unsat, 1497.57      unsat, 197.1        bv-term-small-rw_503.smt2.cnf
+unknown, 10000.0    unknown, 10000.0    unknown, 10000.0    unknown, 10000.0    unknown, 10000.0    unknown, 10000.0    unknown, 10000.0    unknown, 10000.0    bv-term-small-rw_848.smt2.cnf
+unsat, 1595.18      unknown, 10000.0    unknown, 10000.0    unknown, 10000.0    unknown, 10000.0    unsat, 1488.16      unsat, 1569.11      unsat, 617.15       22930-0426-195.smt2.cnf
+unsat, 1544.34      unknown, 10000.0    unknown, 10000.0    unknown, 10000.0    unknown, 10000.0    unsat, 1022.25      unsat, 1513.18      unsat, 641.26       22930-0601-11.smt2.cnf
+unknown, 10000.0    unknown, 10000.0    unknown, 10000.0    unknown, 10000.0    unknown, 10000.0    unknown, 10000.0    unknown, 10000.0    unknown, 10000.0    mulhs16.smt2.cnf
+unknown, 10000.0    unknown, 10000.0    unsat, 3887.3       unknown, 10000.0    unsat, 2768.92      unsat, 1784.63      unknown, 10000.0    unsat, 1702.57      iffyInterleavedModMult-8.smt2.cnf
+unsat, 390.86       unsat, 1023.87      unsat, 1103.17      unsat, 888.24       unsat, 1671.56      unsat, 434.2        unsat, 757.8        unsat, 336.17       problem_19.smt2.cnf
+unknown, 10000.0    unknown, 10000.0    unknown, 10000.0    unknown, 10000.0    unknown, 10000.0    unknown, 10000.0    unknown, 10000.0    unknown, 10000.0    problem_21.smt2.cnf
+unsat, 441.23       unsat, 1140.32      unsat, 788.44       unsat, 602.47       unsat, 686.23       unsat, 114.12       unsat, 382.27       unsat, 105.08       problem_23.smt2.cnf
+unsat, 2464.33      unknown, 10000.0    unsat, 2755.41      unknown, 10000.0    unsat, 2875.39      unsat, 1715.38      unsat, 2341.83      unsat, 1997.26      uum12.smt2.cnf
+dataset: bitvector ( 14 instances)
++-------------------+------+----------+--------+------------+------+---------+-------+-------+
+|       solver      | #SAT | PAR2-SAT | #UNSAT | PAR2-UNSAT | #ALL |   PAR2  | #MONO | #BEST |
++-------------------+------+----------+--------+------------+------+---------+-------+-------+
+| pakis(kissat-MAB) |  0   |  10000   |   7    |  1015.65   |  7   | 5725.46 |   0   |   0   |
+|   kissat-MAB-sat  |  0   |  10000   |   2    |   216.42   |  2   | 8726.01 |   0   |   0   |
+|     kissat+LA     |  0   |  10000   |   4    |   853.43   |  4   | 7752.45 |   0   |   0   |
+|     kissat+RS     |  0   |  10000   |   2    |   149.07   |  2   | 8677.91 |   0   |   0   |
+|    kissat+LA+s    |  0   |  10000   |   4    |   800.21   |  4   | 7714.44 |   0   |   0   |
+|    kissat+RS+s    |  0   |  10000   |   6    |   655.87   |  6   | 6182.77 |   0   |   1   |
+|    kissat+RS+d    |  0   |  10000   |   7    |  1054.23   |  7   | 5753.02 |   0   |   0   |
+|   kissat+RS+d+s   |  0   |  10000   |   8    |   580.57   |  8   | 4700.41 |   0   |   7   |
++-------------------+------+----------+--------+------------+------+---------+-------+-------+
+
+
+pakis(kissat-MAB)   kissat-MAB-sat      kissat+LA           kissat+RS           kissat+LA+s         kissat+RS+s         kissat+RS+d         kissat+RS+d+s       instance_name
+unsat, 34.46        unsat, 48.37        unsat, 52.16        unsat, 47.59        unsat, 114.25       unsat, 71.72        unsat, 59.41        unsat, 75.81        ps_200_300_70.cnf
+unsat, 31.93        unsat, 42.34        unsat, 48.45        unsat, 43.8         unsat, 116.19       unsat, 46.82        unsat, 146.46       unsat, 49.82        ps_200_301_70.cnf
+unsat, 31.97        unsat, 49.23        unsat, 52.12        unsat, 51.49        unsat, 101.19       unsat, 71.92        unsat, 61.66        unsat, 125.88       ps_200_305_70.cnf
+unsat, 32.88        unsat, 65.07        unsat, 65.61        unsat, 65.51        unsat, 49.2         unsat, 96.09        unsat, 88.22        unsat, 73.91        ps_200_306_70.cnf
+unsat, 36.49        unsat, 76.91        unsat, 62.31        unsat, 79.84        unsat, 168.21       unsat, 166.02       unsat, 328.86       unsat, 74.11        ps_200_316_70.cnf
+unsat, 40.68        unsat, 155.79       unsat, 73.27        unsat, 148.63       unsat, 145.21       unsat, 59.96        unsat, 293.18       unsat, 152.88       ps_200_317_70.cnf
+unsat, 37.94        unknown, 10000.0    unsat, 67.25        unsat, 320.5        unsat, 110.32       unsat, 140.24       unsat, 509.4        unsat, 94.0         ps_200_323_70.cnf
+sat, 35.44          sat, 14.26          sat, 5.85           sat, 13.51          sat, 9.28           sat, 30.94          sat, 10.17          sat, 40.09          ps_300_301_30.cnf
+sat, 2.98           sat, 10.78          sat, 8.21           sat, 7.91           sat, 4.27           sat, 24.47          sat, 7.69           sat, 9.64           ps_300_311_20.cnf
+sat, 2.5            sat, 22.87          sat, 9.3            sat, 21.48          sat, 11.28          sat, 23.46          sat, 10.76          sat, 26.01          ps_300_312_20.cnf
+sat, 2.4            sat, 4.45           sat, 5.74           sat, 319.17         sat, 7.3            sat, 39.39          sat, 4.69           sat, 7.09           ps_300_314_20.cnf
+sat, 2.42           sat, 11.13          sat, 10.1           sat, 8.63           sat, 6.3            sat, 57.17          sat, 8.64           sat, 26.04          ps_300_322_20.cnf
+dataset: cellular-automata ( 12 instances)
++-------------------+------+----------+--------+------------+------+--------+-------+-------+
+|       solver      | #SAT | PAR2-SAT | #UNSAT | PAR2-UNSAT | #ALL |  PAR2  | #MONO | #BEST |
++-------------------+------+----------+--------+------------+------+--------+-------+-------+
+| pakis(kissat-MAB) |  5   |   9.15   |   7    |   35.19    |  12  | 24.34  |   0   |   11  |
+|   kissat-MAB-sat  |  5   |   12.7   |   6    |   62.53    |  11  | 875.1  |   0   |   0   |
+|     kissat+LA     |  5   |   7.84   |   7    |   60.17    |  12  | 38.36  |   0   |   1   |
+|     kissat+RS     |  5   |  74.14   |   7    |   108.19   |  12  |  94.0  |   0   |   0   |
+|    kissat+LA+s    |  5   |   7.69   |   7    |   114.94   |  12  | 70.25  |   0   |   0   |
+|    kissat+RS+s    |  5   |  35.09   |   7    |   93.25    |  12  | 69.02  |   0   |   0   |
+|    kissat+RS+d    |  5   |   8.39   |   7    |   212.45   |  12  | 127.43 |   0   |   0   |
+|   kissat+RS+d+s   |  5   |  21.77   |   7    |   92.34    |  12  | 62.94  |   0   |   0   |
++-------------------+------+----------+--------+------------+------+--------+-------+-------+
+
+
+pakis(kissat-MAB)   kissat-MAB-sat      kissat+LA           kissat+RS           kissat+LA+s         kissat+RS+s         kissat+RS+d         kissat+RS+d+s       instance_name
+unsat, 33.95        unsat, 54.18        unsat, 75.26        unsat, 58.26        unsat, 34.11        unsat, 7.3          unsat, 50.41        unsat, 6.31         3bitadd_32.cnf.gz.CP3-cnfmiter.cnf
+unsat, 26.62        unsat, 30.32        unsat, 47.0         unsat, 27.62        unsat, 22.07        unsat, 5.21         unsat, 28.35        unsat, 5.2          fclqcolor-18-14-11.cnf.gz.CP3-cnfmiter.cnf
+unsat, 59.41        unsat, 64.36        unsat, 76.28        unsat, 90.31        unsat, 39.12        unsat, 7.29         unsat, 72.92        unsat, 8.29         fclqcolor-20-15-12.cnf.gz.CP3-cnfmiter.cnf
+unsat, 395.41       unsat, 140.22       unsat, 267.14       unsat, 437.8        unsat, 108.13       unsat, 39.76        unsat, 438.2        unsat, 35.75        lang23.cnf.gz.CP3-cnfmiter.cnf
+unsat, 1739.44      unsat, 889.79       unsat, 2336.91      unsat, 1665.17      unsat, 429.4        unsat, 172.49       unsat, 1313.77      unsat, 159.65       lang28.cnf.gz.CP3-cnfmiter.cnf
+unsat, 34.14        unsat, 44.52        unsat, 52.15        unsat, 45.6         unsat, 16.07        unsat, 7.26         unsat, 61.57        unsat, 7.27         ls15-normalized.cnf.gz.CP3-cnfmiter.cnf
+unsat, 75.9         unsat, 73.94        unsat, 63.57        unsat, 100.97       unsat, 31.11        unsat, 10.35        unsat, 116.62       unsat, 10.35        ls16-normalized.cnf.gz.CP3-cnfmiter.cnf
+dataset: cnf-miter ( 7 instances)
++-------------------+------+----------+--------+------------+------+--------+-------+-------+
+|       solver      | #SAT | PAR2-SAT | #UNSAT | PAR2-UNSAT | #ALL |  PAR2  | #MONO | #BEST |
++-------------------+------+----------+--------+------------+------+--------+-------+-------+
+| pakis(kissat-MAB) |  0   |  10000   |   7    |   337.84   |  7   | 337.84 |   0   |   0   |
+|   kissat-MAB-sat  |  0   |  10000   |   7    |   185.33   |  7   | 185.33 |   0   |   0   |
+|     kissat+LA     |  0   |  10000   |   7    |   416.9    |  7   | 416.9  |   0   |   0   |
+|     kissat+RS     |  0   |  10000   |   7    |   346.53   |  7   | 346.53 |   0   |   0   |
+|    kissat+LA+s    |  0   |  10000   |   7    |   97.14    |  7   | 97.14  |   0   |   0   |
+|    kissat+RS+s    |  0   |  10000   |   7    |   35.66    |  7   | 35.66  |   0   |   3   |
+|    kissat+RS+d    |  0   |  10000   |   7    |   297.4    |  7   | 297.4  |   0   |   0   |
+|   kissat+RS+d+s   |  0   |  10000   |   7    |   33.26    |  7   | 33.26  |   0   |   5   |
++-------------------+------+----------+--------+------------+------+--------+-------+-------+
+
+
+pakis(kissat-MAB)   kissat-MAB-sat      kissat+LA           kissat+RS           kissat+LA+s         kissat+RS+s         kissat+RS+d         kissat+RS+d+s       instance_name
+sat, 24.75          sat, 22.18          sat, 23.65          sat, 24.0           sat, 23.09          sat, 23.61          sat, 35.8           sat, 35.52          4g_5color_166_100_02.cnf
+unknown, 10000.0    unknown, 10000.0    unknown, 10000.0    unknown, 10000.0    unknown, 10000.0    unknown, 10000.0    unknown, 10000.0    unknown, 10000.0    4g_5color_168_100_02.cnf
+sat, 28.62          sat, 420.75         sat, 4.68           sat, 1.48           sat, 6.17           sat, 1.76           sat, 4.64           sat, 3.79           4g_5color_170_050_05.cnf
+unknown, 10000.0    unknown, 10000.0    unknown, 10000.0    unknown, 10000.0    unknown, 10000.0    unknown, 10000.0    unknown, 10000.0    unknown, 10000.0    4g_5color_170_060_05.cnf
+sat, 932.88         unknown, 10000.0    sat, 3532.7         sat, 176.22         unknown, 10000.0    sat, 1444.39        sat, 87.4           sat, 1089.39        4g_6color_180_100_02.cnf
+sat, 170.82         unknown, 10000.0    unknown, 10000.0    sat, 125.72         unknown, 10000.0    sat, 3077.83        sat, 1021.21        sat, 69.59          4g_6color_182_100_02.cnf
+sat, 247.0          unknown, 10000.0    sat, 443.98         sat, 122.63         sat, 398.66         sat, 73.8           sat, 120.42         sat, 58.11          4g_6color_366_060_06.cnf
+unknown, 10000.0    unknown, 10000.0    unknown, 10000.0    unknown, 10000.0    unknown, 10000.0    unknown, 10000.0    unknown, 10000.0    unknown, 10000.0    4g_6color_366_070_06.cnf
+sat, 47.25          sat, 39.99          sat, 40.44          sat, 43.46          sat, 38.75          sat, 49.84          sat, 65.39          sat, 96.81          6g_5color_164_100_01.cnf
+sat, 72.43          unknown, 10000.0    sat, 261.65         sat, 215.59         sat, 246.88         sat, 66.04          sat, 60.6           sat, 100.5          6g_5color_166_100_01.cnf
+sat, 1.21           sat, 14.85          sat, 1.91           sat, 1.61           sat, 1.03           sat, 2.14           sat, 1.21           sat, 2.12           6g_5color_170_020_04.cnf
+unknown, 10000.0    unknown, 10000.0    unknown, 10000.0    unknown, 10000.0    unknown, 10000.0    unknown, 10000.0    unknown, 10000.0    unknown, 10000.0    6g_5color_170_030_04.cnf
+sat, 1841.32        unknown, 10000.0    sat, 2282.91        sat, 2028.76        sat, 935.57         sat, 2126.19        sat, 1181.41        sat, 2618.13        6g_6color_366_040_04.cnf
+sat, 1144.67        unknown, 10000.0    sat, 171.1          sat, 4003.56        sat, 173.5          sat, 3046.92        sat, 378.46         sat, 727.27         6g_6color_366_050_04.cnf
+dataset: coloring ( 14 instances)
++-------------------+------+----------+--------+------------+------+---------+-------+-------+
+|       solver      | #SAT | PAR2-SAT | #UNSAT | PAR2-UNSAT | #ALL |   PAR2  | #MONO | #BEST |
++-------------------+------+----------+--------+------------+------+---------+-------+-------+
+| pakis(kissat-MAB) |  10  |  410.09  |   0    |   10000    |  10  | 3179.35 |   0   |   0   |
+|   kissat-MAB-sat  |  4   |  45.25   |   0    |   10000    |  4   | 7178.41 |   0   |   1   |
+|     kissat+LA     |  9   |  614.82  |   0    |   10000    |  9   |  4054.5 |   0   |   1   |
+|     kissat+RS     |  10  |  613.0   |   0    |   10000    |  10  | 3338.79 |   0   |   1   |
+|    kissat+LA+s    |  8   |  165.79  |   0    |   10000    |  8   | 4415.97 |   0   |   3   |
+|    kissat+RS+s    |  10  |  901.14  |   0    |   10000    |  10  | 3565.18 |   0   |   0   |
+|    kissat+RS+d    |  10  |  268.78  |   0    |   10000    |  10  | 3068.32 |   0   |   2   |
+|   kissat+RS+d+s   |  10  |  436.48  |   0    |   10000    |  10  | 3200.09 |   0   |   2   |
++-------------------+------+----------+--------+------------+------+---------+-------+-------+
+
+
+pakis(kissat-MAB)   kissat-MAB-sat      kissat+LA           kissat+RS           kissat+LA+s         kissat+RS+s         kissat+RS+d         kissat+RS+d+s       instance_name
+unsat, 689.39       unsat, 1141.91      unsat, 1044.32      unsat, 1234.3       unsat, 321.6        unknown, 10000.0    unsat, 1246.56      unsat, 59.01        ncc_none_12477_5_3_3_0_0_435991723.cnf
+sat, 636.11         sat, 950.42         sat, 851.19         sat, 953.45         sat, 490.61         sat, 57.59          sat, 1085.11        sat, 62.13          ncc_none_12477_5_3_3_1_0_435991723.cnf
+unsat, 1816.16      unsat, 2265.77      unsat, 1987.27      unsat, 2340.36      unsat, 1121.4       unknown, 10000.0    unsat, 2738.55      unsat, 142.92       ncc_none_21015_5_3_3_0_0_11.cnf
+sat, 1794.86        sat, 2217.74        sat, 2129.82        sat, 2629.17        sat, 1221.23        sat, 132.32         sat, 3251.24        sat, 143.34         ncc_none_21015_5_3_3_1_0_11.cnf
+unsat, 5824.11      unknown, 10000.0    unknown, 10000.0    unsat, 6264.46      unsat, 4198.89      unsat, 2109.38      unknown, 10000.0    unsat, 2485.87      ncc_none_2_17_4_3_0_0_435991723.cnf
+sat, 631.15         sat, 808.47         sat, 822.46         sat, 354.87         sat, 266.02         sat, 154.44         sat, 151.93         sat, 207.39         ncc_none_2_18_8_3_1_0_435991723.cnf
+unsat, 1033.49      unsat, 2913.93      unsat, 5296.49      unsat, 3764.95      unsat, 1427.2       unsat, 836.0        unsat, 1951.98      unsat, 935.01       ncc_none_2_18_9_3_0_0_435991723.cnf
+sat, 2543.63        unknown, 10000.0    unknown, 10000.0    sat, 4260.37        sat, 3331.26        sat, 1425.53        unknown, 10000.0    sat, 1716.74        ncc_none_2_19_5_3_1_0_435991723.cnf
+sat, 876.55         sat, 1122.98        sat, 868.65         sat, 1137.36        sat, 370.58         sat, 76.96          sat, 1204.42        sat, 83.67          ncc_none_3001_7_3_3_1_31_435991723.cnf
+sat, 922.52         sat, 1296.4         sat, 1100.23        sat, 1296.75        sat, 452.07         sat, 80.63          sat, 1432.51        sat, 87.55          ncc_none_3047_7_3_3_1_0_1.cnf
+unsat, 2878.89      unsat, 2504.15      unsat, 3047.15      unsat, 2785.2       unsat, 1300.56      unsat, 467.6        unsat, 3504.15      unsat, 505.94       ncc_none_3_16_3_3_0_0_435991723.cnf
+unsat, 635.29       unsat, 892.48       unsat, 688.97       unsat, 829.75       unsat, 341.5        unsat, 49.4         unsat, 1072.47      unsat, 54.22        ncc_none_5047_6_3_3_0_0_41.cnf
+sat, 703.35         sat, 923.24         sat, 772.73         sat, 790.38         sat, 395.63         sat, 50.96          sat, 950.34         sat, 53.6           ncc_none_5047_6_3_3_3_0_435991723.cnf
+unsat, 972.45       unsat, 1608.4       unsat, 1401.39      unsat, 1443.24      unsat, 412.93       unsat, 86.02        unsat, 1907.8       unsat, 94.88        ncc_none_7047_6_3_3_0_0_420.cnf
+dataset: core-based-generator ( 14 instances)
++-------------------+------+----------+--------+------------+------+---------+-------+-------+
+|       solver      | #SAT | PAR2-SAT | #UNSAT | PAR2-UNSAT | #ALL |   PAR2  | #MONO | #BEST |
++-------------------+------+----------+--------+------------+------+---------+-------+-------+
+| pakis(kissat-MAB) |  7   | 1158.31  |   7    |  1978.54   |  14  | 1568.42 |   0   |   0   |
+|   kissat-MAB-sat  |  6   | 1045.61  |   6    |  1618.09   |  12  | 2760.42 |   0   |   0   |
+|     kissat+LA     |  6   |  935.01  |   6    |  1923.66   |  12  |  2857.9 |   0   |   0   |
+|     kissat+RS     |  7   | 1631.76  |   7    |  2666.03   |  14  |  2148.9 |   0   |   0   |
+|    kissat+LA+s    |  7   |  932.48  |   7    |  1303.44   |  14  | 1117.96 |   0   |   0   |
+|    kissat+RS+s    |  7   |  282.63  |   5    |   506.91   |  12  | 1823.34 |   0   |   11  |
+|    kissat+RS+d    |  6   | 1153.65  |   6    |   1774.5   |  12  | 2892.65 |   0   |   1   |
+|   kissat+RS+d+s   |  7   |  336.35  |   7    |   611.12   |  14  |  473.73 |   0   |   2   |
++-------------------+------+----------+--------+------------+------+---------+-------+-------+
+
+
+pakis(kissat-MAB)   kissat-MAB-sat      kissat+LA           kissat+RS           kissat+LA+s         kissat+RS+s         kissat+RS+d         kissat+RS+d+s       instance_name
+sat, 103.87         sat, 44.73          sat, 47.68          sat, 47.19          sat, 96.13          sat, 6.1            sat, 31.11          sat, 14.09          dislog_a09_x11_n20.cnf
+sat, 18.82          sat, 173.07         sat, 19.14          sat, 16.33          sat, 86.05          sat, 4.08           sat, 15.46          sat, 2.08           dislog_a11_x11_n21.cnf
+sat, 212.51         sat, 2770.51        sat, 281.5          sat, 423.25         sat, 183.06         sat, 42.16          sat, 1389.15        sat, 57.16          dislog_a12_x12_n22.cnf
+sat, 1106.26        unknown, 10000.0    sat, 1389.91        sat, 1510.71        sat, 316.06         sat, 230.24         sat, 1109.64        sat, 577.2          dislog_a13_x13_n23.cnf
+unknown, 10000.0    unknown, 10000.0    sat, 779.39         unknown, 10000.0    unknown, 10000.0    sat, 2526.76        unknown, 10000.0    sat, 1342.31        dislog_a14_x14_n24.cnf
+unknown, 10000.0    unknown, 10000.0    unknown, 10000.0    unknown, 10000.0    unknown, 10000.0    unknown, 10000.0    unknown, 10000.0    unknown, 10000.0    dislog_a18_x18_n28.cnf
+unknown, 10000.0    unknown, 10000.0    unknown, 10000.0    unknown, 10000.0    unknown, 10000.0    unknown, 10000.0    unknown, 10000.0    unknown, 10000.0    dislog_a19_x19_n29.cnf
+dataset: discrete-logarithm ( 7 instances)
++-------------------+------+----------+--------+------------+------+---------+-------+-------+
+|       solver      | #SAT | PAR2-SAT | #UNSAT | PAR2-UNSAT | #ALL |   PAR2  | #MONO | #BEST |
++-------------------+------+----------+--------+------------+------+---------+-------+-------+
+| pakis(kissat-MAB) |  4   |  288.29  |   0    |   10000    |  4   | 4491.64 |   0   |   0   |
+|   kissat-MAB-sat  |  3   |  597.66  |   0    |   10000    |  3   | 6141.19 |   0   |   0   |
+|     kissat+LA     |  5   |  503.52  |   0    |   10000    |  5   |  3216.8 |   0   |   1   |
+|     kissat+RS     |  4   |  399.5   |   0    |   10000    |  4   | 4571.07 |   0   |   0   |
+|    kissat+LA+s    |  4   |  136.26  |   0    |   10000    |  4   | 4383.04 |   0   |   0   |
+|    kissat+RS+s    |  5   |  561.87  |   0    |   10000    |  5   | 3258.48 |   0   |   3   |
+|    kissat+RS+d    |  4   |  509.07  |   0    |   10000    |  4   | 4649.34 |   0   |   0   |
+|   kissat+RS+d+s   |  5   |  398.57  |   0    |   10000    |  5   | 3141.83 |   0   |   1   |
++-------------------+------+----------+--------+------------+------+---------+-------+-------+
+
+
+pakis(kissat-MAB)   kissat-MAB-sat      kissat+LA           kissat+RS           kissat+LA+s         kissat+RS+s         kissat+RS+d         kissat+RS+d+s       instance_name
+unknown, 10000.0    unknown, 10000.0    unknown, 10000.0    unknown, 10000.0    unknown, 10000.0    unknown, 10000.0    unknown, 10000.0    unknown, 10000.0    b2005-p1-12x12c10h7-Ser8-0.cnf
+unknown, 10000.0    unknown, 10000.0    unknown, 10000.0    unknown, 10000.0    unknown, 10000.0    unknown, 10000.0    unknown, 10000.0    unknown, 10000.0    b2005-p2-14x14c17h9-Ser3-0.cnf
+unknown, 10000.0    unknown, 10000.0    unknown, 10000.0    unknown, 10000.0    unknown, 10000.0    unknown, 10000.0    unknown, 10000.0    unknown, 10000.0    b2005-p2-14x14c17h9-Ser4-0.cnf
+unknown, 10000.0    unknown, 10000.0    unknown, 10000.0    unknown, 10000.0    unknown, 10000.0    unknown, 10000.0    unknown, 10000.0    unknown, 10000.0    b2005-p3-14x14c17h9-Ser6-0.cnf
+unknown, 10000.0    unknown, 10000.0    unknown, 10000.0    unknown, 10000.0    unknown, 10000.0    unknown, 10000.0    unknown, 10000.0    unknown, 10000.0    b2005-p4-12x12c10h7-Ser4-0.cnf
+unknown, 10000.0    unknown, 10000.0    unknown, 10000.0    unknown, 10000.0    unknown, 10000.0    unknown, 10000.0    unknown, 10000.0    unknown, 10000.0    b2005-p4-14x14c17h9-Ser5-0.cnf
+unknown, 10000.0    unknown, 10000.0    unknown, 10000.0    unknown, 10000.0    unknown, 10000.0    unknown, 10000.0    unknown, 10000.0    unknown, 10000.0    b2005-p5-14x14c17h9-Ser3-0.cnf
+dataset: edge-matching ( 7 instances)
++-------------------+------+----------+--------+------------+------+---------+-------+-------+
+|       solver      | #SAT | PAR2-SAT | #UNSAT | PAR2-UNSAT | #ALL |   PAR2  | #MONO | #BEST |
++-------------------+------+----------+--------+------------+------+---------+-------+-------+
+| pakis(kissat-MAB) |  0   |  10000   |   0    |   10000    |  0   | 10000.0 |   0   |   0   |
+|   kissat-MAB-sat  |  0   |  10000   |   0    |   10000    |  0   | 10000.0 |   0   |   0   |
+|     kissat+LA     |  0   |  10000   |   0    |   10000    |  0   | 10000.0 |   0   |   0   |
+|     kissat+RS     |  0   |  10000   |   0    |   10000    |  0   | 10000.0 |   0   |   0   |
+|    kissat+LA+s    |  0   |  10000   |   0    |   10000    |  0   | 10000.0 |   0   |   0   |
+|    kissat+RS+s    |  0   |  10000   |   0    |   10000    |  0   | 10000.0 |   0   |   0   |
+|    kissat+RS+d    |  0   |  10000   |   0    |   10000    |  0   | 10000.0 |   0   |   0   |
+|   kissat+RS+d+s   |  0   |  10000   |   0    |   10000    |  0   | 10000.0 |   0   |   0   |
++-------------------+------+----------+--------+------------+------+---------+-------+-------+
+
+
+pakis(kissat-MAB)   kissat-MAB-sat      kissat+LA           kissat+RS           kissat+LA+s         kissat+RS+s         kissat+RS+d         kissat+RS+d+s       instance_name
+unsat, 1670.32      unsat, 2099.42      unsat, 1398.99      unsat, 2016.91      unsat, 1240.88      unsat, 619.13       unsat, 2038.41      unsat, 533.72       Kakuro-easy-041-ext.xml.hg_4.cnf
+sat, 86.38          sat, 197.99         sat, 82.62          sat, 64.19          sat, 107.52         sat, 45.05          sat, 73.76          sat, 23.83          Kakuro-easy-052-ext.xml.hg_4.cnf
+unsat, 1723.53      unsat, 2677.78      unsat, 1413.2       unsat, 1438.46      unsat, 1371.45      unsat, 927.56       unsat, 1391.32      unsat, 977.57       Kakuro-easy-065-ext.xml.hg_3.cnf
+unsat, 3068.74      unsat, 2945.64      unsat, 3219.4       unsat, 3121.34      unsat, 2811.43      unsat, 967.9        unsat, 3033.93      unsat, 925.95       Kakuro-easy-097-ext.xml.hg_4.cnf
+sat, 115.97         sat, 1635.32        sat, 220.15         sat, 283.95         sat, 379.98         sat, 264.83         sat, 288.35         sat, 105.69         Kakuro-easy-117-ext.xml.hg_5.cnf
+sat, 207.81         sat, 514.73         sat, 183.66         sat, 192.62         sat, 211.84         sat, 122.41         sat, 141.95         sat, 102.77         Kakuro-easy-120-ext.xml.hg_6.cnf
+unknown, 10000.0    unknown, 10000.0    unknown, 10000.0    unknown, 10000.0    unknown, 10000.0    unsat, 2133.73      unknown, 10000.0    unsat, 2482.81      Kakuro-easy-125-ext.xml.hg_4.cnf
+sat, 83.67          sat, 184.7          sat, 73.23          sat, 101.21         sat, 71.12          sat, 70.49          sat, 156.48         sat, 121.3          Kakuro-easy-126-ext.xml.hg_7.cnf
+sat, 246.75         sat, 1272.87        sat, 294.29         sat, 287.17         sat, 385.63         sat, 366.87         sat, 513.34         sat, 224.21         Kakuro-easy-127-ext.xml.hg_6.cnf
+sat, 131.72         sat, 552.79         sat, 271.21         sat, 94.94          sat, 108.04         sat, 75.46          sat, 190.57         sat, 79.95          Kakuro-easy-132-ext.xml.hg_9.cnf
+sat, 80.27          sat, 243.68         sat, 83.22          sat, 97.22          sat, 90.1           sat, 86.89          sat, 180.54         sat, 63.59          Kakuro-easy-148-ext.xml.hg_8.cnf
+unknown, 10000.0    unknown, 10000.0    unknown, 10000.0    unknown, 10000.0    unknown, 10000.0    unsat, 2205.47      unknown, 10000.0    unsat, 2584.52      Kakuro-easy-149-ext.xml.hg_4.cnf
+unsat, 4550.87      unknown, 10000.0    unknown, 10000.0    unknown, 10000.0    unsat, 4885.43      unsat, 1226.6       unknown, 10000.0    unsat, 1344.96      Kakuro-easy-154-ext.xml.hg_4.cnf
+unsat, 2302.83      unsat, 3083.68      unsat, 2518.2       unsat, 2639.94      unsat, 2566.11      unsat, 914.85       unsat, 2740.82      unsat, 978.48       Kakuro-easy-157-ext.xml.hg_4.cnf
+dataset: hypertree-decomposition ( 14 instances)
++-------------------+------+----------+--------+------------+------+---------+-------+-------+
+|       solver      | #SAT | PAR2-SAT | #UNSAT | PAR2-UNSAT | #ALL |   PAR2  | #MONO | #BEST |
++-------------------+------+----------+--------+------------+------+---------+-------+-------+
+| pakis(kissat-MAB) |  7   |  136.08  |   5    |  1902.33   |  12  | 2447.78 |   0   |   0   |
+|   kissat-MAB-sat  |  7   |  657.44  |   4    |  1543.79   |  11  | 3243.47 |   0   |   0   |
+|     kissat+LA     |  7   |  172.63  |   4    |   1221.4   |  11  | 2839.87 |   0   |   0   |
+|     kissat+RS     |  7   |  160.19  |   4    |  1316.67   |  11  | 2881.28 |   0   |   0   |
+|    kissat+LA+s    |  7   |  193.46  |   5    |  1839.33   |  12  | 2444.97 |   0   |   0   |
+|    kissat+RS+s    |  7   |  147.43  |   7    |  1285.03   |  14  |  716.23 |   0   |   7   |
+|    kissat+RS+d    |  7   |  220.71  |   4    |  1314.93   |  11  | 2910.68 |   0   |   0   |
+|   kissat+RS+d+s   |  7   |  103.05  |   7    |   1404.0   |  14  |  753.52 |   0   |   7   |
++-------------------+------+----------+--------+------------+------+---------+-------+-------+
+
+
+pakis(kissat-MAB)   kissat-MAB-sat      kissat+LA           kissat+RS           kissat+LA+s         kissat+RS+s         kissat+RS+d         kissat+RS+d+s       instance_name
+unsat, 3848.89      unknown, 10000.0    unsat, 4760.9       unknown, 10000.0    unsat, 3957.05      unsat, 1548.49      unsat, 4595.52      unsat, 639.4        DLTM_twitter249_74_10.cnf
+unknown, 10000.0    unknown, 10000.0    unknown, 10000.0    unknown, 10000.0    unknown, 10000.0    unknown, 10000.0    unknown, 10000.0    unsat, 2330.63      DLTM_twitter249_74_11.cnf
+unsat, 1758.71      unknown, 10000.0    unsat, 2822.27      unsat, 3714.23      unsat, 1780.74      unsat, 588.21       unsat, 1842.43      unsat, 363.53       DLTM_twitter304_77_11.cnf
+sat, 1.88           sat, 17.84          sat, 6.55           sat, 2.69           sat, 3.01           sat, 4.05           sat, 6.7            sat, 6.05           DLTM_twitter405_71_12.cnf
+unsat, 421.65       unsat, 946.86       unsat, 476.99       unsat, 865.61       unsat, 331.06       unsat, 130.14       unsat, 625.89       unsat, 136.22       DLTM_twitter454_70_11.cnf
+sat, 17.2           sat, 468.96         sat, 66.46          sat, 27.51          sat, 33.02          sat, 49.08          sat, 47.17          sat, 11.09          DLTM_twitter454_70_12.cnf
+sat, 62.13          sat, 666.7          sat, 11.65          sat, 32.44          sat, 34.07          sat, 9.12           sat, 23.1           sat, 10.13          DLTM_twitter634_77_14.cnf
+unknown, 10000.0    unknown, 10000.0    unknown, 10000.0    unknown, 10000.0    unknown, 10000.0    unknown, 10000.0    unknown, 10000.0    unknown, 10000.0    DLTM_twitter690_74_15.cnf
+sat, 188.32         sat, 3299.82        sat, 134.68         sat, 859.57         sat, 336.17         sat, 338.28         sat, 125.36         sat, 13.21          DLTM_twitter690_74_16.cnf
+sat, 83.54          sat, 523.58         sat, 39.9           sat, 38.78          sat, 9.04           sat, 38.13          sat, 38.46          sat, 92.24          DLTM_twitter774_83_17.cnf
+unsat, 1304.98      unsat, 3879.8       unsat, 2465.19      unsat, 3489.79      unsat, 1399.2       unsat, 624.27       unsat, 2012.2       unsat, 458.59       DLTM_twitter799_70_12.cnf
+sat, 9.79           sat, 265.42         sat, 17.16          sat, 25.88          sat, 9.03           sat, 7.1            sat, 12.79          sat, 20.13          DLTM_twitter799_70_13.cnf
+sat, 52.92          sat, 324.08         sat, 19.1           sat, 18.79          sat, 14.05          sat, 40.19          sat, 58.5           sat, 231.26         DLTM_twitter845_79_18.cnf
+sat, 29.66          sat, 304.27         sat, 0.99           sat, 1.58           sat, 2.03           sat, 20.17          sat, 1.82           sat, 33.19          DLTM_twitter845_79_19.cnf
+dataset: influence-maximization ( 14 instances)
++-------------------+------+----------+--------+------------+------+---------+-------+-------+
+|       solver      | #SAT | PAR2-SAT | #UNSAT | PAR2-UNSAT | #ALL |   PAR2  | #MONO | #BEST |
++-------------------+------+----------+--------+------------+------+---------+-------+-------+
+| pakis(kissat-MAB) |  8   |  55.68   |   4    |  1466.85   |  12  | 1984.26 |   0   |   1   |
+|   kissat-MAB-sat  |  8   |  733.83  |   2    |   965.33   |  10  | 3621.24 |   0   |   0   |
+|     kissat+LA     |  8   |  37.06   |   4    |  2105.07   |  12  | 2201.56 |   0   |   1   |
+|     kissat+RS     |  8   |  125.9   |   3    |  1613.93   |  11  | 2791.21 |   0   |   0   |
+|    kissat+LA+s    |  8   |  55.05   |   4    |  1493.61   |  12  | 1993.46 |   0   |   2   |
+|    kissat+RS+s    |  8   |  63.26   |   4    |   578.22   |  12  | 1671.23 |   0   |   3   |
+|    kissat+RS+d    |  8   |  39.24   |   4    |  1815.21   |  12  | 2099.28 |   0   |   0   |
+|   kissat+RS+d+s   |  8   |  52.16   |   5    |   785.67   |  13  | 1024.69 |   1   |   6   |
++-------------------+------+----------+--------+------------+------+---------+-------+-------+
+
+
+pakis(kissat-MAB)   kissat-MAB-sat      kissat+LA           kissat+RS           kissat+LA+s         kissat+RS+s         kissat+RS+d         kissat+RS+d+s       instance_name
+unsat, 242.6        unsat, 2206.32      unsat, 251.38       unsat, 1309.69      unsat, 458.85       unsat, 507.95       unsat, 481.51       unsat, 194.95       newpol29-4.cnf
+unsat, 208.96       unsat, 2785.82      unsat, 577.82       unsat, 2270.6       unsat, 1286.3       unsat, 3697.9       unsat, 403.92       unsat, 411.64       newpol34-4.cnf
+unsat, 298.44       unknown, 10000.0    unsat, 477.91       unsat, 2840.75      unsat, 1723.64      unknown, 10000.0    unsat, 1229.16      unsat, 428.23       newpol36-4.cnf
+unsat, 67.84        unsat, 156.75       unsat, 82.16        unsat, 94.38        unsat, 63.03        unsat, 17.09        unsat, 60.25        unsat, 14.12        newpol4-6.cnf
+unsat, 100.34       unsat, 328.59       unsat, 120.67       unsat, 172.17       unsat, 116.13       unsat, 17.24        unsat, 100.37       unsat, 23.27        newpol6-6.cnf
+unsat, 2315.29      unsat, 3173.34      unsat, 2577.98      unsat, 2833.22      unsat, 1610.39      unsat, 785.72       unsat, 2846.72      unsat, 861.55       newpol6-7.cnf
+unknown, 10000.0    unknown, 10000.0    unknown, 10000.0    unknown, 10000.0    unknown, 10000.0    unknown, 10000.0    unknown, 10000.0    unknown, 10000.0    newpol6-8.cnf
+unsat, 127.62       unsat, 295.42       unsat, 144.67       unsat, 118.64       unsat, 116.07       unsat, 22.31        unsat, 118.59       unsat, 22.38        newpol7-6.cnf
+dataset: polynomial-multiplication ( 8 instances)
++-------------------+------+----------+--------+------------+------+---------+-------+-------+
+|       solver      | #SAT | PAR2-SAT | #UNSAT | PAR2-UNSAT | #ALL |   PAR2  | #MONO | #BEST |
++-------------------+------+----------+--------+------------+------+---------+-------+-------+
+| pakis(kissat-MAB) |  0   |  10000   |   7    |   480.16   |  7   | 1670.14 |   0   |   2   |
+|   kissat-MAB-sat  |  0   |  10000   |   6    |  1278.03   |  6   | 3618.28 |   0   |   0   |
+|     kissat+LA     |  0   |  10000   |   7    |   604.65   |  7   | 1779.07 |   0   |   0   |
+|     kissat+RS     |  0   |  10000   |   7    |  1377.06   |  7   | 2454.93 |   0   |   0   |
+|    kissat+LA+s    |  0   |  10000   |   7    |   767.77   |  7   |  1921.8 |   0   |   0   |
+|    kissat+RS+s    |  0   |  10000   |   6    |   721.17   |  6   | 3131.03 |   0   |   3   |
+|    kissat+RS+d    |  0   |  10000   |   7    |   748.65   |  7   | 1905.06 |   0   |   0   |
+|   kissat+RS+d+s   |  0   |  10000   |   7    |   279.45   |  7   | 1494.52 |   0   |   2   |
++-------------------+------+----------+--------+------------+------+---------+-------+-------+
+
+
+pakis(kissat-MAB)   kissat-MAB-sat      kissat+LA           kissat+RS           kissat+LA+s         kissat+RS+s         kissat+RS+d         kissat+RS+d+s       instance_name
+sat, 325.89         sat, 184.45         sat, 67.31          sat, 76.55          sat, 69.2           sat, 11.44          sat, 72.69          sat, 18.34          49-132779.cnf
+sat, 944.87         sat, 959.64         sat, 312.94         sat, 171.83         sat, 188.11         sat, 121.57         sat, 313.17         sat, 102.41         49-133045.cnf
+sat, 841.48         sat, 1433.99        sat, 424.49         sat, 225.62         sat, 219.18         sat, 38.42          sat, 231.26         sat, 90.42          49-133485.cnf
+sat, 442.39         sat, 795.29         sat, 120.97         sat, 154.34         sat, 144.14         sat, 23.31          sat, 51.35          sat, 43.42          53-129696.cnf
+sat, 345.67         sat, 628.69         sat, 123.23         sat, 87.21          sat, 150.11         sat, 49.37          sat, 49.82          sat, 39.36          53-131174.cnf
+sat, 340.8          sat, 649.24         sat, 223.46         sat, 65.51          sat, 80.1           sat, 40.42          sat, 119.92         sat, 54.38          53-131220.cnf
+sat, 706.32         sat, 740.8          sat, 227.34         sat, 53.41          sat, 240.11         sat, 56.35          sat, 146.12         sat, 25.44          53-131587.cnf
+sat, 466.17         sat, 776.69         sat, 181.5          sat, 118.69         sat, 212.18         sat, 43.36          sat, 238.85         sat, 37.35          53-131674.cnf
+sat, 632.13         sat, 133.29         sat, 134.16         sat, 143.31         sat, 95.17          sat, 51.35          sat, 182.65         sat, 70.43          58-134003.cnf
+sat, 636.43         sat, 691.74         sat, 106.96         sat, 202.56         sat, 202.16         sat, 55.36          sat, 255.53         sat, 60.39          59-129706.cnf
+sat, 885.17         sat, 739.09         sat, 161.76         sat, 267.12         sat, 278.16         sat, 43.39          sat, 289.7          sat, 57.38          59-131147.cnf
+sat, 1865.66        sat, 1005.08        sat, 380.11         sat, 122.25         sat, 190.16         sat, 80.44          sat, 189.86         sat, 145.44         60-129673.cnf
+dataset: station-repacking ( 12 instances)
++-------------------+------+----------+--------+------------+------+--------+-------+-------+
+|       solver      | #SAT | PAR2-SAT | #UNSAT | PAR2-UNSAT | #ALL |  PAR2  | #MONO | #BEST |
++-------------------+------+----------+--------+------------+------+--------+-------+-------+
+| pakis(kissat-MAB) |  12  |  702.75  |   0    |   10000    |  12  | 702.75 |   0   |   0   |
+|   kissat-MAB-sat  |  12  |  728.17  |   0    |   10000    |  12  | 728.17 |   0   |   0   |
+|     kissat+LA     |  12  |  205.35  |   0    |   10000    |  12  | 205.35 |   0   |   0   |
+|     kissat+RS     |  12  |  140.7   |   0    |   10000    |  12  | 140.7  |   0   |   0   |
+|    kissat+LA+s    |  12  |  172.4   |   0    |   10000    |  12  | 172.4  |   0   |   0   |
+|    kissat+RS+s    |  12  |  51.23   |   0    |   10000    |  12  | 51.23  |   0   |   8   |
+|    kissat+RS+d    |  12  |  178.41  |   0    |   10000    |  12  | 178.41 |   0   |   0   |
+|   kissat+RS+d+s   |  12  |  62.06   |   0    |   10000    |  12  | 62.06  |   0   |   4   |
++-------------------+------+----------+--------+------------+------+--------+-------+-------+
+
+
+pakis(kissat-MAB)   kissat-MAB-sat      kissat+LA           kissat+RS           kissat+LA+s         kissat+RS+s         kissat+RS+d         kissat+RS+d+s       instance_name
+unknown, 10000.0    unknown, 10000.0    sat, 3424.27        sat, 1257.9         sat, 978.54         sat, 500.28         sat, 1220.24        sat, 3382.31        sted1_0x0-649.cnf
+sat, 636.9          sat, 2164.6         sat, 344.42         sat, 83.43          sat, 391.22         sat, 310.4          sat, 149.74         sat, 48.46          sted1_0x0_n438-636.cnf
+sat, 27.81          sat, 3664.73        sat, 7.76           sat, 17.15          sat, 79.11          sat, 124.21         sat, 76.86          sat, 120.26         sted2_0x0_n219-342.cnf
+sat, 29.74          sat, 163.51         sat, 11.68          sat, 16.21          sat, 19.04          sat, 8.07           sat, 28.96          sat, 16.09          sted3_0x1e3-147.cnf
+sat, 14.88          sat, 996.18         sat, 19.27          sat, 10.39          sat, 12.03          sat, 8.07           sat, 54.7           sat, 8.06           sted4_0x1e3-124.cnf
+sat, 13.19          unknown, 10000.0    sat, 19.63          sat, 32.7           sat, 178.04         sat, 8.06           sat, 12.14          sat, 26.09          sted5_0x0-157.cnf
+sat, 70.85          sat, 4936.0         sat, 364.83         sat, 43.89          sat, 35.06          sat, 6.06           sat, 63.78          sat, 82.07          sted6_0x0-135.cnf
+dataset: stedman-triples ( 7 instances)
++-------------------+------+----------+--------+------------+------+---------+-------+-------+
+|       solver      | #SAT | PAR2-SAT | #UNSAT | PAR2-UNSAT | #ALL |   PAR2  | #MONO | #BEST |
++-------------------+------+----------+--------+------------+------+---------+-------+-------+
+| pakis(kissat-MAB) |  6   |  113.34  |   0    |   10000    |  6   | 1541.91 |   0   |   0   |
+|   kissat-MAB-sat  |  5   | 1703.57  |   0    |   10000    |  5   | 4560.72 |   0   |   0   |
+|     kissat+LA     |  7   |  598.84  |   0    |   10000    |  7   |  598.84 |   0   |   1   |
+|     kissat+RS     |  7   |  208.81  |   0    |   10000    |  7   |  208.81 |   0   |   0   |
+|    kissat+LA+s    |  7   |  241.86  |   0    |   10000    |  7   |  241.86 |   0   |   0   |
+|    kissat+RS+s    |  7   |  137.88  |   0    |   10000    |  7   |  137.88 |   0   |   4   |
+|    kissat+RS+d    |  7   |  229.49  |   0    |   10000    |  7   |  229.49 |   0   |   0   |
+|   kissat+RS+d+s   |  7   |  526.19  |   0    |   10000    |  7   |  526.19 |   0   |   2   |
++-------------------+------+----------+--------+------------+------+---------+-------+-------+
+
+
+pakis(kissat-MAB)   kissat-MAB-sat      kissat+LA           kissat+RS           kissat+LA+s         kissat+RS+s         kissat+RS+d         kissat+RS+d+s       instance_name
+unknown, 10000.0    unknown, 10000.0    unknown, 10000.0    unknown, 10000.0    unknown, 10000.0    unknown, 10000.0    unknown, 10000.0    unknown, 10000.0    Timetable_C_151_E_34_Cl_10_S_4.cnf
+unknown, 10000.0    unknown, 10000.0    unknown, 10000.0    unknown, 10000.0    unknown, 10000.0    unknown, 10000.0    unknown, 10000.0    unknown, 10000.0    Timetable_C_181_E_34_Cl_12_S_10.cnf
+unknown, 10000.0    unknown, 10000.0    unknown, 10000.0    unknown, 10000.0    unknown, 10000.0    unknown, 10000.0    unknown, 10000.0    unknown, 10000.0    Timetable_C_181_E_34_Cl_12_S_6.cnf
+unknown, 10000.0    unknown, 10000.0    unknown, 10000.0    unknown, 10000.0    unknown, 10000.0    unknown, 10000.0    unknown, 10000.0    unknown, 10000.0    Timetable_C_226_E_34_Cl_15_S_12.cnf
+unknown, 10000.0    unknown, 10000.0    unknown, 10000.0    unknown, 10000.0    unknown, 10000.0    unknown, 10000.0    unknown, 10000.0    unknown, 10000.0    Timetable_C_241_E_34_Cl_16_S_12.cnf
+unknown, 10000.0    unknown, 10000.0    unknown, 10000.0    unknown, 10000.0    unknown, 10000.0    unknown, 10000.0    unknown, 10000.0    unknown, 10000.0    Timetable_C_241_E_45_Cl_16_S_14.cnf
+sat, 103.68         sat, 151.67         sat, 51.55          sat, 37.97          sat, 51.13          sat, 1706.89        sat, 57.71          sat, 858.73         Timetable_C_241_E_45_Cl_16_S_16.cnf
+unknown, 10000.0    unknown, 10000.0    unknown, 10000.0    unknown, 10000.0    unknown, 10000.0    unknown, 10000.0    unknown, 10000.0    unknown, 10000.0    Timetable_C_331_E_45_Cl_22_S_26.cnf
+sat, 566.33         sat, 505.46         sat, 168.36         sat, 112.75         sat, 250.21         sat, 109.96         sat, 231.59         sat, 2257.92        Timetable_C_392_E_50_Cl_26_S_26.cnf
+sat, 149.69         sat, 253.18         sat, 112.52         sat, 95.53          sat, 135.26         sat, 72.88          sat, 105.33         sat, 50.93          Timetable_C_392_E_50_Cl_26_S_28.cnf
+sat, 65.48          sat, 101.22         sat, 62.78          sat, 54.87          sat, 65.3           sat, 45.0           sat, 53.96          sat, 14.86          Timetable_C_392_E_62_Cl_26_S_28.cnf
+sat, 413.42         sat, 544.16         sat, 233.59         sat, 192.33         sat, 188.31         sat, 114.25         sat, 181.22         sat, 232.03         Timetable_C_437_E_62_Cl_29_S_28.cnf
+unknown, 10000.0    sat, 1326.1         sat, 513.99         sat, 325.0          sat, 488.43         sat, 4451.53        sat, 140.19         sat, 2880.41        Timetable_C_466_E_50_Cl_31_S_28.cnf
+unknown, 10000.0    sat, 1210.73        sat, 555.55         sat, 388.9          sat, 509.4          sat, 2078.73        sat, 378.62         unknown, 10000.0    Timetable_C_497_E_62_Cl_33_S_30.cnf
+dataset: timetable ( 14 instances)
++-------------------+------+----------+--------+------------+------+---------+-------+-------+
+|       solver      | #SAT | PAR2-SAT | #UNSAT | PAR2-UNSAT | #ALL |   PAR2  | #MONO | #BEST |
++-------------------+------+----------+--------+------------+------+---------+-------+-------+
+| pakis(kissat-MAB) |  5   |  185.51  |   0    |   10000    |  5   | 6521.33 |   0   |   0   |
+|   kissat-MAB-sat  |  7   |  584.65  |   0    |   10000    |  7   | 5292.32 |   0   |   0   |
+|     kissat+LA     |  7   |  242.62  |   0    |   10000    |  7   | 5121.31 |   0   |   0   |
+|     kissat+RS     |  7   |  172.48  |   0    |   10000    |  7   | 5086.24 |   0   |   1   |
+|    kissat+LA+s    |  7   |  241.15  |   0    |   10000    |  7   | 5120.57 |   0   |   0   |
+|    kissat+RS+s    |  7   | 1225.61  |   0    |   10000    |  7   |  5612.8 |   0   |   2   |
+|    kissat+RS+d    |  7   |  164.09  |   0    |   10000    |  7   | 5082.04 |   0   |   2   |
+|   kissat+RS+d+s   |  6   |  899.27  |   0    |   10000    |  6   | 6163.92 |   0   |   2   |
++-------------------+------+----------+--------+------------+------+---------+-------+-------+
+
+
+pakis(kissat-MAB)   kissat-MAB-sat      kissat+LA           kissat+RS           kissat+LA+s         kissat+RS+s         kissat+RS+d         kissat+RS+d+s       instance_name
+unknown, 10000.0    unknown, 10000.0    unknown, 10000.0    unknown, 10000.0    unknown, 10000.0    unknown, 10000.0    unknown, 10000.0    unknown, 10000.0    TT7F-33-24A.cnf
+unknown, 10000.0    unknown, 10000.0    unknown, 10000.0    unknown, 10000.0    sat, 536.3          unknown, 10000.0    unknown, 10000.0    unknown, 10000.0    TT7F-33-24B.cnf
+unknown, 10000.0    unknown, 10000.0    unknown, 10000.0    unknown, 10000.0    unknown, 10000.0    unknown, 10000.0    unknown, 10000.0    unknown, 10000.0    TT7F-33-24C.cnf
+sat, 3923.55        unknown, 10000.0    sat, 4080.72        sat, 3582.12        unknown, 10000.0    unknown, 10000.0    unknown, 10000.0    unknown, 10000.0    TT7F-33-24D.cnf
+unknown, 10000.0    unknown, 10000.0    unknown, 10000.0    unknown, 10000.0    unknown, 10000.0    unknown, 10000.0    unknown, 10000.0    unknown, 10000.0    TT7F-33-24E.cnf
+unknown, 10000.0    unknown, 10000.0    unknown, 10000.0    unknown, 10000.0    sat, 2813.05        unknown, 10000.0    unknown, 10000.0    unknown, 10000.0    TT7F-33-25.cnf
+unknown, 10000.0    unknown, 10000.0    unknown, 10000.0    sat, 4933.55        sat, 3319.77        unknown, 10000.0    unknown, 10000.0    unknown, 10000.0    TT7F-33-26.cnf
+unknown, 10000.0    unknown, 10000.0    unknown, 10000.0    unknown, 10000.0    unknown, 10000.0    unknown, 10000.0    unknown, 10000.0    unknown, 10000.0    TT7F-34-24B.cnf
+unknown, 10000.0    unknown, 10000.0    unknown, 10000.0    unknown, 10000.0    unknown, 10000.0    unknown, 10000.0    unknown, 10000.0    unknown, 10000.0    TT7F-34-24C.cnf
+unknown, 10000.0    unknown, 10000.0    unknown, 10000.0    unknown, 10000.0    unknown, 10000.0    unknown, 10000.0    unknown, 10000.0    unknown, 10000.0    TT7F-34-24D.cnf
+unknown, 10000.0    unknown, 10000.0    unknown, 10000.0    unknown, 10000.0    unknown, 10000.0    unknown, 10000.0    unknown, 10000.0    unknown, 10000.0    TT7F-34-24E.cnf
+unknown, 10000.0    unknown, 10000.0    unknown, 10000.0    unknown, 10000.0    unknown, 10000.0    unknown, 10000.0    unknown, 10000.0    unknown, 10000.0    TT7F-34-25.cnf
+unknown, 10000.0    unknown, 10000.0    unknown, 10000.0    unknown, 10000.0    unknown, 10000.0    unknown, 10000.0    unknown, 10000.0    unknown, 10000.0    TT7F-34-26.cnf
+unknown, 10000.0    unknown, 10000.0    unknown, 10000.0    unknown, 10000.0    unknown, 10000.0    unknown, 10000.0    unknown, 10000.0    unknown, 10000.0    TT7F-34-27.cnf
+dataset: tournament ( 14 instances)
++-------------------+------+----------+--------+------------+------+---------+-------+-------+
+|       solver      | #SAT | PAR2-SAT | #UNSAT | PAR2-UNSAT | #ALL |   PAR2  | #MONO | #BEST |
++-------------------+------+----------+--------+------------+------+---------+-------+-------+
+| pakis(kissat-MAB) |  1   |  560.51  |   0    |   10000    |  1   | 9565.97 |   0   |   0   |
+|   kissat-MAB-sat  |  0   |   0.0    |   0    |   10000    |  0   | 10000.0 |   0   |   0   |
+|     kissat+LA     |  1   |  582.96  |   0    |   10000    |  1   | 9577.19 |   0   |   0   |
+|     kissat+RS     |  2   | 1216.53  |   0    |   10000    |  2   | 9179.69 |   0   |   1   |
+|    kissat+LA+s    |  3   |  952.73  |   0    |   10000    |  3   | 8333.51 |   2   |   3   |
+|    kissat+RS+s    |  0   |   0.0    |   0    |   10000    |  0   | 10000.0 |   0   |   0   |
+|    kissat+RS+d    |  0   |   0.0    |   0    |   10000    |  0   | 10000.0 |   0   |   0   |
+|   kissat+RS+d+s   |  0   |   0.0    |   0    |   10000    |  0   | 10000.0 |   0   |   0   |
++-------------------+------+----------+--------+------------+------+---------+-------+-------+
+
+
+pakis(kissat-MAB)   kissat-MAB-sat      kissat+LA           kissat+RS           kissat+LA+s         kissat+RS+s         kissat+RS+d         kissat+RS+d+s       instance_name
+unknown, 10000.0    unknown, 10000.0    unknown, 10000.0    unknown, 10000.0    unknown, 10000.0    unknown, 10000.0    unknown, 10000.0    unknown, 10000.0    vlsat2_15440_1409906.dimacs.cnf
+unknown, 10000.0    unknown, 10000.0    unknown, 10000.0    unknown, 10000.0    unknown, 10000.0    unknown, 10000.0    unknown, 10000.0    unknown, 10000.0    vlsat2_15960_1464039.dimacs.cnf
+sat, 9.58           sat, 29.58          sat, 1.35           sat, 12.78          sat, 1.11           sat, 11.41          sat, 2.55           sat, 13.44          vlsat2_16676_1598591.dimacs.cnf
+unknown, 10000.0    unknown, 10000.0    unknown, 10000.0    unknown, 10000.0    unknown, 10000.0    unknown, 10000.0    unknown, 10000.0    unknown, 10000.0    vlsat2_21114_2240429.dimacs.cnf
+sat, 1.43           sat, 0.93           sat, 1.54           sat, 1.64           sat, 2.15           sat, 1.73           sat, 19.94          sat, 19.8           vlsat2_24450_2770239.dimacs.cnf
+unknown, 10000.0    unknown, 10000.0    unknown, 10000.0    unknown, 10000.0    unknown, 10000.0    unknown, 10000.0    unknown, 10000.0    unknown, 10000.0    vlsat2_30195_3855554.dimacs.cnf
+sat, 4.22           sat, 47.78          sat, 5.71           sat, 22.88          sat, 3.22           sat, 6.12           sat, 7.97           sat, 343.24         vlsat2_30744_3925645.dimacs.cnf
+unknown, 10000.0    unknown, 10000.0    unknown, 10000.0    unknown, 10000.0    unknown, 10000.0    unknown, 10000.0    unknown, 10000.0    unknown, 10000.0    vlsat2_32480_4362044.dimacs.cnf
+sat, 5.8            sat, 2.48           sat, 2.69           sat, 3.66           sat, 8.31           sat, 22.32          sat, 19.62          sat, 162.4          vlsat2_34161_4607712.dimacs.cnf
+unknown, 10000.0    unknown, 10000.0    unknown, 10000.0    unknown, 10000.0    unknown, 10000.0    unknown, 10000.0    unknown, 10000.0    unknown, 10000.0    vlsat2_35929_5082743.dimacs.cnf
+sat, 3.44           sat, 19.95          sat, 6.42           sat, 24.8           sat, 2.34           sat, 321.69         sat, 47.66          sat, 4190.01        vlsat2_37758_5364539.dimacs.cnf
+unknown, 10000.0    unknown, 10000.0    unknown, 10000.0    unknown, 10000.0    unknown, 10000.0    unknown, 10000.0    unknown, 10000.0    unknown, 10000.0    vlsat2_39552_5878762.dimacs.cnf
+sat, 2.72           sat, 443.72         sat, 24.88          sat, 61.37          sat, 10.37          sat, 488.24         sat, 47.11          sat, 1496.81        vlsat2_40170_5970608.dimacs.cnf
+sat, 12.19          sat, 123.66         sat, 16.18          sat, 151.44         sat, 22.58          sat, 70.3           sat, 150.26         sat, 1409.09        vlsat2_57038_10572502.dimacs.cnf
+dataset: vlsat ( 14 instances)
++-------------------+------+----------+--------+------------+------+---------+-------+-------+
+|       solver      | #SAT | PAR2-SAT | #UNSAT | PAR2-UNSAT | #ALL |   PAR2  | #MONO | #BEST |
++-------------------+------+----------+--------+------------+------+---------+-------+-------+
+| pakis(kissat-MAB) |  7   |   5.63   |   0    |   10000    |  7   | 5002.81 |   0   |   2   |
+|   kissat-MAB-sat  |  7   |  95.44   |   0    |   10000    |  7   | 5047.72 |   0   |   2   |
+|     kissat+LA     |  7   |   8.4    |   0    |   10000    |  7   |  5004.2 |   0   |   0   |
+|     kissat+RS     |  7   |  39.79   |   0    |   10000    |  7   |  5019.9 |   0   |   0   |
+|    kissat+LA+s    |  7   |   7.15   |   0    |   10000    |  7   | 5003.58 |   0   |   3   |
+|    kissat+RS+s    |  7   |  131.69  |   0    |   10000    |  7   | 5065.84 |   0   |   0   |
+|    kissat+RS+d    |  7   |  42.16   |   0    |   10000    |  7   | 5021.08 |   0   |   0   |
+|   kissat+RS+d+s   |  7   | 1090.69  |   0    |   10000    |  7   | 5545.34 |   0   |   0   |
++-------------------+------+----------+--------+------------+------+---------+-------+-------+
+
+
+pakis(kissat-MAB)   kissat-MAB-sat      kissat+LA           kissat+RS           kissat+LA+s         kissat+RS+s         kissat+RS+d         kissat+RS+d+s       instance_name
+unsat, 1833.95      unsat, 2874.73      unsat, 2842.97      unsat, 2803.55      unsat, 1991.19      unsat, 665.17       unsat, 2951.48      unsat, 773.41       w15.cnf
+unknown, 10000.0    unknown, 10000.0    unknown, 10000.0    unknown, 10000.0    unknown, 10000.0    unsat, 3640.55      unknown, 10000.0    unsat, 4416.66      w16-5.cnf
+unknown, 10000.0    unknown, 10000.0    unknown, 10000.0    unknown, 10000.0    unknown, 10000.0    unsat, 3123.58      unknown, 10000.0    unsat, 4343.77      w16-6a.cnf
+unsat, 169.21       unsat, 335.42       unsat, 254.27       unsat, 202.68       unsat, 167.2        unsat, 36.0         unsat, 191.35       unsat, 37.02        w19-20.0.cnf
+unsat, 272.56       unsat, 544.52       unsat, 433.35       unsat, 388.28       unsat, 273.24       unsat, 59.01        unsat, 402.83       unsat, 60.06        w19-20.1.cnf
+unsat, 571.11       unsat, 1023.0       unsat, 698.34       unsat, 833.21       unsat, 303.25       unsat, 83.83        unsat, 942.43       unsat, 99.8         w19-2.0.cnf
+unsat, 494.21       unsat, 758.52       unsat, 762.5        unsat, 734.6        unsat, 418.2        unsat, 76.88        unsat, 660.61       unsat, 87.83        w19-49.0.cnf
+unsat, 511.97       unsat, 1063.74      unsat, 811.69       unsat, 981.57       unsat, 282.32       unsat, 101.69       unsat, 1001.63      unsat, 99.68        w19-5.1.cnf
+unsat, 212.96       unsat, 357.32       unsat, 267.17       unsat, 334.24       unsat, 131.19       unsat, 35.86        unsat, 342.46       unsat, 40.83        w19-8.0.cnf
+dataset: lam-discrete-geometry ( 9 instances)
++-------------------+------+----------+--------+------------+------+---------+-------+-------+
+|       solver      | #SAT | PAR2-SAT | #UNSAT | PAR2-UNSAT | #ALL |   PAR2  | #MONO | #BEST |
++-------------------+------+----------+--------+------------+------+---------+-------+-------+
+| pakis(kissat-MAB) |  0   |  10000   |   7    |   451.77   |  7   |  2674.0 |   0   |   0   |
+|   kissat-MAB-sat  |  0   |  10000   |   7    |   773.03   |  7   | 2995.25 |   0   |   0   |
+|     kissat+LA     |  0   |  10000   |   7    |   674.48   |  7   |  2896.7 |   0   |   0   |
+|     kissat+RS     |  0   |  10000   |   7    |   697.57   |  7   | 2919.79 |   0   |   0   |
+|    kissat+LA+s    |  0   |  10000   |   7    |   396.29   |  7   | 2618.51 |   0   |   0   |
+|    kissat+RS+s    |  0   |  10000   |   9    |   869.17   |  9   |  869.17 |   0   |   8   |
+|    kissat+RS+d    |  0   |  10000   |   7    |   721.42   |  7   | 2943.64 |   0   |   0   |
+|   kissat+RS+d+s   |  0   |  10000   |   9    |  1106.56   |  9   | 1106.56 |   0   |   1   |
++-------------------+------+----------+--------+------------+------+---------+-------+-------+
+
+
+pakis(kissat-MAB)   kissat-MAB-sat      kissat+LA           kissat+RS           kissat+LA+s         kissat+RS+s         kissat+RS+d         kissat+RS+d+s       instance_name
+sat, 0.37           sat, 0.19           sat, 0.48           sat, 0.55           sat, 1.0            sat, 1.01           sat, 0.48           sat, 1.01           170055892.cnf
+sat, 4.19           sat, 6.58           sat, 1.19           sat, 0.55           sat, 3.0            sat, 2.02           sat, 0.48           sat, 2.02           170058143.cnf
+sat, 98.61          sat, 255.95         sat, 11.62          sat, 7.45           sat, 2.0            sat, 1.02           sat, 89.19          sat, 5.01           170058440.cnf
+sat, 0.53           sat, 0.19           sat, 0.74           sat, 0.65           sat, 1.0            sat, 1.01           sat, 0.47           sat, 1.01           170059081.cnf
+sat, 95.2           unknown, 10000.0    sat, 138.34         sat, 9.6            sat, 13.03          sat, 6.03           sat, 19.75          sat, 73.09          170059722.cnf
+sat, 4473.27        unknown, 10000.0    sat, 392.77         sat, 1168.27        sat, 724.41         sat, 7.02           sat, 2904.4         sat, 505.47         170104584.cnf
+sat, 1.36           sat, 75.04          sat, 1.51           sat, 0.66           sat, 1.0            sat, 2.02           sat, 0.69           sat, 1.01           170105432.cnf
+sat, 3.57           sat, 8.59           sat, 0.71           sat, 0.66           sat, 2.0            sat, 2.02           sat, 1.32           sat, 1.01           170153306.cnf
+sat, 1.77           sat, 43.2           sat, 0.83           sat, 2.27           sat, 1.0            sat, 1.01           sat, 0.7            sat, 1.01           170154931.cnf
+sat, 2.27           sat, 12.36          sat, 0.62           sat, 0.77           sat, 1.0            sat, 1.02           sat, 0.6            sat, 1.01           170222843.cnf
+sat, 0.9            sat, 4.48           sat, 1.33           sat, 3.31           sat, 1.0            sat, 1.01           sat, 0.9            sat, 2.01           170223547.cnf
+sat, 23.43          sat, 59.91          sat, 1.58           sat, 1.46           sat, 2.0            sat, 1.02           sat, 2.42           sat, 1.01           170225515.cnf
+sat, 0.71           sat, 0.8            sat, 0.92           sat, 0.65           sat, 1.0            sat, 1.01           sat, 0.7            sat, 1.01           170225812.cnf
+dataset: hgen ( 13 instances)
++-------------------+------+----------+--------+------------+------+---------+-------+-------+
+|       solver      | #SAT | PAR2-SAT | #UNSAT | PAR2-UNSAT | #ALL |   PAR2  | #MONO | #BEST |
++-------------------+------+----------+--------+------------+------+---------+-------+-------+
+| pakis(kissat-MAB) |  13  |  362.01  |   0    |   10000    |  13  |  362.01 |   0   |   1   |
+|   kissat-MAB-sat  |  11  |  35.95   |   0    |   10000    |  11  | 1574.41 |   0   |   2   |
+|     kissat+LA     |  13  |  42.51   |   0    |   10000    |  13  |  42.51  |   0   |   0   |
+|     kissat+RS     |  13  |  92.07   |   0    |   10000    |  13  |  92.07  |   0   |   3   |
+|    kissat+LA+s    |  13  |  57.96   |   0    |   10000    |  13  |  57.96  |   0   |   0   |
+|    kissat+RS+s    |  13  |   2.09   |   0    |   10000    |  13  |   2.09  |   0   |   3   |
+|    kissat+RS+d    |  13  |  232.47  |   0    |   10000    |  13  |  232.47 |   0   |   3   |
+|   kissat+RS+d+s   |  13  |  45.82   |   0    |   10000    |  13  |  45.82  |   0   |   1   |
++-------------------+------+----------+--------+------------+------+---------+-------+-------+
+
+
+pakis(kissat-MAB)   kissat-MAB-sat      kissat+LA           kissat+RS           kissat+LA+s         kissat+RS+s         kissat+RS+d         kissat+RS+d+s       instance_name
+sat, 1.58           sat, 6.35           sat, 1.2            sat, 0.8            sat, 1.01           sat, 1.03           sat, 0.8            sat, 1.03           combined-crypto1-wff-seed-101-wffvars-500-cryptocplx-31-overlap-2.cnf
+sat, 1.68           sat, 42.69          sat, 1.31           sat, 1.1            sat, 2.01           sat, 1.03           sat, 2.42           sat, 1.04           combined-crypto1-wff-seed-102-wffvars-500-cryptocplx-31-overlap-2.cnf
+sat, 1.98           sat, 3.36           sat, 0.92           sat, 0.79           sat, 1.01           sat, 1.03           sat, 0.91           sat, 1.04           combined-crypto1-wff-seed-107-wffvars-500-cryptocplx-31-overlap-2.cnf
+sat, 33.0           sat, 232.81         sat, 1.4            sat, 0.9            sat, 2.01           sat, 2.04           sat, 1.14           sat, 1.04           combined-crypto1-wff-seed-108-wffvars-500-cryptocplx-31-overlap-2.cnf
+sat, 25.44          sat, 14.46          sat, 5.9            sat, 4.37           sat, 2.01           sat, 1.03           sat, 0.91           sat, 3.05           combined-crypto1-wff-seed-110-wffvars-500-cryptocplx-31-overlap-2.cnf
+sat, 1.71           sat, 3.4            sat, 0.9            sat, 0.79           sat, 1.01           sat, 1.04           sat, 1.11           sat, 1.04           combined-crypto1-wff-seed-115-wffvars-500-cryptocplx-31-overlap-2.cnf
+sat, 7.13           sat, 242.46         sat, 3.39           sat, 1.41           sat, 4.01           sat, 6.05           sat, 1.52           sat, 2.04           combined-crypto1-wff-seed-121-wffvars-500-cryptocplx-31-overlap-2.cnf
+sat, 47.72          sat, 215.68         sat, 7.91           sat, 7.67           sat, 8.02           sat, 15.07          sat, 3.36           sat, 21.08          combined-crypto1-wff-seed-12-wffvars-450-cryptocplx-40-overlap-2.cnf
+sat, 2.81           sat, 11.1           sat, 1.42           sat, 0.81           sat, 2.01           sat, 1.03           sat, 0.82           sat, 1.03           combined-crypto1-wff-seed-132-wffvars-500-cryptocplx-31-overlap-2.cnf
+sat, 3.1            sat, 45.29          sat, 2.61           sat, 0.92           sat, 2.01           sat, 1.03           sat, 1.33           sat, 1.03           combined-crypto1-wff-seed-133-wffvars-500-cryptocplx-31-overlap-2.cnf
+sat, 21.43          sat, 14.64          sat, 8.31           sat, 3.53           sat, 7.01           sat, 1.03           sat, 3.69           sat, 2.04           combined-crypto1-wff-seed-18-wffvars-450-cryptocplx-40-overlap-2.cnf
+sat, 1.81           sat, 1.27           sat, 1.73           sat, 1.63           sat, 2.01           sat, 1.03           sat, 1.31           sat, 1.05           combined-crypto1-wff-seed-1-wffvars-450-cryptocplx-40-overlap-2.cnf
+sat, 30.78          sat, 28.81          sat, 9.38           sat, 1.83           sat, 3.01           sat, 2.04           sat, 3.97           sat, 3.05           combined-crypto1-wff-seed-3-wffvars-450-cryptocplx-40-overlap-2.cnf
+sat, 11.89          sat, 449.49         sat, 6.19           sat, 16.6           sat, 16.02          sat, 5.04           sat, 11.59          sat, 12.05          combined-crypto1-wff-seed-8-wffvars-450-cryptocplx-40-overlap-2.cnf
+dataset: combined ( 14 instances)
++-------------------+------+----------+--------+------------+------+-------+-------+-------+
+|       solver      | #SAT | PAR2-SAT | #UNSAT | PAR2-UNSAT | #ALL |  PAR2 | #MONO | #BEST |
++-------------------+------+----------+--------+------------+------+-------+-------+-------+
+| pakis(kissat-MAB) |  14  |  13.72   |   0    |   10000    |  14  | 13.72 |   0   |   0   |
+|   kissat-MAB-sat  |  14  |   93.7   |   0    |   10000    |  14  |  93.7 |   0   |   0   |
+|     kissat+LA     |  14  |   3.76   |   0    |   10000    |  14  |  3.76 |   0   |   0   |
+|     kissat+RS     |  14  |   3.08   |   0    |   10000    |  14  |  3.08 |   0   |   8   |
+|    kissat+LA+s    |  14  |   3.8    |   0    |   10000    |  14  |  3.8  |   0   |   0   |
+|    kissat+RS+s    |  14  |   2.82   |   0    |   10000    |  14  |  2.82 |   0   |   4   |
+|    kissat+RS+d    |  14  |   2.49   |   0    |   10000    |  14  |  2.49 |   0   |   2   |
+|   kissat+RS+d+s   |  14  |   3.69   |   0    |   10000    |  14  |  3.69 |   0   |   0   |
++-------------------+------+----------+--------+------------+------+-------+-------+-------+
+
+
+pakis(kissat-MAB)   kissat-MAB-sat      kissat+LA           kissat+RS           kissat+LA+s         kissat+RS+s         kissat+RS+d         kissat+RS+d+s       instance_name
+sat, 844.42         unknown, 10000.0    sat, 483.9          unknown, 10000.0    sat, 810.17         sat, 533.44         sat, 772.31         sat, 795.53         preimage_80r_490m_160h_seed_150.cnf
+sat, 1410.2         unknown, 10000.0    sat, 820.3          sat, 835.88         sat, 999.2          sat, 365.33         sat, 640.57         unknown, 10000.0    preimage_80r_490m_160h_seed_6.cnf
+sat, 663.73         unknown, 10000.0    sat, 2021.44        sat, 755.66         sat, 1513.33        sat, 191.42         sat, 1251.26        sat, 488.35         preimage_80r_491m_160h_seed_391.cnf
+sat, 3844.13        unknown, 10000.0    sat, 1262.54        sat, 743.45         sat, 3562.39        sat, 781.5          sat, 163.31         sat, 174.33         preimage_80r_491m_160h_seed_407.cnf
+sat, 1644.7         unknown, 10000.0    sat, 1388.99        sat, 757.45         sat, 33.08          sat, 455.49         sat, 1976.37        sat, 354.34         preimage_80r_491m_160h_seed_71.cnf
+sat, 643.36         unknown, 10000.0    sat, 353.91         sat, 959.2          sat, 277.35         sat, 920.44         sat, 3043.15        sat, 5.26           preimage_80r_491m_160h_seed_7.cnf
+sat, 807.24         sat, 911.22         sat, 188.94         sat, 185.95         sat, 464.52         sat, 168.31         sat, 683.44         sat, 339.42         preimage_80r_492m_160h_seed_136.cnf
+sat, 359.17         sat, 3011.32        sat, 695.45         sat, 96.95          sat, 1295.38        sat, 69.34          sat, 131.76         sat, 382.31         preimage_80r_493m_160h_seed_249.cnf
+sat, 1410.27        sat, 4473.71        sat, 200.23         sat, 950.92         sat, 364.13         sat, 546.43         sat, 66.98          sat, 924.69         preimage_80r_493m_160h_seed_457.cnf
+sat, 127.4          sat, 3125.99        sat, 2.51           sat, 174.75         sat, 203.26         sat, 263.29         sat, 140.1          sat, 27.29          preimage_80r_494m_160h_seed_378.cnf
+sat, 207.74         sat, 516.53         sat, 108.28         sat, 118.7          sat, 40.04          sat, 86.28          sat, 253.72         sat, 18.26          preimage_80r_495m_160h_seed_379.cnf
+dataset: preimage ( 11 instances)
++-------------------+------+----------+--------+------------+------+---------+-------+-------+
+|       solver      | #SAT | PAR2-SAT | #UNSAT | PAR2-UNSAT | #ALL |   PAR2  | #MONO | #BEST |
++-------------------+------+----------+--------+------------+------+---------+-------+-------+
+| pakis(kissat-MAB) |  11  | 1087.49  |   0    |   10000    |  11  | 1087.49 |   0   |   0   |
+|   kissat-MAB-sat  |  5   | 1094.43  |   0    |   10000    |  5   | 6548.98 |   0   |   0   |
+|     kissat+LA     |  11  |  684.23  |   0    |   10000    |  11  |  684.23 |   0   |   2   |
+|     kissat+RS     |  10  |  507.17  |   0    |   10000    |  10  | 1416.26 |   0   |   0   |
+|    kissat+LA+s    |  11  |  869.35  |   0    |   10000    |  11  |  869.35 |   0   |   1   |
+|    kissat+RS+s    |  11  |  398.3   |   0    |   10000    |  11  |  398.3  |   0   |   4   |
+|    kissat+RS+d    |  11  |  829.36  |   0    |   10000    |  11  |  829.36 |   0   |   2   |
+|   kissat+RS+d+s   |  10  |  319.07  |   0    |   10000    |  10  | 1228.16 |   0   |   2   |
++-------------------+------+----------+--------+------------+------+---------+-------+-------+
+
+
+pakis(kissat-MAB)   kissat-MAB-sat      kissat+LA           kissat+RS           kissat+LA+s         kissat+RS+s         kissat+RS+d         kissat+RS+d+s       instance_name
+sat, 2826.58        unknown, 10000.0    unknown, 10000.0    sat, 4428.17        sat, 4329.25        sat, 466.28         sat, 1799.59        sat, 453.29         Steiner-135-32-bce.cnf
+unknown, 10000.0    unknown, 10000.0    unknown, 10000.0    unknown, 10000.0    unknown, 10000.0    unknown, 10000.0    unknown, 10000.0    unknown, 10000.0    Steiner-135-33-bce.cnf
+unsat, 0.36         unsat, 0.0          unsat, 0.26         unsat, 0.32         unsat, 1.0          unsat, 1.01         unsat, 0.29         unsat, 1.01         Steiner-15-7-bce.cnf
+sat, 705.41         unknown, 10000.0    unknown, 10000.0    sat, 208.0          sat, 2011.68        sat, 539.27         sat, 799.5          sat, 406.5          Steiner-243-45-bce.cnf
+unknown, 10000.0    unknown, 10000.0    unknown, 10000.0    unknown, 10000.0    unknown, 10000.0    unknown, 10000.0    unknown, 10000.0    unknown, 10000.0    Steiner-243-46-bce.cnf
+unsat, 0.46         unsat, 0.14         unsat, 0.47         unsat, 0.45         unsat, 1.0          unsat, 1.01         unsat, 0.49         unsat, 1.01         Steiner-27-10-bce.cnf
+unknown, 10000.0    unknown, 10000.0    unknown, 10000.0    unknown, 10000.0    unknown, 10000.0    unknown, 10000.0    unknown, 10000.0    unknown, 10000.0    Steiner-405-70-bce.cnf
+unknown, 10000.0    unknown, 10000.0    unknown, 10000.0    unknown, 10000.0    unknown, 10000.0    unknown, 10000.0    unknown, 10000.0    unknown, 10000.0    Steiner-405-71-bce.cnf
+unsat, 7.67         unsat, 9.34         unsat, 6.55         unsat, 9.4          unsat, 5.01         unsat, 3.01         unsat, 8.41         unsat, 3.02         Steiner-45-16-bce.cnf
+unknown, 10000.0    unknown, 10000.0    unknown, 10000.0    unknown, 10000.0    unknown, 10000.0    unknown, 10000.0    unknown, 10000.0    unknown, 10000.0    Steiner-729-112-bce.cnf
+unknown, 10000.0    unknown, 10000.0    unknown, 10000.0    unknown, 10000.0    unknown, 10000.0    unknown, 10000.0    unknown, 10000.0    unknown, 10000.0    Steiner-729-113-bce.cnf
+unknown, 10000.0    unknown, 10000.0    unknown, 10000.0    unknown, 10000.0    unknown, 10000.0    unknown, 10000.0    unknown, 10000.0    unknown, 10000.0    Steiner-81-21-bce.cnf
+unsat, 0.25         unsat, 0.0          unsat, 0.25         unsat, 0.24         unsat, 1.0          unsat, 1.0          unsat, 0.28         unsat, 1.01         Steiner-9-5-bce.cnf
+dataset: Steiner-bce ( 13 instances)
++-------------------+------+----------+--------+------------+------+---------+-------+-------+
+|       solver      | #SAT | PAR2-SAT | #UNSAT | PAR2-UNSAT | #ALL |   PAR2  | #MONO | #BEST |
++-------------------+------+----------+--------+------------+------+---------+-------+-------+
+| pakis(kissat-MAB) |  2   |  1766.0  |   4    |    2.18    |  6   | 5656.98 |   0   |   0   |
+|   kissat-MAB-sat  |  0   |   0.0    |   4    |    2.37    |  4   | 6923.81 |   0   |   3   |
+|     kissat+LA     |  0   |   0.0    |   4    |    1.88    |  4   | 6923.66 |   0   |   0   |
+|     kissat+RS     |  2   | 2318.09  |   4    |    2.6     |  6   | 5742.04 |   0   |   1   |
+|    kissat+LA+s    |  2   | 3170.47  |   4    |    2.01    |  6   |  5873.0 |   0   |   0   |
+|    kissat+RS+s    |  2   |  502.78  |   4    |    1.51    |  6   | 5462.43 |   0   |   1   |
+|    kissat+RS+d    |  2   | 1299.54  |   4    |    2.37    |  6   | 5585.27 |   0   |   0   |
+|   kissat+RS+d+s   |  2   |  429.89  |   4    |    1.51    |  6   | 5451.22 |   0   |   1   |
++-------------------+------+----------+--------+------------+------+---------+-------+-------+
+
+
+pakis(kissat-MAB)   kissat-MAB-sat      kissat+LA           kissat+RS           kissat+LA+s         kissat+RS+s         kissat+RS+d         kissat+RS+d+s       instance_name
+unknown, 10000.0    unknown, 10000.0    unknown, 10000.0    unknown, 10000.0    unknown, 10000.0    unknown, 10000.0    unknown, 10000.0    unknown, 10000.0    rbsat-v2400c266431gyes6.cnf
+unknown, 10000.0    unknown, 10000.0    unknown, 10000.0    unknown, 10000.0    unknown, 10000.0    unknown, 10000.0    unknown, 10000.0    unknown, 10000.0    rbsat-v2400c266431gyes7.cnf
+unknown, 10000.0    unknown, 10000.0    unknown, 10000.0    unknown, 10000.0    unknown, 10000.0    unknown, 10000.0    unknown, 10000.0    unknown, 10000.0    rbsat-v2640c305320g4.cnf
+unknown, 10000.0    unknown, 10000.0    unknown, 10000.0    unknown, 10000.0    unknown, 10000.0    unknown, 10000.0    unknown, 10000.0    unknown, 10000.0    rbsat-v2640c305320gyes10.cnf
+sat, 30.41          sat, 680.16         sat, 45.69          sat, 12.7           sat, 28.02          sat, 1.02           sat, 71.37          sat, 4.04           rbsat-v760c43649g8.cnf
+dataset: rbsat ( 5 instances)
++-------------------+------+----------+--------+------------+------+---------+-------+-------+
+|       solver      | #SAT | PAR2-SAT | #UNSAT | PAR2-UNSAT | #ALL |   PAR2  | #MONO | #BEST |
++-------------------+------+----------+--------+------------+------+---------+-------+-------+
+| pakis(kissat-MAB) |  1   |  30.41   |   0    |   10000    |  1   | 8006.08 |   0   |   0   |
+|   kissat-MAB-sat  |  1   |  680.16  |   0    |   10000    |  1   | 8136.03 |   0   |   0   |
+|     kissat+LA     |  1   |  45.69   |   0    |   10000    |  1   | 8009.14 |   0   |   0   |
+|     kissat+RS     |  1   |   12.7   |   0    |   10000    |  1   | 8002.54 |   0   |   0   |
+|    kissat+LA+s    |  1   |  28.02   |   0    |   10000    |  1   |  8005.6 |   0   |   0   |
+|    kissat+RS+s    |  1   |   1.02   |   0    |   10000    |  1   |  8000.2 |   0   |   1   |
+|    kissat+RS+d    |  1   |  71.37   |   0    |   10000    |  1   | 8014.27 |   0   |   0   |
+|   kissat+RS+d+s   |  1   |   4.04   |   0    |   10000    |  1   | 8000.81 |   0   |   0   |
++-------------------+------+----------+--------+------------+------+---------+-------+-------+
+
+
+pakis(kissat-MAB)   kissat-MAB-sat      kissat+LA           kissat+RS           kissat+LA+s         kissat+RS+s         kissat+RS+d         kissat+RS+d+s       instance_name
+unknown, 10000.0    unknown, 10000.0    unknown, 10000.0    unknown, 10000.0    unknown, 10000.0    unknown, 10000.0    unknown, 10000.0    unknown, 10000.0    full-bf-ga-6-ce.cnf
+sat, 8.27           sat, 125.14         sat, 30.68          sat, 4.52           sat, 3.02           sat, 4.08           sat, 5.34           sat, 5.08           full-bf-ga-7-ce.cnf
+sat, 0.77           sat, 4.72           sat, 4.93           sat, 5.52           sat, 8.04           sat, 3.16           sat, 4.97           sat, 10.15          full-bf-ga-9-ce.cnf
+unknown, 10000.0    unknown, 10000.0    unknown, 10000.0    unknown, 10000.0    unknown, 10000.0    unknown, 10000.0    unknown, 10000.0    unknown, 10000.0    full-bg-gb-6-ce.cnf
+sat, 1075.72        sat, 241.06         sat, 211.35         sat, 107.32         sat, 88.07          sat, 118.17         sat, 77.21          sat, 75.13          full-bg-gb-7-ce.cnf
+sat, 28.3           sat, 2142.47        sat, 93.19          sat, 71.95          sat, 3.02           sat, 59.16          sat, 37.91          sat, 255.25         full-bg-gb-8-ce.cnf
+sat, 175.7          unknown, 10000.0    sat, 152.23         sat, 34.79          sat, 98.05          sat, 267.33         sat, 290.17         sat, 121.26         full-bg-gb-9-ce.cnf
+dataset: full-bf ( 7 instances)
++-------------------+------+----------+--------+------------+------+---------+-------+-------+
+|       solver      | #SAT | PAR2-SAT | #UNSAT | PAR2-UNSAT | #ALL |   PAR2  | #MONO | #BEST |
++-------------------+------+----------+--------+------------+------+---------+-------+-------+
+| pakis(kissat-MAB) |  5   |  257.75  |   0    |    0.0     |  5   | 3041.25 |   0   |   1   |
+|   kissat-MAB-sat  |  4   |  502.68  |   0    |    0.0     |  4   | 4644.77 |   0   |   0   |
+|     kissat+LA     |  5   |  98.48   |   0    |    0.0     |  5   | 2927.48 |   0   |   0   |
+|     kissat+RS     |  5   |  44.82   |   0    |    0.0     |  5   | 2889.16 |   0   |   1   |
+|    kissat+LA+s    |  5   |  40.04   |   0    |    0.0     |  5   | 2885.74 |   0   |   2   |
+|    kissat+RS+s    |  5   |  90.38   |   0    |    0.0     |  5   |  2921.7 |   0   |   0   |
+|    kissat+RS+d    |  5   |  83.12   |   0    |    0.0     |  5   | 2916.51 |   0   |   0   |
+|   kissat+RS+d+s   |  5   |  93.37   |   0    |    0.0     |  5   | 2923.84 |   0   |   1   |
++-------------------+------+----------+--------+------------+------+---------+-------+-------+
+
+
+pakis(kissat-MAB)   kissat-MAB-sat      kissat+LA           kissat+RS           kissat+LA+s         kissat+RS+s         kissat+RS+d         kissat+RS+d+s       instance_name
+unsat, 328.18       unsat, 688.14       unsat, 569.35       unsat, 559.9        unsat, 103.1        unsat, 40.05        unsat, 367.55       unsat, 33.09        hid-uns-enc-6-1-0-0-0-0-14492.cnf
+unsat, 650.97       unsat, 1546.2       unsat, 1222.67      unsat, 1246.61      unsat, 270.23       unsat, 108.1        unsat, 915.66       unsat, 92.11        hid-uns-enc-6-1-0-0-0-0-26462.cnf
+unsat, 385.99       unsat, 617.53       unsat, 565.87       unsat, 569.58       unsat, 73.08        unsat, 42.05        unsat, 472.17       unsat, 36.06        hid-uns-enc-6-1-0-0-0-0-27601.cnf
+unsat, 516.72       unsat, 809.87       unsat, 721.19       unsat, 718.71       unsat, 148.13       unsat, 51.09        unsat, 529.53       unsat, 49.07        hid-uns-enc-6-1-0-0-0-0-3251.cnf
+dataset: hid-uns-enc ( 4 instances)
++-------------------+------+----------+--------+------------+------+--------+-------+-------+
+|       solver      | #SAT | PAR2-SAT | #UNSAT | PAR2-UNSAT | #ALL |  PAR2  | #MONO | #BEST |
++-------------------+------+----------+--------+------------+------+--------+-------+-------+
+| pakis(kissat-MAB) |  0   |  10000   |   4    |   470.47   |  4   | 470.47 |   0   |   0   |
+|   kissat-MAB-sat  |  0   |  10000   |   4    |   915.43   |  4   | 915.43 |   0   |   0   |
+|     kissat+LA     |  0   |  10000   |   4    |   769.77   |  4   | 769.77 |   0   |   0   |
+|     kissat+RS     |  0   |  10000   |   4    |   773.7    |  4   | 773.7  |   0   |   0   |
+|    kissat+LA+s    |  0   |  10000   |   4    |   148.63   |  4   | 148.63 |   0   |   0   |
+|    kissat+RS+s    |  0   |  10000   |   4    |   60.32    |  4   | 60.32  |   0   |   0   |
+|    kissat+RS+d    |  0   |  10000   |   4    |   571.23   |  4   | 571.23 |   0   |   0   |
+|   kissat+RS+d+s   |  0   |  10000   |   4    |   52.58    |  4   | 52.58  |   0   |   4   |
++-------------------+------+----------+--------+------------+------+--------+-------+-------+
+
+
+pakis(kissat-MAB)   kissat-MAB-sat      kissat+LA           kissat+RS           kissat+LA+s         kissat+RS+s         kissat+RS+d         kissat+RS+d+s       instance_name
+unknown, 10000.0    unknown, 10000.0    unknown, 10000.0    unknown, 10000.0    unknown, 10000.0    unknown, 10000.0    unknown, 10000.0    unknown, 10000.0    ssAES_4-4-4_round_7-10_faultAt_7_fault_injections_2_seed_1564286498.cnf
+sat, 4410.24        unknown, 10000.0    unknown, 10000.0    unknown, 10000.0    unknown, 10000.0    sat, 89.5           sat, 3216.99        sat, 89.48          ssAES_4-4-8_round_7-10_faultAt_8_fault_injections_2_seed_1579630418.cnf
+unknown, 10000.0    unknown, 10000.0    unknown, 10000.0    sat, 4680.64        unknown, 10000.0    sat, 83.48          sat, 2169.98        sat, 86.5           ssAES_4-4-8_round_8-10_faultAt_8_fault_injections_2_seed_1579630418.cnf
+sat, 4407.23        unknown, 10000.0    unknown, 10000.0    unknown, 10000.0    unknown, 10000.0    sat, 120.45         unknown, 10000.0    sat, 68.42          ssAES_4-4-8_round_8-10_faultAt_8_fault_injections_2_seed_31944661.cnf
+dataset: ssAES ( 4 instances)
++-------------------+------+----------+--------+------------+------+---------+-------+-------+
+|       solver      | #SAT | PAR2-SAT | #UNSAT | PAR2-UNSAT | #ALL |   PAR2  | #MONO | #BEST |
++-------------------+------+----------+--------+------------+------+---------+-------+-------+
+| pakis(kissat-MAB) |  2   | 2939.15  |   0    |   10000    |  2   | 7204.37 |   0   |   0   |
+|   kissat-MAB-sat  |  0   |   0.0    |   0    |   10000    |  0   | 10000.0 |   0   |   0   |
+|     kissat+LA     |  0   |   0.0    |   0    |   10000    |  0   | 10000.0 |   0   |   0   |
+|     kissat+RS     |  1   | 1560.21  |   0    |   10000    |  1   | 8670.16 |   0   |   0   |
+|    kissat+LA+s    |  0   |   0.0    |   0    |   10000    |  0   | 10000.0 |   0   |   0   |
+|    kissat+RS+s    |  3   |  97.81   |   0    |   10000    |  3   | 2573.36 |   0   |   1   |
+|    kissat+RS+d    |  2   | 1795.66  |   0    |   10000    |  2   | 6346.74 |   0   |   0   |
+|   kissat+RS+d+s   |  3   |  81.47   |   0    |   10000    |  3   |  2561.1 |   0   |   2   |
++-------------------+------+----------+--------+------------+------+---------+-------+-------+
+
+
+pakis(kissat-MAB)   kissat-MAB-sat      kissat+LA           kissat+RS           kissat+LA+s         kissat+RS+s         kissat+RS+d         kissat+RS+d+s       instance_name
+unsat, 2265.97      unsat, 3015.63      unsat, 2910.5       unsat, 2709.22      unsat, 933.49       unsat, 453.54       unsat, 2450.82      unsat, 488.65       crafted_n10_d6_c3_num18.cnf
+unsat, 281.69       unsat, 884.37       unsat, 487.69       unsat, 673.85       unsat, 175.91       unsat, 65.53        unsat, 300.66       unsat, 69.63        crafted_n11_d6_c4_num19.cnf
+unsat, 330.16       unsat, 828.54       unsat, 627.43       unsat, 764.92       unsat, 197.91       unsat, 102.23       unsat, 395.49       unsat, 101.39       crafted_n12_d6_c4_num9.cnf
+dataset: crafted ( 3 instances)
++-------------------+------+----------+--------+------------+------+---------+-------+-------+
+|       solver      | #SAT | PAR2-SAT | #UNSAT | PAR2-UNSAT | #ALL |   PAR2  | #MONO | #BEST |
++-------------------+------+----------+--------+------------+------+---------+-------+-------+
+| pakis(kissat-MAB) |  0   |  10000   |   3    |   959.27   |  3   |  959.27 |   0   |   0   |
+|   kissat-MAB-sat  |  0   |  10000   |   3    |  1576.18   |  3   | 1576.18 |   0   |   0   |
+|     kissat+LA     |  0   |  10000   |   3    |  1341.88   |  3   | 1341.88 |   0   |   0   |
+|     kissat+RS     |  0   |  10000   |   3    |  1382.66   |  3   | 1382.66 |   0   |   0   |
+|    kissat+LA+s    |  0   |  10000   |   3    |   435.77   |  3   |  435.77 |   0   |   0   |
+|    kissat+RS+s    |  0   |  10000   |   3    |   207.1    |  3   |  207.1  |   0   |   2   |
+|    kissat+RS+d    |  0   |  10000   |   3    |  1048.99   |  3   | 1048.99 |   0   |   0   |
+|   kissat+RS+d+s   |  0   |  10000   |   3    |   219.89   |  3   |  219.89 |   0   |   1   |
++-------------------+------+----------+--------+------------+------+---------+-------+-------+
+
+
+pakis(kissat-MAB)   kissat-MAB-sat      kissat+LA           kissat+RS           kissat+LA+s         kissat+RS+s         kissat+RS+d         kissat+RS+d+s       instance_name
+unknown, 10000.0    unknown, 10000.0    unknown, 10000.0    unknown, 10000.0    unknown, 10000.0    unsat, 1437.27      unknown, 10000.0    unsat, 1347.54      ctl_4291_567_11_unsat.cnf
+unknown, 10000.0    unknown, 10000.0    unknown, 10000.0    unknown, 10000.0    unknown, 10000.0    unsat, 3012.45      unknown, 10000.0    unsat, 3272.69      ctl_4291_567_6_unsat_pre.cnf
+unsat, 734.9        unsat, 2042.28      unsat, 1162.71      unsat, 1705.89      unsat, 283.06       unsat, 117.27       unsat, 1110.88      unsat, 113.31       ctl_4291_567_9_unsat_pre.cnf
+dataset: ctl ( 3 instances)
++-------------------+------+----------+--------+------------+------+---------+-------+-------+
+|       solver      | #SAT | PAR2-SAT | #UNSAT | PAR2-UNSAT | #ALL |   PAR2  | #MONO | #BEST |
++-------------------+------+----------+--------+------------+------+---------+-------+-------+
+| pakis(kissat-MAB) |  0   |  10000   |   1    |   244.97   |  1   | 6911.63 |   0   |   0   |
+|   kissat-MAB-sat  |  0   |  10000   |   1    |   680.76   |  1   | 7347.43 |   0   |   0   |
+|     kissat+LA     |  0   |  10000   |   1    |   387.57   |  1   | 7054.24 |   0   |   0   |
+|     kissat+RS     |  0   |  10000   |   1    |   568.63   |  1   |  7235.3 |   0   |   0   |
+|    kissat+LA+s    |  0   |  10000   |   1    |   94.35    |  1   | 6761.02 |   0   |   0   |
+|    kissat+RS+s    |  0   |  10000   |   3    |  1522.33   |  3   | 1522.33 |   0   |   1   |
+|    kissat+RS+d    |  0   |  10000   |   1    |   370.29   |  1   | 7036.96 |   0   |   0   |
+|   kissat+RS+d+s   |  0   |  10000   |   3    |  1577.84   |  3   | 1577.84 |   0   |   2   |
++-------------------+------+----------+--------+------------+------+---------+-------+-------+
+
+
+pakis(kissat-MAB)   kissat-MAB-sat      kissat+LA           kissat+RS           kissat+LA+s         kissat+RS+s         kissat+RS+d         kissat+RS+d+s       instance_name
+unsat, 253.87       unsat, 404.53       unsat, 243.5        unsat, 489.84       unsat, 193.02       unsat, 188.11       unsat, 375.32       unsat, 178.23       grain-53-80-0s0-seed-125-4-init-35.cnf
+unsat, 249.98       unsat, 467.88       unsat, 370.59       unsat, 520.14       unsat, 312.27       unsat, 230.1        unsat, 404.63       unsat, 188.15       grain-53-80-0s0-seed-125-8-init-35.cnf
+unsat, 227.36       unsat, 308.53       unsat, 163.78       unsat, 319.22       unsat, 127.04       unsat, 176.1        unsat, 307.8        unsat, 155.06       grain-55-80-0s0-seed-125-45-init-40.cnf
+dataset: grain ( 3 instances)
++-------------------+------+----------+--------+------------+------+--------+-------+-------+
+|       solver      | #SAT | PAR2-SAT | #UNSAT | PAR2-UNSAT | #ALL |  PAR2  | #MONO | #BEST |
++-------------------+------+----------+--------+------------+------+--------+-------+-------+
+| pakis(kissat-MAB) |  0   |  10000   |   3    |   243.74   |  3   | 243.74 |   0   |   0   |
+|   kissat-MAB-sat  |  0   |  10000   |   3    |   393.65   |  3   | 393.65 |   0   |   0   |
+|     kissat+LA     |  0   |  10000   |   3    |   259.29   |  3   | 259.29 |   0   |   0   |
+|     kissat+RS     |  0   |  10000   |   3    |   443.07   |  3   | 443.07 |   0   |   0   |
+|    kissat+LA+s    |  0   |  10000   |   3    |   210.78   |  3   | 210.78 |   0   |   1   |
+|    kissat+RS+s    |  0   |  10000   |   3    |   198.1    |  3   | 198.1  |   0   |   0   |
+|    kissat+RS+d    |  0   |  10000   |   3    |   362.58   |  3   | 362.58 |   0   |   0   |
+|   kissat+RS+d+s   |  0   |  10000   |   3    |   173.81   |  3   | 173.81 |   0   |   2   |
++-------------------+------+----------+--------+------------+------+--------+-------+-------+
+
+
+pakis(kissat-MAB)   kissat-MAB-sat      kissat+LA           kissat+RS           kissat+LA+s         kissat+RS+s         kissat+RS+d         kissat+RS+d+s       instance_name
+unknown, 10000.0    unknown, 10000.0    unknown, 10000.0    unknown, 10000.0    unknown, 10000.0    unknown, 10000.0    unknown, 10000.0    unknown, 10000.0    VanDerWaerden_2-3-16_238.cnf
+unknown, 10000.0    unknown, 10000.0    unknown, 10000.0    unknown, 10000.0    unknown, 10000.0    unknown, 10000.0    unknown, 10000.0    unknown, 10000.0    VanDerWaerden_2-3-32_1006.cnf
+unknown, 10000.0    unknown, 10000.0    unknown, 10000.0    unknown, 10000.0    unknown, 10000.0    unknown, 10000.0    unknown, 10000.0    unknown, 10000.0    VanDerWaerden_pd_2-3-26_635.cnf
+dataset: VanDerWaerden ( 3 instances)
++-------------------+------+----------+--------+------------+------+---------+-------+-------+
+|       solver      | #SAT | PAR2-SAT | #UNSAT | PAR2-UNSAT | #ALL |   PAR2  | #MONO | #BEST |
++-------------------+------+----------+--------+------------+------+---------+-------+-------+
+| pakis(kissat-MAB) |  0   |  10000   |   0    |    0.0     |  0   | 10000.0 |   0   |   0   |
+|   kissat-MAB-sat  |  0   |  10000   |   0    |    0.0     |  0   | 10000.0 |   0   |   0   |
+|     kissat+LA     |  0   |  10000   |   0    |    0.0     |  0   | 10000.0 |   0   |   0   |
+|     kissat+RS     |  0   |  10000   |   0    |    0.0     |  0   | 10000.0 |   0   |   0   |
+|    kissat+LA+s    |  0   |  10000   |   0    |    0.0     |  0   | 10000.0 |   0   |   0   |
+|    kissat+RS+s    |  0   |  10000   |   0    |    0.0     |  0   | 10000.0 |   0   |   0   |
+|    kissat+RS+d    |  0   |  10000   |   0    |    0.0     |  0   | 10000.0 |   0   |   0   |
+|   kissat+RS+d+s   |  0   |  10000   |   0    |    0.0     |  0   | 10000.0 |   0   |   0   |
++-------------------+------+----------+--------+------------+------+---------+-------+-------+
+
+
+pakis(kissat-MAB)   kissat-MAB-sat      kissat+LA           kissat+RS           kissat+LA+s         kissat+RS+s         kissat+RS+d         kissat+RS+d+s       instance_name
+unsat, 42.75        unsat, 193.71       unsat, 207.77       unsat, 166.95       unsat, 159.07       unsat, 36.25        unsat, 40.68        unsat, 17.25        6s153.cnf
+unsat, 687.92       unsat, 2294.11      unsat, 1514.1       unsat, 1441.33      unsat, 1193.86      unsat, 325.3        unsat, 892.76       unsat, 198.27       6s20.cnf
+sat, 35.57          sat, 345.9          sat, 55.33          sat, 57.78          sat, 33.05          sat, 41.17          sat, 26.54          sat, 50.14          atco_enc1_opt2_10_16.cnf
+sat, 16.27          sat, 169.32         sat, 50.16          sat, 26.67          sat, 40.12          sat, 68.32          sat, 40.99          sat, 102.33         atco_enc2_opt2_05_9-sc2014.cnf
+sat, 784.82         sat, 4379.56        sat, 785.95         sat, 603.91         sat, 354.32         sat, 208.54         sat, 767.27         sat, 550.61         b1904P1-8x8c6h7SAT.cnf
+unknown, 10000.0    unknown, 10000.0    unknown, 10000.0    unknown, 10000.0    unknown, 10000.0    unknown, 10000.0    unknown, 10000.0    unknown, 10000.0    b1904P3-8x8c11h0SAT.cnf
+sat, 116.8          sat, 1791.17        sat, 8.33           sat, 28.24          sat, 10.02          sat, 1.02           sat, 12.16          sat, 18.04          battleship-24-47-sat.cnf
+unknown, 10000.0    unknown, 10000.0    unknown, 10000.0    unknown, 10000.0    unknown, 10000.0    unknown, 10000.0    unknown, 10000.0    unknown, 10000.0    battleship-27-54-sat.cnf
+unsat, 1383.1       unsat, 2681.03      unsat, 1032.18      unsat, 2808.48      unsat, 871.52       unsat, 911.1        unsat, 1807.73      unsat, 846.37       bivium-39-200-0s0-0x5fa955de2b4f64d00226837d226c955de4566ce95f660180d7-30.cnf
+unsat, 429.58       unsat, 781.19       unsat, 379.38       unsat, 872.17       unsat, 334.21       unsat, 342.19       unsat, 697.26       unsat, 290.05       bivium-40-200-0s0-0x92fc13b11169afbb2ef11a684d9fe9a19e743cd6aa5ce23fb5-19.cnf
+sat, 42.82          sat, 65.17          sat, 32.59          sat, 50.21          sat, 28.27          sat, 18.79          sat, 58.68          sat, 32.12          course0.2_2018_3_5.cnf
+sat, 248.24         sat, 1140.5         sat, 169.57         sat, 569.97         sat, 148.51         sat, 169.86         sat, 330.12         sat, 188.68         course0.2_2018_3-sc2018.cnf
+unknown, 10000.0    unknown, 10000.0    unknown, 10000.0    unknown, 10000.0    unknown, 10000.0    unknown, 10000.0    unknown, 10000.0    unknown, 10000.0    gto_p50c314.cnf
+unsat, 133.8        unsat, 162.47       unsat, 93.0         unsat, 184.61       unsat, 71.04        unsat, 26.03        unsat, 175.17       unsat, 25.05        gto_p60c241.cnf
+unsat, 1096.27      unsat, 2894.07      unsat, 1826.51      unsat, 2528.48      unsat, 1663.96      unsat, 661.64       unsat, 2001.67      unsat, 623.17       LABS_n038_goal002.cnf
+unsat, 3509.83      unknown, 10000.0    unsat, 4669.49      unknown, 10000.0    unsat, 2528.18      unsat, 1147.91      unknown, 10000.0    unsat, 1203.95      LABS_n071_goal001-sc2013.cnf
+sat, 2.51           sat, 2.34           sat, 3.27           sat, 3.72           sat, 2.02           sat, 2.09           sat, 2.55           sat, 2.09           mrpp_8x8#16_12.cnf
+sat, 17.33          sat, 44.21          sat, 16.97          sat, 9.37           sat, 11.03          sat, 7.12           sat, 16.23          sat, 10.12          mrpp_8x8#24_14.cnf
+unsat, 169.4        unsat, 1168.53      unsat, 661.83       unsat, 544.72       unsat, 290.5        unsat, 93.44        unsat, 239.19       unsat, 81.31        velev-dlx-uns-1.0-05.cnf
+unsat, 44.97        unsat, 163.5        unsat, 144.66       unsat, 143.69       unsat, 69.25        unsat, 30.83        unsat, 55.98        unsat, 23.8         velev-pipe-uns-1.0-9.cnf
+unknown, 10000.0    unknown, 10000.0    unknown, 10000.0    unknown, 10000.0    unknown, 10000.0    unknown, 10000.0    unknown, 10000.0    unknown, 10000.0    tseitingrid7x165_shuffled.cnf
+unknown, 10000.0    unknown, 10000.0    unknown, 10000.0    unknown, 10000.0    unknown, 10000.0    unknown, 10000.0    unknown, 10000.0    unknown, 10000.0    tseitingrid7x185_shuffled.cnf
+dataset: other2 ( 22 instances)
++-------------------+------+----------+--------+------------+------+---------+-------+-------+
+|       solver      | #SAT | PAR2-SAT | #UNSAT | PAR2-UNSAT | #ALL |   PAR2  | #MONO | #BEST |
++-------------------+------+----------+--------+------------+------+---------+-------+-------+
+| pakis(kissat-MAB) |  8   |  140.48  |   9    |   681.6    |  17  |  2671.0 |   0   |   1   |
+|   kissat-MAB-sat  |  8   |  882.02  |   8    |   939.87   |  16  | 3558.04 |   0   |   0   |
+|     kissat+LA     |  8   |  124.69  |   9    |   957.17   |  17  | 2802.32 |   0   |   0   |
+|     kissat+RS     |  8   |  149.99  |   8    |   790.04   |  16  | 3183.65 |   0   |   0   |
+|    kissat+LA+s    |  8   |   69.7   |   9    |   652.87   |  17  | 2627.68 |   0   |   2   |
+|    kissat+RS+s    |  8   |  57.43   |   9    |   324.97   |  17  | 2458.71 |   0   |   5   |
+|    kissat+RS+d    |  8   |  139.39  |   8    |   537.31   |  16  | 3052.95 |   0   |   1   |
+|   kissat+RS+d+s   |  8   |  106.01  |   9    |   300.84   |  17  | 2466.52 |   0   |   8   |
++-------------------+------+----------+--------+------------+------+---------+-------+-------+
+
+
+pakis(kissat-MAB)   kissat-MAB-sat      kissat+LA           kissat+RS           kissat+LA+s         kissat+RS+s         kissat+RS+d         kissat+RS+d+s       instance_name
+sat, 410.91         sat, 3688.88        sat, 216.28         sat, 274.45         sat, 162.22         sat, 87.39          sat, 280.32         sat, 75.45          hcp_CP16_16.cnf
+sat, 65.33          sat, 2392.99        sat, 367.56         sat, 807.52         sat, 162.29         sat, 361.67         sat, 264.53         sat, 66.54          009-80-8.cnf
+sat, 838.16         unknown, 10000.0    sat, 1807.61        sat, 1045.6         sat, 1238.29        sat, 615.05         sat, 512.89         sat, 1152.11        8-5-6.cnf
+sat, 257.2          sat, 1237.35        sat, 176.56         sat, 222.54         sat, 112.23         sat, 110.41         sat, 147.72         sat, 107.39         ACG-15-10p1.cnf
+sat, 1184.51        unknown, 10000.0    sat, 3942.56        sat, 885.39         sat, 1605.55        sat, 91.89          sat, 4631.72        unknown, 10000.0    apn-sbox6-cut4-helpbox26.cnf
+unsat, 580.23       unknown, 10000.0    unknown, 10000.0    unknown, 10000.0    unknown, 10000.0    unsat, 178.18       unsat, 622.27       unsat, 57.13        beempgsol5b1.cnf
+unknown, 10000.0    unknown, 10000.0    unknown, 10000.0    unknown, 10000.0    unknown, 10000.0    unknown, 10000.0    unknown, 10000.0    unknown, 10000.0    ccp-s8-facto4.cnf
+unsat, 201.16       unsat, 297.56       unsat, 315.8        unsat, 319.51       unsat, 23.02        unsat, 12.05        unsat, 269.74       unsat, 12.06        contest03-SGI_30_50_30_20_3-dir.sat05-440.reshuffled-07.cnf
+unsat, 2215.65      unknown, 10000.0    unsat, 2835.76      unsat, 4986.2       unsat, 2125.65      unsat, 866.55       unsat, 3857.61      unsat, 641.35       cz-alt-3-7.cnf
+unsat, 0.35         unsat, 0.06         unsat, 0.41         unsat, 0.35         unsat, 1.01         unsat, 1.06         unsat, 0.37         unsat, 1.06         dlx1c.ucl.sat.chaff.4.1.bryant.cnf
+unsat, 3536.95      unknown, 10000.0    unknown, 10000.0    unknown, 10000.0    unknown, 10000.0    unsat, 232.18       unsat, 3279.22      unsat, 212.19       e_rphp096_04.cnf
+unsat, 4686.41      unknown, 10000.0    unknown, 10000.0    unknown, 10000.0    unknown, 10000.0    unsat, 1554.64      unsat, 4933.77      unsat, 1388.03      ex051_9-sc2018.cnf
+unsat, 14.57        unsat, 22.82        unsat, 20.12        unsat, 19.97        unsat, 21.13        unsat, 9.82         unsat, 21.32        unsat, 9.81         f6bidw.cnf
+unsat, 540.85       unsat, 622.66       unsat, 525.35       unsat, 586.5        unsat, 842.35       unsat, 118.93       unsat, 737.96       unsat, 110.05       filter_iir_true-unreach-call.c.cnf
+unknown, 10000.0    unknown, 10000.0    unknown, 10000.0    sat, 3355.8         unknown, 10000.0    unknown, 10000.0    unknown, 10000.0    unknown, 10000.0    frb59-26-1.used-as.sat04-891.cnf
+sat, 0.78           sat, 115.34         sat, 3.62           sat, 1.77           sat, 2.01           sat, 1.03           sat, 32.84          sat, 3.03           fsf-300-354-2-2-3-2.23.opt.cnf
+unsat, 580.59       unsat, 2371.59      unsat, 862.76       unsat, 1914.36      unsat, 404.17       unsat, 112.12       unsat, 580.34       unsat, 63.1         goldb-heqc-k2mul.cnf
+unknown, 10000.0    unknown, 10000.0    unknown, 10000.0    unknown, 10000.0    unknown, 10000.0    unknown, 10000.0    unknown, 10000.0    unknown, 10000.0    GreenTao_2-5-5_34308.cnf
+unknown, 10000.0    unknown, 10000.0    unknown, 10000.0    unknown, 10000.0    unknown, 10000.0    unknown, 10000.0    unknown, 10000.0    unknown, 10000.0    harder-php-025-024.sat05-1191.reshuffled-07.cnf
+unsat, 1187.16      unsat, 3702.97      unsat, 309.14       unsat, 3104.7       unsat, 123.17       unsat, 503.25       unsat, 695.96       unsat, 216.29       homer17.shuffled.cnf
+unknown, 10000.0    unknown, 10000.0    unknown, 10000.0    unknown, 10000.0    unknown, 10000.0    unknown, 10000.0    unknown, 10000.0    unknown, 10000.0    IBM_FV_2004_rule_batch_1_31_1_SAT_dat.k90.debugged.cnf
+unsat, 84.48        unsat, 126.97       unsat, 84.63        unsat, 113.79       unsat, 43.04        unsat, 24.07        unsat, 90.17        unsat, 22.05        jkkk-one-one-10-30-unsat.cnf
+unsat, 1892.18      unknown, 10000.0    unsat, 3176.76      unsat, 4666.15      unsat, 2121.31      unsat, 534.37       unsat, 2027.25      unsat, 286.32       Kittell-k7.cnf
+unknown, 10000.0    unknown, 10000.0    unknown, 10000.0    unknown, 10000.0    unknown, 10000.0    unknown, 10000.0    unknown, 10000.0    unknown, 10000.0    LED_round_29-32_faultAt_29_fault_injections_5_seed_1579630418.cnf
+unsat, 891.19       unknown, 10000.0    unsat, 1306.7       unsat, 1018.64      unsat, 1498.45      unsat, 667.41       unsat, 1164.62      unsat, 788.56       logistics-unsat-logistics-rotate-11t5.sat05-1141.reshuffled-07.cnf
+unsat, 344.74       unsat, 862.23       unsat, 460.46       unsat, 694.21       unsat, 264.06       unsat, 113.11       unsat, 569.28       unsat, 112.1        mm-2x3-8-8-sb.1.sat05-475.reshuffled-07.cnf
+sat, 2.17           sat, 276.3          sat, 4.99           sat, 5.24           sat, 7.01           sat, 5.02           sat, 9.97           sat, 14.03          mod2c-rand3bip-sat-220-2.sat05-2489.reshuffled-07.cnf
+unknown, 10000.0    unknown, 10000.0    unknown, 10000.0    unknown, 10000.0    unknown, 10000.0    unsat, 2863.91      unknown, 10000.0    unsat, 2736.66      Nb51T6-sc2018.cnf
+unsat, 102.98       unsat, 573.56       unsat, 546.13       unsat, 499.3        unsat, 150.23       unsat, 60.37        unsat, 109.7        unsat, 51.5         post-cbmc-aes-ee-r2.cnf
+unknown, 10000.0    unknown, 10000.0    unknown, 10000.0    unknown, 10000.0    unknown, 10000.0    unknown, 10000.0    unknown, 10000.0    unknown, 10000.0    PRESENT_round_1-32_faultAt_30_fault_injections_10_seed_1579630418.cnf
+sat, 1.58           sat, 1.81           sat, 2.5            sat, 1.92           sat, 2.06           sat, 2.4            sat, 2.13           sat, 2.39           prime2209-84.cnf
+unsat, 1814.42      unsat, 4489.58      unsat, 3436.72      unsat, 1539.66      unsat, 1815.74      unsat, 269.1        unsat, 1857.37      unsat, 126.06       QG7a-gensys-ukn009.sat05-3849.reshuffled-07.cnf
+unsat, 528.41       unsat, 1917.0       unsat, 520.45       unsat, 1720.61      unsat, 389.33       unsat, 209.17       unsat, 971.73       unsat, 161.1        rbcl_xits_08_UNSAT.cnf
+unsat, 731.19       unknown, 10000.0    unknown, 10000.0    unknown, 10000.0    unknown, 10000.0    unknown, 10000.0    unsat, 664.94       unsat, 362.38       rook-42-0-1.cnf
+unsat, 2407.14      unknown, 10000.0    unknown, 10000.0    unknown, 10000.0    unsat, 585.16       unsat, 183.17       unsat, 2608.59      unsat, 178.14       rphp4_090_shuffled.cnf
+unsat, 60.37        unsat, 707.74       unsat, 567.82       unsat, 481.42       unsat, 336.11       unsat, 126.22       unsat, 74.26        unsat, 38.28        SAT_dat.k80.cnf
+unsat, 525.5        unsat, 1051.06      unsat, 777.69       unsat, 747.55       unsat, 459.24       unsat, 156.0        unsat, 610.19       unsat, 168.87       schup-l2s-bc56s-1-k391.cnf
+unsat, 1875.41      unsat, 2339.5       unsat, 265.53       unsat, 2814.58      unsat, 132.03       unsat, 1476.32      unsat, 2076.58      unsat, 1886.71      sgen4-unsat-89-1.cnf
+unsat, 2192.68      unknown, 10000.0    unknown, 10000.0    unknown, 10000.0    unsat, 283.24       unsat, 160.11       unsat, 2453.78      unsat, 121.1        SGI_30_70_20_60_10-dir.shuffled-as.sat03-144.cnf
+sat, 110.62         sat, 269.62         sat, 10.98          sat, 7.14           sat, 28.11          sat, 27.81          sat, 24.42          sat, 48.63          sgp_5-6-8.sat05-2669.reshuffled-07.cnf
+unsat, 1.27         unsat, 4.05         unsat, 3.34         unsat, 1.46         unsat, 3.07         unsat, 5.26         unsat, 3.58         unsat, 1.25         simon03:sat02bis:k2fix_gr_2pinvar_w8.used-as.sat04-349.cnf
+unsat, 114.33       unsat, 231.64       unsat, 172.53       unsat, 186.64       unsat, 153.12       unsat, 46.11        unsat, 165.19       unsat, 42.09        simon-mixed-s02bis-05.cnf
+unknown, 10000.0    unknown, 10000.0    unknown, 10000.0    unknown, 10000.0    unknown, 10000.0    unknown, 10000.0    unknown, 10000.0    unknown, 10000.0    SocialGolfers-6-6-6-cp_c18.cnf
+sat, 7.69           sat, 3.61           sat, 4.43           sat, 2.96           sat, 4.11           sat, 3.69           sat, 6.86           sat, 2.63           sqrt_ineq_3.c.cnf
+sat, 6.29           sat, 327.86         sat, 0.66           sat, 1.19           sat, 1.01           sat, 4.04           sat, 1.6            sat, 1.03           stable-300-0.1-20-98765432130020.cnf
+unsat, 247.61       unsat, 333.28       unsat, 355.93       unsat, 306.57       unsat, 152.24       unsat, 30.55        unsat, 288.93       unsat, 30.48        traffic_kkb_unknown.cnf
+unknown, 10000.0    unknown, 10000.0    unknown, 10000.0    unknown, 10000.0    unknown, 10000.0    unknown, 10000.0    unknown, 10000.0    unknown, 10000.0    unsat-set-a-clqcolor-16-10-11.sat05-1253.reshuffled-07.cnf
+dataset: other1 ( 47 instances)
++-------------------+------+----------+--------+------------+------+---------+-------+-------+
+|       solver      | #SAT | PAR2-SAT | #UNSAT | PAR2-UNSAT | #ALL |   PAR2  | #MONO | #BEST |
++-------------------+------+----------+--------+------------+------+---------+-------+-------+
+| pakis(kissat-MAB) |  11  |  192.35  |   26   |   943.37   |  37  | 2771.13 |   0   |   4   |
+|   kissat-MAB-sat  |  9   |  554.25  |   17   |   677.73   |  26  | 5063.15 |   0   |   1   |
+|     kissat+LA     |  11  |  435.85  |   20   |   570.48   |  31  | 3895.36 |   0   |   1   |
+|     kissat+RS     |  12  |  440.77  |   20   |   886.97   |  32  | 3879.44 |   1   |   2   |
+|    kissat+LA+s    |  11  |  221.66  |   22   |   411.27   |  33  | 3303.23 |   0   |   2   |
+|    kissat+RS+s    |  11  |  87.36   |   26   |   362.55   |  37  | 2379.24 |   0   |   4   |
+|    kissat+RS+d    |  11  |  394.33  |   26   |  1059.82   |  37  | 2907.44 |   0   |   1   |
+|   kissat+RS+d+s   |  10  |  98.22   |   27   |   338.78   |  37  | 2368.04 |   0   |   24  |
++-------------------+------+----------+--------+------------+------+---------+-------+-------+
+
+
+pakis(kissat-MAB)   kissat-MAB-sat      kissat+LA           kissat+RS           kissat+LA+s         kissat+RS+s         kissat+RS+d         kissat+RS+d+s       instance_name
+sat, 28.81          sat, 145.39         sat, 9.25           sat, 16.97          sat, 18.03          sat, 31.14          sat, 21.79          sat, 29.1           mp1-9_49.cnf
+unsat, 246.56       unsat, 1279.09      unsat, 962.75       unsat, 1283.71      unsat, 217.07       unsat, 74.14        unsat, 326.89       unsat, 49.12        mp1-blockpuzzle_5x10_s7_free4.cnf
+unknown, 10000.0    unknown, 10000.0    unknown, 10000.0    unknown, 10000.0    unsat, 4896.71      unsat, 3474.1       unknown, 10000.0    unsat, 4974.25      mp1-rubikcube312.cnf
+unsat, 710.84       unsat, 1200.6       unsat, 749.54       unsat, 1337.28      unsat, 198.04       unsat, 110.15       unsat, 1051.45      unsat, 102.17       mp1-squ_any_s09x07_c27_bail_UNS.cnf
+unsat, 886.36       unsat, 2293.11      unsat, 1577.58      unsat, 1868.51      unsat, 1133.17      unsat, 262.21       unsat, 960.34       unsat, 162.13       g2-hwmcc15deep-6s33-k34.cnf
+unsat, 661.48       unsat, 864.03       unsat, 629.22       unsat, 832.28       unsat, 454.12       unsat, 139.28       unsat, 692.38       unsat, 146.23       g2-hwmcc15deep-6s516r-k17.cnf
+unsat, 2350.78      unknown, 10000.0    unknown, 10000.0    unknown, 10000.0    unknown, 10000.0    unsat, 1578.27      unsat, 2451.41      unsat, 910.03       g2-hwmcc15deep-bobpcihm-k31.cnf
+unsat, 1055.93      unsat, 1501.29      unsat, 1383.73      unsat, 1189.91      unsat, 1406.38      unsat, 396.02       unsat, 1156.39      unsat, 464.73       g2-T83.2.1.cnf
+unsat, 848.73       unsat, 1065.87      unsat, 1135.11      unsat, 993.61       unsat, 1166.68      unsat, 232.7        unsat, 931.66       unsat, 331.49       g2-T85.2.1.cnf
+unsat, 218.83       unsat, 369.58       unsat, 188.39       unsat, 423.63       unsat, 130.13       unsat, 57.06        unsat, 209.91       unsat, 49.03        size_4_4_4_i4096_r8.cnf
+unsat, 2165.56      unknown, 10000.0    unsat, 4350.7       unsat, 4738.12      unsat, 1583.52      unsat, 501.42       unsat, 2257.69      unsat, 390.39       size_4_5_5_i000_w31_r9.cnf
+unsat, 1880.25      unsat, 4508.51      unsat, 3824.49      unsat, 3883.87      unsat, 1657.23      unsat, 543.22       unsat, 1840.66      unsat, 462.22       size_4_5_5_i003_w31_r9.cnf
+unsat, 709.83       unsat, 2252.81      unsat, 1338.75      unsat, 1661.55      unsat, 701.25       unsat, 281.2        unsat, 696.88       unsat, 223.1        size_4_5_5_i028_w31_r9.cnf
+unsat, 2842.75      unknown, 10000.0    unsat, 4835.53      unknown, 10000.0    unsat, 1541.54      unsat, 623.19       unsat, 2558.85      unsat, 491.25       size_4_5_5_i031_w31_r9.cnf
+unsat, 2358.54      unknown, 10000.0    unsat, 3835.52      unknown, 10000.0    unsat, 1547.44      unsat, 654.38       unsat, 2197.16      unsat, 580.55       size_4_5_5_i032_w31_r9.cnf
+unsat, 1953.65      unsat, 4732.87      unsat, 3282.15      unsat, 3847.8       unsat, 1505.35      unsat, 464.18       unsat, 1951.71      unsat, 417.08       size_4_5_5_i035_w31_r9.cnf
+unsat, 1975.24      unknown, 10000.0    unsat, 3664.47      unsat, 4752.54      unsat, 1323.42      unsat, 710.25       unsat, 2080.81      unsat, 487.25       size_4_5_5_i037_w31_r9.cnf
+sat, 85.2           sat, 808.48         sat, 8.21           sat, 42.51          sat, 16.02          sat, 12.05          sat, 23.91          sat, 9.03           size_5_5_5_i003_r12.cnf
+sat, 31.74          sat, 139.92         sat, 11.91          sat, 4.56           sat, 19.05          sat, 16.05          sat, 8.63           sat, 24.06          size_5_5_5_i019_r12.cnf
+sat, 21.93          sat, 88.28          sat, 9.31           sat, 30.4           sat, 19.03          sat, 3.03           sat, 26.26          sat, 12.05          size_5_5_5_i041_r12.cnf
+sat, 8.6            sat, 8.16           sat, 8.82           sat, 8.37           sat, 9.01           sat, 17.05          sat, 4.12           sat, 22.04          size_5_5_5_i053_r12.cnf
+sat, 31.3           sat, 183.44         sat, 20.5           sat, 30.6           sat, 20.02          sat, 14.05          sat, 10.6           sat, 17.03          size_5_5_5_i058_r12.cnf
+sat, 287.53         sat, 3221.5         sat, 43.9           sat, 11.42          sat, 28.02          sat, 14.06          sat, 13.47          sat, 64.08          size_5_5_5_i059_r12.cnf
+sat, 24.95          sat, 72.92          sat, 3.1            sat, 10.23          sat, 29.04          sat, 3.03           sat, 13.15          sat, 16.04          size_5_5_5_i092_r12.cnf
+sat, 52.72          sat, 75.79          sat, 8.53           sat, 3.1            sat, 13.02          sat, 4.03           sat, 14.83          sat, 2.03           size_5_5_5_i131_r12.cnf
+sat, 37.28          sat, 203.31         sat, 27.86          sat, 11.56          sat, 34.05          sat, 14.07          sat, 23.82          sat, 8.03           size_5_5_5_i235_r12.cnf
+sat, 32.27          sat, 891.14         sat, 17.31          sat, 29.7           sat, 22.05          sat, 28.06          sat, 45.9           sat, 11.07          size_5_5_5_i260_r12.cnf
+unsat, 263.85       unsat, 522.89       unsat, 320.66       unsat, 242.39       unsat, 153.14       unsat, 22.82        unsat, 219.84       unsat, 21.76        sv-comp19_prop-reachsafety.newton_2_2_true-unreach-call_true-termination.i-witness.cnf
+sat, 124.55         sat, 295.59         sat, 979.19         sat, 225.22         sat, 179.07         sat, 214.41         sat, 210.97         sat, 188.8          sv-comp19_prop-reachsafety.queue_longer_false-unreach-call.i-witness.cnf
+dataset: old ( 29 instances)
++-------------------+------+----------+--------+------------+------+---------+-------+-------+
+|       solver      | #SAT | PAR2-SAT | #UNSAT | PAR2-UNSAT | #ALL |   PAR2  | #MONO | #BEST |
++-------------------+------+----------+--------+------------+------+---------+-------+-------+
+| pakis(kissat-MAB) |  12  |  63.91   |   16   |  1242.89   |  28  | 1099.86 |   0   |   1   |
+|   kissat-MAB-sat  |  12  |  511.16  |   11   |  1211.21   |  23  |  2990.5 |   0   |   0   |
+|     kissat+LA     |  12  |  95.66   |   15   |  1886.98   |  27  |  1835.4 |   0   |   2   |
+|     kissat+RS     |  12  |  35.39   |   13   |  1591.48   |  25  | 2326.89 |   0   |   2   |
+|    kissat+LA+s    |  12  |  33.87   |   16   |  1153.83   |  28  | 1035.23 |   0   |   0   |
+|    kissat+RS+s    |  12  |  30.92   |   17   |   595.56   |  29  |  361.92 |   0   |   6   |
+|    kissat+RS+d    |  12  |  34.79   |   16   |  1269.65   |  28  |  1103.5 |   0   |   2   |
+|   kissat+RS+d+s   |  12  |  33.61   |   17   |   603.69   |  29  |  367.8  |   0   |   16  |
++-------------------+------+----------+--------+------------+------+---------+-------+-------+

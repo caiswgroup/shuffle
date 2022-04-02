@@ -1,0 +1,8 @@
+SC2020
+TT7F-33-24E.cnf                     : tournament problem, Improving Directed Ramsey Numbers using SAT (David Neiman, Marijn Heule, and John Mackey)
+TT7F-33-25.cnf
+fermat-931960058139995587.cnf       : Fermat Factorization, PEQNP Python Library Benchmarks (Oscar Riveros)
+
+SC2021
+b2005-p3-12x12c10h7-Ser7-0.cnf      : Edge Matching problem, Edge-matching Puzzles as a Feature-Cardinality Problem (Dieter von Holten)
+rpoc_xits_10_UNKNOWN.cnf            : bioinformatics

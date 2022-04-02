@@ -1,0 +1,5 @@
+#define VERSION "sc2020"
+#define COMPILER "gcc (GCC) 8.5.0 20210514 (Red Hat 8.5.0-4) -W -Wall -O3 -DNEMBEDDED -DNDEBUG -DNMETRICS -DNSTATISTICS"
+#define ID "039805f203ac24f204fd6ae0b3d6bae54332ee1e"
+#define BUILD "Wed Feb 2 01:33:37 CST 2022 Linux cat5 4.18.0-305.19.1.el8_4.x86_64 x86_64"
+#define DIR "/home/zhangxd/solvers/rdpaper/kissat_sat/build/kissat/build"

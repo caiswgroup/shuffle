@@ -1,0 +1,5 @@
+#define VERSION "1.0.3"
+#define COMPILER "gcc (GCC) 8.5.0 20210514 (Red Hat 8.5.0-4) -W -Wall -O3 -DCOMPACT -DNEMBEDDED -DNDEBUG -DNMETRICS -DNSTATISTICS"
+#define ID "79d8d8f20465e71fd2b0f193b468898cd803a59a"
+#define BUILD "Tue Feb 22 14:56:02 CST 2022 Linux cat5 4.18.0-305.19.1.el8_4.x86_64 x86_64"
+#define DIR "/home/zhangxd/solvers/rdpaper/shuffle_sharing_diversity_mab/kissat_mab/build"

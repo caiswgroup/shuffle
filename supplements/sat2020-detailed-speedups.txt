@@ -1,0 +1,733 @@
+
+LA+s(1t)         4t               8t               16t              32t              64t              |RS+s(1t)        4t               8t               16t              32t              64t              instance_name
+sat,2443.02      sat,2701.71      sat,419.62       sat,591.82       sat,329.74       sat,385.0        sat,2443.02      sat,3456.81      sat,1313.81      sat,255.17       sat,185.51       sat,281.04       01-integer-programming-20-30-40.cnf
+unknown,10000.0  unknown,10000.0  unknown,10000.0  unknown,10000.0  unknown,10000.0  unknown,10000.0  unknown,10000.0  unknown,10000.0  unknown,10000.0  unknown,10000.0  unknown,10000.0  unknown,10000.0  01-integer-programming-5-10-100.cnf
+dataset: 01-integer-programming ( 2 instances)
++-------------+------------+------------+-------------+-------------+-------------+
+|    Solver   | 4t-speedup | 8t-speedup | 16t-speedup | 32t-speedup | 64t-speedup |
++-------------+------------+------------+-------------+-------------+-------------+
+| kissat+LA+s |    0.9     |    5.82    |     4.13    |     7.41    |     6.35    |
+| kissat+RS+s |    0.71    |    1.86    |     9.57    |    13.17    |     8.69    |
++-------------+------------+------------+-------------+-------------+-------------+
+
+LA+s(1t)         4t               8t               16t              32t              64t              |RS+s(1t)        4t               8t               16t              32t              64t              instance_name
+sat,10.28        sat,39.08        sat,61.07        sat,17.09        sat,14.1         sat,11.19        sat,10.28        sat,19.15        sat,22.37        sat,4.49         sat,14.46        sat,18.17        schur-triples-7-60.cnf
+sat,839.71       sat,1098.25      sat,74.18        sat,90.18        sat,57.22        sat,77.48        sat,839.71       sat,107.4        sat,80.94        sat,221.27       sat,58.2         sat,71.78        schur-triples-7-90.cnf
+dataset: schur-coloring ( 2 instances)
++-------------+------------+------------+-------------+-------------+-------------+
+|    Solver   | 4t-speedup | 8t-speedup | 16t-speedup | 32t-speedup | 64t-speedup |
++-------------+------------+------------+-------------+-------------+-------------+
+| kissat+LA+s |    0.51    |    5.74    |     4.96    |     7.7     |     5.88    |
+| kissat+RS+s |    4.18    |    5.42    |     3.04    |     7.57    |     6.13    |
++-------------+------------+------------+-------------+-------------+-------------+
+
+LA+s(1t)         4t               8t               16t              32t              64t              |RS+s(1t)        4t               8t               16t              32t              64t              instance_name
+sat,342.69       sat,158.02       sat,114.06       sat,14.02        sat,79.06        sat,28.05        sat,342.69       sat,114.03       sat,10.06        sat,72.06        sat,42.07        sat,5.13         fermat-33106286870663.cnf
+sat,3986.8       sat,3947.31      sat,1300.13      sat,1655.16      sat,978.16       sat,459.43       sat,3986.8       sat,1167.12      sat,1341.14      sat,353.1        sat,250.16       sat,951.86       fermat-770131695059117.cnf
+unknown,10000.0  unknown,10000.0  unknown,10000.0  unknown,10000.0  unknown,10000.0  unknown,10000.0  unknown,10000.0  unknown,10000.0  unknown,10000.0  sat,4523.73      sat,103.12       sat,1596.3       fermat-834855329100173267.cnf
+sat,1659.77      sat,466.05       sat,117.03       sat,66.02        sat,34.04        sat,92.15        sat,1659.77      sat,388.06       sat,23.04        sat,169.08       sat,104.09       sat,10.14        fermat-907547022132073.cnf
+unknown,10000.0  unknown,10000.0  unknown,10000.0  unknown,10000.0  unknown,10000.0  unknown,10000.0  unknown,10000.0  unknown,10000.0  unknown,10000.0  unknown,10000.0  sat,783.32       unknown,10000.0  fermat-931960058139995587.cnf
+dataset: fermat ( 5 instances)
++-------------+------------+------------+-------------+-------------+-------------+
+|    Solver   | 4t-speedup | 8t-speedup | 16t-speedup | 32t-speedup | 64t-speedup |
++-------------+------------+------------+-------------+-------------+-------------+
+| kissat+LA+s |    2.25    |    6.75    |    17.33    |    19.05    |    12.97    |
+| kissat+RS+s |    3.57    |   36.36    |     8.62    |    13.34    |    78.19    |
++-------------+------------+------------+-------------+-------------+-------------+
+
+LA+s(1t)         4t               8t               16t              32t              64t              |RS+s(1t)        4t               8t               16t              32t              64t              instance_name
+unknown,10000.0  unknown,10000.0  sat,2426.37      sat,3368.36      sat,3275.37      sat,298.47       unknown,10000.0  unknown,10000.0  unknown,10000.0  sat,2352.67      sat,1821.96      sat,1138.86      ssp-0.046166496845693274.cnf
+unknown,10000.0  unknown,10000.0  unknown,10000.0  unknown,10000.0  sat,370.11       sat,1987.84      unknown,10000.0  unknown,10000.0  sat,96.15        sat,821.33       sat,4285.92      sat,2249.41      ssp-0.497665446947731.cnf
+dataset: sum-subset ( 2 instances)
++-------------+------------+------------+-------------+-------------+-------------+
+|    Solver   | 4t-speedup | 8t-speedup | 16t-speedup | 32t-speedup | 64t-speedup |
++-------------+------------+------------+-------------+-------------+-------------+
+| kissat+LA+s |    ---     |    ---     |     ---     |     ---     |     ---     |
+| kissat+RS+s |    ---     |    ---     |     ---     |     ---     |     ---     |
++-------------+------------+------------+-------------+-------------+-------------+
+
+LA+s(1t)         4t               8t               16t              32t              64t              |RS+s(1t)        4t               8t               16t              32t              64t              instance_name
+unknown,10000.0  unknown,10000.0  unknown,10000.0  unknown,10000.0  unknown,10000.0  unknown,10000.0  unknown,10000.0  unknown,10000.0  unknown,10000.0  unknown,10000.0  unknown,10000.0  unknown,10000.0  abw-I-ash85.mtx-w24.cnf
+unknown,10000.0  unknown,10000.0  unknown,10000.0  unknown,10000.0  unknown,10000.0  unknown,10000.0  unknown,10000.0  unknown,10000.0  unknown,10000.0  unknown,10000.0  unknown,10000.0  unknown,10000.0  abw-I-ash85.mtx-w25.cnf
+unknown,10000.0  sat,916.11       sat,3040.3       sat,548.09       sat,1082.24      sat,265.39       unknown,10000.0  unknown,10000.0  unknown,10000.0  sat,3843.58      sat,952.35       sat,183.59       abw-K-dwt__234.mtx-w51.cnf
+unknown,10000.0  unknown,10000.0  unknown,10000.0  unknown,10000.0  unknown,10000.0  unknown,10000.0  unknown,10000.0  unknown,10000.0  unknown,10000.0  unknown,10000.0  unknown,10000.0  unknown,10000.0  abw-K-dwt__234.mtx-w54.cnf
+unsat,1388.93    unsat,738.08     unsat,612.08     unsat,623.1      unsat,433.44     unsat,323.38     unsat,1388.93    unsat,506.11     unsat,270.2      unsat,189.21     unsat,135.29     unsat,85.51      abw-K-dwt__234.mtx-w55.cnf
+sat,2200.8       sat,557.0        sat,590.0        sat,510.91       sat,332.83       sat,527.42       sat,2200.8       unknown,10000.0  sat,572.3        sat,367.09       sat,857.04       sat,546.55       abw-N-bcsstk07.mtx-w35.cnf
+unknown,10000.0  unknown,10000.0  unknown,10000.0  unknown,10000.0  unknown,10000.0  unknown,10000.0  unknown,10000.0  unknown,10000.0  unknown,10000.0  unknown,10000.0  unknown,10000.0  unknown,10000.0  abw-N-bcsstk07.mtx-w38.cnf
+unsat,623.41     unsat,351.79     unsat,416.58     unsat,311.6      unsat,228.67     unsat,302.97     unsat,623.41     unsat,212.84     unsat,157.78     unsat,109.24     unsat,128.06     unsat,95.61      abw-N-bcsstk07.mtx-w44.cnf
+sat,690.74       sat,419.58       sat,221.56       sat,165.46       sat,87.47        sat,92.6         sat,690.74       sat,118.53       sat,270.03       sat,373.62       sat,189.61       sat,185.85       abw-O-impcol_d.mtx-w101.cnf
+sat,1815.39      sat,827.55       sat,821.58       sat,955.47       sat,413.45       sat,423.96       sat,1815.39      sat,2467.85      sat,332.7        sat,1589.32      sat,744.91       sat,589.94       abw-Q-494_bus.mtx-w208.cnf
+unknown,10000.0  unknown,10000.0  unknown,10000.0  unknown,10000.0  unknown,10000.0  unknown,10000.0  unknown,10000.0  unknown,10000.0  unknown,10000.0  unknown,10000.0  unknown,10000.0  unknown,10000.0  abw-Q-494_bus.mtx-w242.cnf
+sat,1733.4       sat,1703.13      sat,1483.19      sat,576.72       sat,1080.91      sat,1126.7       sat,1733.4       sat,2490.2       unknown,10000.0  sat,2767.35      sat,4255.09      sat,3977.17      abw-R-dwt__503.mtx-w64.cnf
+sat,1672.32      sat,1332.24      sat,675.2        sat,864.99       sat,1029.82      sat,616.39       sat,1672.32      sat,3476.29      sat,2060.33      sat,1229.55      sat,808.57       sat,1634.61      abw-V-nos6.mtx-w220.cnf
+sat,2619.53      sat,1386.98      sat,1302.4       sat,523.44       sat,1086.82      sat,963.4        sat,2619.53      sat,2121.59      unknown,10000.0  unknown,10000.0  sat,3554.87      sat,3891.33      abw-X-can__715.mtx-w103.cnf
+dataset: antibandwidth ( 14 instances)
++-------------+------------+------------+-------------+-------------+-------------+
+|    Solver   | 4t-speedup | 8t-speedup | 16t-speedup | 32t-speedup | 64t-speedup |
++-------------+------------+------------+-------------+-------------+-------------+
+| kissat+LA+s |    1.95    |    2.31    |     3.07    |     3.81    |     3.65    |
+| kissat+RS+s |    2.09    |    3.63    |     3.43    |     3.37    |     4.46    |
++-------------+------------+------------+-------------+-------------+-------------+
+
+LA+s(1t)         4t               8t               16t              32t              64t              |RS+s(1t)        4t               8t               16t              32t              64t              instance_name
+sat,276.51       sat,140.63       sat,196.26       sat,171.15       sat,204.1        sat,164.47       sat,276.51       sat,119.38       sat,140.78       sat,115.26       sat,84.15        sat,85.45        baseballcover11with22_and2positions.cnf
+sat,203.25       sat,140.29       sat,118.63       sat,194.33       sat,210.4        sat,191.36       sat,203.25       sat,177.91       sat,240.65       sat,152.08       sat,86.28        sat,89.48        baseballcover11with25_and5positions.cnf
+unsat,1025.17    unsat,700.86     unsat,589.74     unsat,623.82     unsat,608.93     unsat,590.38     unsat,1025.17    unsat,586.07     unsat,596.48     unsat,485.7      unsat,348.69     unsat,250.38     baseballcover12with22_and2positions.cnf
+sat,272.5        sat,218.59       sat,204.69       sat,234.61       sat,242.09       sat,223.54       sat,272.5        sat,212.7        sat,203.1        sat,129.63       sat,115.3        sat,123.87       baseballcover12with23_and2positions.cnf
+sat,261.68       sat,231.58       sat,182.56       sat,242.67       sat,161.9        sat,163.81       sat,261.68       sat,128.49       sat,172.88       sat,108.49       sat,92.7         sat,94.94        baseballcover12with24_and2positions.cnf
+unknown,10000.0  unknown,10000.0  unknown,10000.0  unknown,10000.0  unknown,10000.0  unknown,10000.0  unknown,10000.0  unknown,10000.0  unknown,10000.0  unknown,10000.0  unknown,10000.0  unknown,10000.0  baseballcover12with25_and5positions.cnf
+sat,146.51       sat,64.51        sat,108.61       sat,78.67        sat,74.51        sat,78.64        sat,146.51       sat,149.28       sat,107.24       sat,53.35        sat,36.69        sat,45.44        baseballcover13with25_and1positions.cnf
+unsat,3062.15    unsat,2057.27    unsat,1453.27    unsat,1405.95    unsat,1317.82    unsat,1495.42    unsat,3062.15    unsat,2305.89    unsat,2108.12    unsat,1505.38    unsat,1478.08    unsat,1410.13    baseballcover13with25_and3positions.cnf
+sat,58.63        sat,54.61        sat,61.58        sat,59.66        sat,54.42        sat,56.63        sat,58.63        sat,94.26        sat,69.02        sat,35.9         sat,33.42        sat,33.45        baseballcover13with25.cnf
+unsat,292.92     unsat,185.25     unsat,283.45     unsat,179.49     unsat,215.36     unsat,167.74     unsat,292.92     unsat,256.01     unsat,324.51     unsat,163.46     unsat,69.61      unsat,56.82      baseballcover14with25_and1positions.cnf
+unsat,382.53     unsat,291.72     unsat,419.24     unsat,411.86     unsat,387.92     unsat,235.13     unsat,382.53     unsat,277.16     unsat,326.45     unsat,226.18     unsat,145.77     unsat,146.12     baseballcover14with25_and2positions.cnf
+unsat,356.76     unsat,203.37     unsat,213.42     unsat,167.29     unsat,291.41     unsat,165.65     unsat,356.76     unsat,243.05     unsat,174.4      unsat,123.28     unsat,59.59      unsat,50.47      baseballcover14with25.cnf
+unsat,127.4      unsat,168.4      unsat,136.39     unsat,103.29     unsat,123.42     unsat,105.6      unsat,127.4      unsat,90.97      unsat,109.1      unsat,72.61      unsat,41.2       unsat,40.05      baseballcover15with25.cnf
+dataset: baseball-lineup ( 13 instances)
++-------------+------------+------------+-------------+-------------+-------------+
+|    Solver   | 4t-speedup | 8t-speedup | 16t-speedup | 32t-speedup | 64t-speedup |
++-------------+------------+------------+-------------+-------------+-------------+
+| kissat+LA+s |    1.46    |    1.38    |     1.46    |     1.39    |     1.58    |
+| kissat+RS+s |    1.4     |    1.36    |     2.08    |     3.12    |     3.31    |
++-------------+------------+------------+-------------+-------------+-------------+
+
+LA+s(1t)         4t               8t               16t              32t              64t              |RS+s(1t)        4t               8t               16t              32t              64t              instance_name
+unknown,10000.0  unknown,10000.0  unknown,10000.0  unknown,10000.0  unknown,10000.0  unknown,10000.0  unknown,10000.0  unknown,10000.0  unknown,10000.0  unknown,10000.0  unknown,10000.0  unsat,1328.31    bv-term-small-rw_1159.smt2.cnf
+unknown,10000.0  unknown,10000.0  unknown,10000.0  unknown,10000.0  unknown,10000.0  unknown,10000.0  unknown,10000.0  unknown,10000.0  unknown,10000.0  unknown,10000.0  unknown,10000.0  unknown,10000.0  bv-term-small-rw_1220.smt2.cnf
+unknown,10000.0  unknown,10000.0  unknown,10000.0  unknown,10000.0  unknown,10000.0  unknown,10000.0  unknown,10000.0  unknown,10000.0  unknown,10000.0  unknown,10000.0  unknown,10000.0  unknown,10000.0  bv-term-small-rw_206.smt2.cnf
+unknown,10000.0  unknown,10000.0  unknown,10000.0  unknown,10000.0  unknown,10000.0  unknown,10000.0  unknown,10000.0  unknown,10000.0  unknown,10000.0  unknown,10000.0  unknown,10000.0  unknown,10000.0  bv-term-small-rw_350.smt2.cnf
+unknown,10000.0  unknown,10000.0  unknown,10000.0  unknown,10000.0  unknown,10000.0  unknown,10000.0  unknown,10000.0  unknown,10000.0  unknown,10000.0  unknown,10000.0  unknown,10000.0  unsat,1531.74    bv-term-small-rw_503.smt2.cnf
+unknown,10000.0  unknown,10000.0  unknown,10000.0  unknown,10000.0  unknown,10000.0  unknown,10000.0  unknown,10000.0  unknown,10000.0  unknown,10000.0  unknown,10000.0  unknown,10000.0  unknown,10000.0  bv-term-small-rw_848.smt2.cnf
+unknown,10000.0  unknown,10000.0  unknown,10000.0  unknown,10000.0  unknown,10000.0  unknown,10000.0  unknown,10000.0  unknown,10000.0  unknown,10000.0  unsat,1765.19    unsat,1488.16    unsat,637.79     22930-0426-195.smt2.cnf
+unknown,10000.0  unknown,10000.0  unknown,10000.0  unknown,10000.0  unknown,10000.0  unknown,10000.0  unknown,10000.0  unknown,10000.0  unknown,10000.0  unsat,2234.23    unsat,1022.25    unsat,578.48     22930-0601-11.smt2.cnf
+unknown,10000.0  unknown,10000.0  unknown,10000.0  unknown,10000.0  unknown,10000.0  unknown,10000.0  unknown,10000.0  unknown,10000.0  unknown,10000.0  unknown,10000.0  unknown,10000.0  unknown,10000.0  mulhs16.smt2.cnf
+unknown,10000.0  unknown,10000.0  unsat,2743.22    unsat,2661.22    unsat,2768.92    unsat,1895.49    unknown,10000.0  unsat,4250.33    unsat,2892.26    unsat,1948.17    unsat,1784.63    unsat,1637.28    iffyInterleavedModMult-8.smt2.cnf
+unsat,1023.87    unsat,3715.28    unsat,1763.14    unsat,1595.14    unsat,1671.56    unsat,1232.85    unsat,1023.87    unsat,983.09     unsat,607.08     unsat,737.1      unsat,434.2      unsat,395.5      problem_19.smt2.cnf
+unknown,10000.0  unknown,10000.0  unknown,10000.0  unknown,10000.0  unknown,10000.0  unknown,10000.0  unknown,10000.0  unknown,10000.0  unknown,10000.0  unknown,10000.0  unknown,10000.0  unknown,10000.0  problem_21.smt2.cnf
+unsat,1140.32    unsat,863.07     unsat,833.07     unsat,850.08     unsat,686.23     unsat,944.17     unsat,1140.32    unsat,719.07     unsat,388.05     unsat,249.06     unsat,114.12     unsat,86.24      problem_23.smt2.cnf
+unknown,10000.0  unsat,2942.21    unsat,2865.21    unsat,3158.23    unsat,2875.39    unsat,2863.71    unknown,10000.0  unsat,3285.26    unsat,2287.19    unsat,2373.2     unsat,1715.38    unsat,1510.17    uum12.smt2.cnf
+dataset: bitvector ( 14 instances)
++-------------+------------+------------+-------------+-------------+-------------+
+|    Solver   | 4t-speedup | 8t-speedup | 16t-speedup | 32t-speedup | 64t-speedup |
++-------------+------------+------------+-------------+-------------+-------------+
+| kissat+LA+s |    0.8     |    0.97    |     0.99    |     1.14    |     1.02    |
+| kissat+RS+s |    1.31    |    2.31    |     2.98    |     6.18    |     7.91    |
++-------------+------------+------------+-------------+-------------+-------------+
+
+LA+s(1t)         4t               8t               16t              32t              64t              |RS+s(1t)        4t               8t               16t              32t              64t              instance_name
+unsat,48.37      unsat,49.24      unsat,67.26      unsat,133.28     unsat,114.25     unsat,111.24     unsat,48.37      unsat,37.74      unsat,123.08     unsat,96.01      unsat,71.72      unsat,113.61     ps_200_300_70.cnf
+unsat,42.34      unsat,123.24     unsat,71.27      unsat,84.29      unsat,116.19     unsat,120.34     unsat,42.34      unsat,62.81      unsat,40.27      unsat,59.12      unsat,46.82      unsat,71.98      ps_200_301_70.cnf
+unsat,49.23      unsat,100.25     unsat,140.23     unsat,78.19      unsat,101.19     unsat,175.29     unsat,49.23      unsat,43.74      unsat,40.27      unsat,169.01     unsat,71.92      unsat,79.88      ps_200_305_70.cnf
+unsat,65.07      unsat,44.25      unsat,39.25      unsat,121.23     unsat,49.2       unsat,93.5       unsat,65.07      unsat,43.85      unsat,285.37     unsat,75.14      unsat,96.09      unsat,87.94      ps_200_306_70.cnf
+unsat,76.91      unsat,112.26     unsat,119.25     unsat,88.21      unsat,168.21     unsat,127.3      unsat,76.91      unsat,54.76      unsat,142.34     unsat,242.27     unsat,166.02     unsat,102.14     ps_200_316_70.cnf
+unsat,155.79     unsat,42.24      unsat,102.26     unsat,119.27     unsat,145.21     unsat,159.41     unsat,155.79     unsat,244.81     unsat,50.39      unsat,67.05      unsat,59.96      unsat,117.59     ps_200_317_70.cnf
+unknown,10000.0  unsat,303.29     unsat,317.3      unsat,73.29      unsat,110.32     unsat,129.32     unknown,10000.0  unsat,363.88     unsat,65.42      unsat,137.09     unsat,140.24     unsat,118.25     ps_200_323_70.cnf
+sat,14.26        sat,13.4         sat,6.42         sat,9.42         sat,9.28         sat,9.34         sat,14.26        sat,13.17        sat,15.32        sat,63.88        sat,30.94        sat,42.66        ps_300_301_30.cnf
+sat,10.78        sat,9.4          sat,8.38         sat,9.45         sat,4.27         sat,7.38         sat,10.78        sat,9.22         sat,24.54        sat,18.85        sat,24.47        sat,71.98        ps_300_311_20.cnf
+sat,22.87        sat,11.41        sat,11.45        sat,9.44         sat,11.28        sat,10.44        sat,22.87        sat,37.3         sat,23.88        sat,20.93        sat,23.46        sat,119.31       ps_300_312_20.cnf
+sat,4.45         sat,14.41        sat,7.41         sat,8.44         sat,7.3          sat,6.53         sat,4.45         sat,6.28         sat,14.22        sat,15.99        sat,39.39        sat,63.2         ps_300_314_20.cnf
+sat,11.13        sat,8.42         sat,10.44        sat,4.45         sat,6.3          sat,9.4          sat,11.13        sat,10.28        sat,19.27        sat,22.1         sat,57.17        sat,38.45        ps_300_322_20.cnf
+dataset: cellular-automata ( 12 instances)
++-------------+------------+------------+-------------+-------------+-------------+
+|    Solver   | 4t-speedup | 8t-speedup | 16t-speedup | 32t-speedup | 64t-speedup |
++-------------+------------+------------+-------------+-------------+-------------+
+| kissat+LA+s |    1.23    |    1.15    |     1.12    |     1.14    |     0.94    |
+| kissat+RS+s |    1.02    |    0.89    |     0.7     |     0.74    |     0.5     |
++-------------+------------+------------+-------------+-------------+-------------+
+
+LA+s(1t)         4t               8t               16t              32t              64t              |RS+s(1t)        4t               8t               16t              32t              64t              instance_name
+unsat,54.18      unsat,35.03      unsat,37.08      unsat,32.09      unsat,34.11      unsat,17.16      unsat,54.18      unsat,35.12      unsat,15.16      unsat,7.38       unsat,7.3        unsat,9.59       3bitadd_32.cnf.gz.CP3-cnfmiter.cnf
+unsat,30.32      unsat,38.03      unsat,34.04      unsat,33.06      unsat,22.07      unsat,19.13      unsat,30.32      unsat,17.07      unsat,8.12       unsat,7.2        unsat,5.21       unsat,5.37       fclqcolor-18-14-11.cnf.gz.CP3-cnfmiter.cnf
+unsat,64.36      unsat,77.05      unsat,46.04      unsat,73.08      unsat,39.12      unsat,33.18      unsat,64.36      unsat,30.11      unsat,16.16      unknown,10000.0  unsat,7.29       unsat,7.6        fclqcolor-20-15-12.cnf.gz.CP3-cnfmiter.cnf
+unsat,140.22     unsat,115.1      unsat,102.11     unsat,86.12      unsat,108.13     unsat,81.29      unsat,140.22     unsat,67.24      unsat,40.48      unsat,36.69      unsat,39.76      unknown,10000.0  lang23.cnf.gz.CP3-cnfmiter.cnf
+unsat,889.79     unsat,289.13     unsat,351.21     unsat,417.25     unsat,429.4      unsat,327.61     unsat,889.79     unsat,271.57     unknown,10000.0  unknown,10000.0  unsat,172.49     unsat,141.72     lang28.cnf.gz.CP3-cnfmiter.cnf
+unsat,44.52      unsat,15.04      unsat,15.03      unsat,14.06      unsat,16.07      unsat,15.12      unsat,44.52      unsat,9.1        unsat,7.16       unsat,7.29       unsat,7.26       unsat,10.57      ls15-normalized.cnf.gz.CP3-cnfmiter.cnf
+unsat,73.94      unsat,35.05      unsat,23.05      unsat,28.1       unsat,31.11      unsat,29.17      unsat,73.94      unsat,16.12      unsat,10.3       unsat,9.36       unsat,10.35      unsat,11.71      ls16-normalized.cnf.gz.CP3-cnfmiter.cnf
+dataset: cnf-miter ( 7 instances)
++-------------+------------+------------+-------------+-------------+-------------+
+|    Solver   | 4t-speedup | 8t-speedup | 16t-speedup | 32t-speedup | 64t-speedup |
++-------------+------------+------------+-------------+-------------+-------------+
+| kissat+LA+s |    1.79    |    1.98    |     1.86    |     1.87    |     2.37    |
+| kissat+RS+s |    2.9     |    4.69    |     5.88    |     6.29    |     6.1     |
++-------------+------------+------------+-------------+-------------+-------------+
+
+LA+s(1t)         4t               8t               16t              32t              64t              |RS+s(1t)        4t               8t               16t              32t              64t              instance_name
+sat,22.18        sat,21.47        sat,22.97        sat,21.44        sat,23.09        sat,28.43        sat,22.18        sat,21.21        sat,22.93        sat,24.8         sat,23.61        sat,26.8         4g_5color_166_100_02.cnf
+unknown,10000.0  unknown,10000.0  unknown,10000.0  unknown,10000.0  unknown,10000.0  unknown,10000.0  unknown,10000.0  unknown,10000.0  unknown,10000.0  unknown,10000.0  unknown,10000.0  unknown,10000.0  4g_5color_168_100_02.cnf
+sat,420.75       sat,4.24         sat,19.27        sat,4.17         sat,6.17         sat,2.15         sat,420.75       sat,20.59        sat,158.65       sat,175.82       sat,1.76         sat,1.97         4g_5color_170_050_05.cnf
+unknown,10000.0  unknown,10000.0  unknown,10000.0  unknown,10000.0  unknown,10000.0  unknown,10000.0  unknown,10000.0  unknown,10000.0  unknown,10000.0  unknown,10000.0  unknown,10000.0  unknown,10000.0  4g_5color_170_060_05.cnf
+unknown,10000.0  unknown,10000.0  unknown,10000.0  unknown,10000.0  unknown,10000.0  sat,2560.52      unknown,10000.0  unknown,10000.0  sat,1144.87      sat,1069.73      sat,1444.39      sat,724.31       4g_6color_180_100_02.cnf
+unknown,10000.0  unknown,10000.0  sat,4171.17      unknown,10000.0  unknown,10000.0  sat,1151.73      unknown,10000.0  sat,1846.31      sat,1214.09      sat,1456.06      sat,3077.83      sat,86.69        4g_6color_182_100_02.cnf
+unknown,10000.0  sat,1950.79      sat,903.57       sat,1237.74      sat,398.66       sat,349.78       unknown,10000.0  sat,1756.43      sat,3343.37      sat,323.57       sat,73.8         sat,98.31        4g_6color_366_060_06.cnf
+unknown,10000.0  unknown,10000.0  unknown,10000.0  unknown,10000.0  unknown,10000.0  unknown,10000.0  unknown,10000.0  unknown,10000.0  unknown,10000.0  unknown,10000.0  unknown,10000.0  unknown,10000.0  4g_6color_366_070_06.cnf
+sat,39.99        sat,41.62        sat,41.36        sat,45.94        sat,38.75        sat,37.13        sat,39.99        sat,42.12        sat,46.68        sat,43.92        sat,49.84        sat,48.06        6g_5color_164_100_01.cnf
+unknown,10000.0  unknown,10000.0  sat,174.74       sat,1228.66      sat,246.88       sat,70.83        unknown,10000.0  sat,139.21       sat,134.08       sat,46.4         sat,66.04        sat,49.53        6g_5color_166_100_01.cnf
+sat,14.85        sat,2.03         sat,2.03         sat,1.04         sat,1.03         sat,2.04         sat,14.85        sat,1.07         sat,2.09         sat,2.1          sat,2.14         sat,2.26         6g_5color_170_020_04.cnf
+unknown,10000.0  unknown,10000.0  unknown,10000.0  unknown,10000.0  unknown,10000.0  sat,1205.1       unknown,10000.0  unknown,10000.0  unknown,10000.0  unknown,10000.0  unknown,10000.0  sat,3319.35      6g_5color_170_030_04.cnf
+unknown,10000.0  unknown,10000.0  sat,953.51       sat,980.7        sat,935.57       sat,922.26       unknown,10000.0  unknown,10000.0  sat,2057.26      sat,2379.15      sat,2126.19      sat,1439.13      6g_6color_366_040_04.cnf
+unknown,10000.0  unknown,10000.0  sat,4043.25      sat,162.73       sat,173.5        sat,170.7        unknown,10000.0  unknown,10000.0  unknown,10000.0  sat,399.63       sat,3046.92      sat,76.92        6g_6color_366_050_04.cnf
+dataset: coloring ( 14 instances)
++-------------+------------+------------+-------------+-------------+-------------+
+|    Solver   | 4t-speedup | 8t-speedup | 16t-speedup | 32t-speedup | 64t-speedup |
++-------------+------------+------------+-------------+-------------+-------------+
+| kissat+LA+s |   27.15    |    7.77    |    29.28    |    21.16    |    51.21    |
+| kissat+RS+s |    9.08    |    2.89    |     2.82    |     61.8    |    55.37    |
++-------------+------------+------------+-------------+-------------+-------------+
+
+LA+s(1t)         4t               8t               16t              32t              64t              |RS+s(1t)        4t               8t               16t              32t              64t              instance_name
+unsat,1141.91    unsat,210.6      unsat,244.56     unsat,314.51     unsat,321.6      unsat,213.75     unsat,1141.91    unsat,237.99     unsat,135.09     unsat,104.02     unknown,10000.0  unsat,49.03      ncc_none_12477_5_3_3_0_0_435991723.cnf
+sat,950.42       sat,312.75       sat,301.75       sat,420.85       sat,490.61       sat,286.9        sat,950.42       sat,202.09       sat,129.72       sat,89.86        sat,57.59        sat,48.79        ncc_none_12477_5_3_3_1_0_435991723.cnf
+unsat,2265.77    unsat,883.0      unsat,1483.1     unsat,1715.86    unsat,1121.4     unsat,742.49     unsat,2265.77    unsat,540.22     unsat,321.23     unsat,187.39     unknown,10000.0  unknown,10000.0  ncc_none_21015_5_3_3_0_0_11.cnf
+sat,2217.74      sat,734.24       sat,1674.38      sat,1121.36      sat,1221.23      sat,690.49       sat,2217.74      sat,551.47       sat,313.46       sat,201.3        sat,132.32       unknown,10000.0  ncc_none_21015_5_3_3_1_0_11.cnf
+unknown,10000.0  unsat,4243.53    unsat,4914.07    unsat,2806.74    unsat,4198.89    unsat,3950.35    unknown,10000.0  unsat,3822.26    unsat,3115.51    unsat,3717.39    unsat,2109.38    unsat,2293.19    ncc_none_2_17_4_3_0_0_435991723.cnf
+sat,808.47       sat,209.34       sat,113.39       sat,312.5        sat,266.02       sat,224.18       sat,808.47       sat,236.81       sat,300.32       sat,153.09       sat,154.44       sat,164.61       ncc_none_2_18_8_3_1_0_435991723.cnf
+unsat,2913.93    unsat,669.42     unsat,986.3      unsat,719.25     unsat,1427.2     unsat,1552.68    unsat,2913.93    unsat,1175.73    unsat,1305.57    unsat,997.52     unsat,836.0      unsat,746.86     ncc_none_2_18_9_3_0_0_435991723.cnf
+unknown,10000.0  sat,2336.98      sat,1520.1       sat,3322.24      sat,3331.26      sat,1606.89      unknown,10000.0  sat,2071.9       sat,4265.2       sat,892.36       sat,1425.53      sat,944.13       ncc_none_2_19_5_3_1_0_435991723.cnf
+sat,1122.98      sat,243.14       sat,360.12       sat,278.21       sat,370.58       sat,271.19       sat,1122.98      sat,316.03       sat,180.79       sat,127.79       sat,76.96        sat,74.96        ncc_none_3001_7_3_3_1_31_435991723.cnf
+sat,1296.4       sat,229.15       sat,360.25       sat,389.91       sat,452.07       sat,359.25       sat,1296.4       sat,327.94       sat,199.05       sat,131.85       sat,80.63        sat,70.81        ncc_none_3047_7_3_3_1_0_1.cnf
+unsat,2504.15    unsat,1511.46    unsat,724.28     unsat,1183.5     unsat,1300.56    unsat,960.3      unsat,2504.15    unsat,1181.96    unsat,723.97     unsat,953.21     unsat,467.6      unsat,417.21     ncc_none_3_16_3_3_0_0_435991723.cnf
+unsat,892.48     unsat,151.63     unsat,228.47     unsat,293.59     unsat,341.5      unsat,204.85     unsat,892.48     unsat,229.26     unsat,144.02     unsat,76.36      unsat,49.4       unknown,10000.0  ncc_none_5047_6_3_3_0_0_41.cnf
+sat,923.24       sat,187.73       sat,264.61       sat,337.57       sat,395.63       sat,259.8        sat,923.24       sat,225.26       sat,130.09       sat,85.48        sat,50.96        sat,52.09        ncc_none_5047_6_3_3_3_0_435991723.cnf
+unsat,1608.4     unsat,325.59     unsat,540.89     unsat,346.62     unsat,412.93     unsat,302.11     unsat,1608.4     unsat,364.52     unsat,234.67     unsat,135.95     unsat,86.02      unsat,78.41      ncc_none_7047_6_3_3_0_0_420.cnf
+dataset: core-based-generator ( 14 instances)
++-------------+------------+------------+-------------+-------------+-------------+
+|    Solver   | 4t-speedup | 8t-speedup | 16t-speedup | 32t-speedup | 64t-speedup |
++-------------+------------+------------+-------------+-------------+-------------+
+| kissat+LA+s |    4.16    |    3.44    |     2.98    |     2.59    |     3.67    |
+| kissat+RS+s |    3.8     |    5.93    |     9.04    |    13.29    |    14.35    |
++-------------+------------+------------+-------------+-------------+-------------+
+
+LA+s(1t)         4t               8t               16t              32t              64t              |RS+s(1t)        4t               8t               16t              32t              64t              instance_name
+sat,44.73        sat,226.03       sat,196.03       sat,48.03        sat,96.13        sat,57.12        sat,44.73        sat,177.05       sat,46.06        sat,24.09        sat,6.1          sat,7.21         dislog_a09_x11_n20.cnf
+sat,173.07       sat,188.03       sat,47.02        sat,19.03        sat,86.05        sat,5.05         sat,173.07       sat,29.04        sat,26.07        sat,4.07         sat,4.08         sat,5.16         dislog_a11_x11_n21.cnf
+sat,2770.51      sat,1496.14      sat,1118.11      sat,353.06       sat,183.06       sat,691.75       sat,2770.51      sat,275.07       sat,476.11       sat,43.12        sat,42.16        sat,48.27        dislog_a12_x12_n22.cnf
+unknown,10000.0  sat,2750.24      sat,3141.31      sat,901.1        sat,316.06       sat,479.43       unknown,10000.0  sat,1536.15      sat,802.14       sat,720.21       sat,230.24       sat,40.23        dislog_a13_x13_n23.cnf
+unknown,10000.0  unknown,10000.0  unknown,10000.0  unknown,10000.0  unknown,10000.0  unknown,10000.0  unknown,10000.0  unknown,10000.0  unknown,10000.0  sat,4067.48      sat,2526.76      sat,2492.07      dislog_a14_x14_n24.cnf
+unknown,10000.0  unknown,10000.0  unknown,10000.0  unknown,10000.0  unknown,10000.0  unknown,10000.0  unknown,10000.0  unknown,10000.0  unknown,10000.0  unknown,10000.0  unknown,10000.0  unknown,10000.0  dislog_a18_x18_n28.cnf
+unknown,10000.0  unknown,10000.0  unknown,10000.0  unknown,10000.0  unknown,10000.0  unknown,10000.0  unknown,10000.0  unknown,10000.0  unknown,10000.0  unknown,10000.0  unknown,10000.0  unknown,10000.0  dislog_a19_x19_n29.cnf
+dataset: discrete-logarithm ( 7 instances)
++-------------+------------+------------+-------------+-------------+-------------+
+|    Solver   | 4t-speedup | 8t-speedup | 16t-speedup | 32t-speedup | 64t-speedup |
++-------------+------------+------------+-------------+-------------+-------------+
+| kissat+LA+s |    0.99    |    2.13    |     5.96    |     5.87    |    13.03    |
+| kissat+RS+s |    5.43    |    4.48    |    36.22    |    38.47    |    32.37    |
++-------------+------------+------------+-------------+-------------+-------------+
+
+LA+s(1t)         4t               8t               16t              32t              64t              |RS+s(1t)        4t               8t               16t              32t              64t              instance_name
+unknown,10000.0  unknown,10000.0  unknown,10000.0  unknown,10000.0  unknown,10000.0  unknown,10000.0  unknown,10000.0  unknown,10000.0  unknown,10000.0  unknown,10000.0  unknown,10000.0  unknown,10000.0  b2005-p1-12x12c10h7-Ser8-0.cnf
+unknown,10000.0  unknown,10000.0  unknown,10000.0  unknown,10000.0  unknown,10000.0  unknown,10000.0  unknown,10000.0  unknown,10000.0  unknown,10000.0  unknown,10000.0  unknown,10000.0  unknown,10000.0  b2005-p2-14x14c17h9-Ser3-0.cnf
+unknown,10000.0  unknown,10000.0  unknown,10000.0  unknown,10000.0  unknown,10000.0  unknown,10000.0  unknown,10000.0  unknown,10000.0  unknown,10000.0  unknown,10000.0  unknown,10000.0  unknown,10000.0  b2005-p2-14x14c17h9-Ser4-0.cnf
+unknown,10000.0  unknown,10000.0  unknown,10000.0  unknown,10000.0  unknown,10000.0  unknown,10000.0  unknown,10000.0  unknown,10000.0  unknown,10000.0  unknown,10000.0  unknown,10000.0  unknown,10000.0  b2005-p3-14x14c17h9-Ser6-0.cnf
+unknown,10000.0  unknown,10000.0  unknown,10000.0  unknown,10000.0  unknown,10000.0  unknown,10000.0  unknown,10000.0  unknown,10000.0  unknown,10000.0  unknown,10000.0  unknown,10000.0  unknown,10000.0  b2005-p4-12x12c10h7-Ser4-0.cnf
+unknown,10000.0  unknown,10000.0  unknown,10000.0  unknown,10000.0  unknown,10000.0  unknown,10000.0  unknown,10000.0  unknown,10000.0  unknown,10000.0  unknown,10000.0  unknown,10000.0  unknown,10000.0  b2005-p4-14x14c17h9-Ser5-0.cnf
+unknown,10000.0  unknown,10000.0  unknown,10000.0  unknown,10000.0  unknown,10000.0  unknown,10000.0  unknown,10000.0  unknown,10000.0  unknown,10000.0  unknown,10000.0  unknown,10000.0  unknown,10000.0  b2005-p5-14x14c17h9-Ser3-0.cnf
+dataset: edge-matching ( 7 instances)
++-------------+------------+------------+-------------+-------------+-------------+
+|    Solver   | 4t-speedup | 8t-speedup | 16t-speedup | 32t-speedup | 64t-speedup |
++-------------+------------+------------+-------------+-------------+-------------+
+| kissat+LA+s |    ---     |    ---     |     ---     |     ---     |     ---     |
+| kissat+RS+s |    ---     |    ---     |     ---     |     ---     |     ---     |
++-------------+------------+------------+-------------+-------------+-------------+
+
+LA+s(1t)         4t               8t               16t              32t              64t              |RS+s(1t)        4t               8t               16t              32t              64t              instance_name
+unsat,2099.42    unsat,1748.54    unsat,1335.48    unsat,1217.35    unsat,1240.88    unsat,997.1      unsat,2099.42    unsat,1013.2     unsat,1195.44    unsat,716.59     unsat,619.13     unsat,426.49     Kakuro-easy-041-ext.xml.hg_4.cnf
+sat,197.99       sat,57.74        sat,62.54        sat,72.74        sat,107.52       sat,24.48        sat,197.99       sat,199.14       sat,86.54        sat,34.91        sat,45.05        sat,51.74        Kakuro-easy-052-ext.xml.hg_4.cnf
+unsat,2677.78    unsat,1349.08    unsat,1298.21    unsat,1206.1     unsat,1371.45    unsat,1939.74    unsat,2677.78    unsat,1000.82    unsat,993.69     unsat,1207.86    unsat,927.56     unsat,550.66     Kakuro-easy-065-ext.xml.hg_3.cnf
+unsat,2945.64    unsat,1799.58    unsat,2474.69    unsat,2757.47    unsat,2811.43    unsat,2541.24    unsat,2945.64    unsat,1710.95    unsat,1500.15    unsat,1103.19    unsat,967.9      unsat,616.92     Kakuro-easy-097-ext.xml.hg_4.cnf
+sat,1635.32      sat,407.38       sat,294.49       sat,265.76       sat,379.98       sat,298.56       sat,1635.32      sat,331.17       sat,356.42       sat,240.05       sat,264.83       sat,124.14       Kakuro-easy-117-ext.xml.hg_5.cnf
+sat,514.73       sat,122.6        sat,167.98       sat,293.03       sat,211.84       sat,221.22       sat,514.73       sat,236.6        sat,137.63       sat,183.72       sat,122.41       sat,151.51       Kakuro-easy-120-ext.xml.hg_6.cnf
+unknown,10000.0  unsat,4952.29    unknown,10000.0  unknown,10000.0  unknown,10000.0  unknown,10000.0  unknown,10000.0  unsat,4124.02    unsat,3477.53    unsat,2634.95    unsat,2133.73    unsat,1655.29    Kakuro-easy-125-ext.xml.hg_4.cnf
+sat,184.7        sat,67.86        sat,99.22        sat,211.21       sat,71.12        sat,94.81        sat,184.7        sat,138.41       sat,49.33        sat,46.62        sat,70.49        sat,45.63        Kakuro-easy-126-ext.xml.hg_7.cnf
+sat,1272.87      sat,344.09       sat,351.19       sat,454.35       sat,385.63       sat,400.9        sat,1272.87      sat,321.49       sat,664.81       sat,376.31       sat,366.87       sat,103.23       Kakuro-easy-127-ext.xml.hg_6.cnf
+sat,552.79       sat,223.06       sat,188.01       sat,217.3        sat,108.04       sat,78.19        sat,552.79       sat,167.61       sat,48.85        sat,67.3         sat,75.46        sat,81.08        Kakuro-easy-132-ext.xml.hg_9.cnf
+sat,243.68       sat,200.66       sat,75.89        sat,80.13        sat,90.1         sat,86.86        sat,243.68       sat,144.58       sat,72.38        sat,50.46        sat,86.89        sat,63.18        Kakuro-easy-148-ext.xml.hg_8.cnf
+unknown,10000.0  unknown,10000.0  unknown,10000.0  unknown,10000.0  unknown,10000.0  unknown,10000.0  unknown,10000.0  unsat,4403.93    unsat,3160.36    unsat,2786.47    unsat,2205.47    unsat,1689.49    Kakuro-easy-149-ext.xml.hg_4.cnf
+unknown,10000.0  unsat,3929.73    unsat,4189.86    unsat,4472.85    unsat,4885.43    unsat,3590.64    unknown,10000.0  unsat,2816.41    unsat,1915.08    unsat,1645.51    unsat,1226.6     unsat,949.71     Kakuro-easy-154-ext.xml.hg_4.cnf
+unsat,3083.68    unsat,2432.66    unsat,2729.58    unsat,2204.79    unsat,2566.11    unsat,2096.19    unsat,3083.68    unsat,1531.44    unsat,1387.39    unsat,958.94     unsat,914.85     unsat,698.78     Kakuro-easy-157-ext.xml.hg_4.cnf
+dataset: hypertree-decomposition ( 14 instances)
++-------------+------------+------------+-------------+-------------+-------------+
+|    Solver   | 4t-speedup | 8t-speedup | 16t-speedup | 32t-speedup | 64t-speedup |
++-------------+------------+------------+-------------+-------------+-------------+
+| kissat+LA+s |    2.53    |    2.67    |     2.39    |     2.56    |     3.36    |
+| kissat+RS+s |    2.44    |    3.6     |     4.25    |     3.97    |     6.04    |
++-------------+------------+------------+-------------+-------------+-------------+
+
+LA+s(1t)         4t               8t               16t              32t              64t              |RS+s(1t)        4t               8t               16t              32t              64t              instance_name
+unknown,10000.0  unsat,3871.32    unsat,4732.39    unsat,4687.38    unsat,3957.05    unsat,2635.15    unknown,10000.0  unknown,10000.0  unsat,4001.4     unsat,2616.32    unsat,1548.49    unsat,880.09     DLTM_twitter249_74_10.cnf
+unknown,10000.0  unknown,10000.0  unknown,10000.0  unknown,10000.0  unknown,10000.0  unknown,10000.0  unknown,10000.0  unknown,10000.0  unknown,10000.0  unknown,10000.0  unknown,10000.0  unsat,3984.96    DLTM_twitter249_74_11.cnf
+unknown,10000.0  unsat,3212.27    unsat,3158.28    unsat,3089.25    unsat,1780.74    unsat,1388.71    unknown,10000.0  unsat,2083.2     unsat,1418.18    unsat,1009.17    unsat,588.21     unsat,329.51     DLTM_twitter304_77_11.cnf
+sat,17.84        sat,9.01         sat,3.01         sat,7.01         sat,3.01         sat,3.02         sat,17.84        sat,8.02         sat,13.03        sat,5.03         sat,4.05         sat,2.12         DLTM_twitter405_71_12.cnf
+unsat,946.86     unsat,717.07     unsat,607.06     unsat,372.05     unsat,331.06     unsat,285.29     unsat,946.86     unsat,422.06     unsat,327.07     unsat,217.11     unsat,130.14     unsat,109.3      DLTM_twitter454_70_11.cnf
+sat,468.96       sat,178.03       sat,60.03        sat,18.02        sat,33.02        sat,4.03         sat,468.96       sat,202.05       sat,149.08       sat,164.08       sat,49.08        sat,37.19        DLTM_twitter454_70_12.cnf
+sat,666.7        sat,45.03        sat,47.03        sat,28.03        sat,34.07        sat,66.11        sat,666.7        sat,83.06        sat,238.13       sat,60.1         sat,9.12         sat,29.23        DLTM_twitter634_77_14.cnf
+unknown,10000.0  unknown,10000.0  unknown,10000.0  unknown,10000.0  unknown,10000.0  unknown,10000.0  unknown,10000.0  unknown,10000.0  unknown,10000.0  unknown,10000.0  unknown,10000.0  unknown,10000.0  DLTM_twitter690_74_15.cnf
+sat,3299.82      sat,68.03        sat,14.04        sat,176.06       sat,336.17       sat,22.09        sat,3299.82      sat,2031.24      sat,1333.22      sat,108.19       sat,338.28       sat,25.35        DLTM_twitter690_74_16.cnf
+sat,523.58       sat,25.02        sat,32.03        sat,31.03        sat,9.04         sat,36.08        sat,523.58       sat,180.07       sat,62.08        sat,33.11        sat,38.13        sat,42.26        DLTM_twitter774_83_17.cnf
+unsat,3879.8     unsat,2052.17    unsat,2107.19    unsat,1520.14    unsat,1399.2     unsat,1168.07    unsat,3879.8     unsat,1612.16    unsat,1339.16    unsat,862.15     unsat,624.27     unsat,410.69     DLTM_twitter799_70_12.cnf
+sat,265.42       sat,61.02        sat,22.04        sat,29.02        sat,9.03         sat,24.05        sat,265.42       sat,82.05        sat,23.07        sat,48.09        sat,7.1          sat,15.2         DLTM_twitter799_70_13.cnf
+sat,324.08       sat,175.05       sat,570.08       sat,187.05       sat,14.05        sat,79.13        sat,324.08       sat,1321.16      sat,24.11        sat,148.16       sat,40.19        sat,27.29        DLTM_twitter845_79_18.cnf
+sat,304.27       sat,50.03        sat,6.03         sat,6.04         sat,2.03         sat,2.05         sat,304.27       sat,131.08       sat,22.11        sat,60.16        sat,20.17        sat,3.26         DLTM_twitter845_79_19.cnf
+dataset: influence-maximization ( 14 instances)
++-------------+------------+------------+-------------+-------------+-------------+
+|    Solver   | 4t-speedup | 8t-speedup | 16t-speedup | 32t-speedup | 64t-speedup |
++-------------+------------+------------+-------------+-------------+-------------+
+| kissat+LA+s |   10.43    |   34.57    |    15.43    |    31.51    |    46.66    |
+| kissat+RS+s |    2.76    |    6.27    |     8.54    |    18.45    |    32.71    |
++-------------+------------+------------+-------------+-------------+-------------+
+
+LA+s(1t)         4t               8t               16t              32t              64t              |RS+s(1t)        4t               8t               16t              32t              64t              instance_name
+unsat,2206.32    unsat,957.07     unsat,1288.15    unsat,1378.85    unsat,458.85     unsat,736.21     unsat,2206.32    unknown,10000.0  unsat,4762.26    unknown,10000.0  unsat,507.95     unsat,247.77     newpol29-4.cnf
+unsat,2785.82    unsat,1457.82    unsat,723.93     unsat,1280.19    unsat,1286.3     unsat,789.11     unsat,2785.82    unknown,10000.0  unknown,10000.0  unknown,10000.0  unsat,3697.9     unsat,2674.7     newpol34-4.cnf
+unknown,10000.0  unsat,590.86     unsat,276.98     unsat,691.79     unsat,1723.64    unsat,1917.1     unknown,10000.0  unknown,10000.0  unknown,10000.0  unsat,523.77     unknown,10000.0  unsat,2741.45    newpol36-4.cnf
+unsat,156.75     unsat,166.03     unsat,76.02      unsat,78.02      unsat,63.03      unsat,68.11      unsat,156.75     unsat,97.04      unsat,58.06      unsat,33.09      unsat,17.09      unsat,20.21      newpol4-6.cnf
+unsat,328.59     unsat,162.04     unsat,139.05     unsat,166.06     unsat,116.13     unsat,101.16     unsat,328.59     unsat,74.07      unsat,58.14      unsat,26.29      unsat,17.24      unsat,16.44      newpol6-6.cnf
+unsat,3173.34    unsat,1676.16    unsat,1224.16    unsat,1369.18    unsat,1610.39    unsat,1243.26    unsat,3173.34    unsat,1654.21    unsat,1238.28    unsat,1398.5     unsat,785.72     unsat,563.0      newpol6-7.cnf
+unknown,10000.0  unknown,10000.0  unknown,10000.0  unknown,10000.0  unknown,10000.0  unknown,10000.0  unknown,10000.0  unknown,10000.0  unknown,10000.0  unknown,10000.0  unknown,10000.0  unknown,10000.0  newpol6-8.cnf
+unsat,295.42     unsat,343.06     unsat,210.06     unsat,145.07     unsat,116.07     unsat,113.19     unsat,295.42     unsat,147.13     unsat,41.14      unsat,28.39      unsat,22.31      unsat,20.73      newpol7-6.cnf
+dataset: polynomial-multiplication ( 8 instances)
++-------------+------------+------------+-------------+-------------+-------------+
+|    Solver   | 4t-speedup | 8t-speedup | 16t-speedup | 32t-speedup | 64t-speedup |
++-------------+------------+------------+-------------+-------------+-------------+
+| kissat+LA+s |    1.66    |    2.33    |     2.02    |     2.8     |     2.87    |
+| kissat+RS+s |    2.49    |    3.71    |     7.48    |     8.44    |     9.6     |
++-------------+------------+------------+-------------+-------------+-------------+
+
+LA+s(1t)         4t               8t               16t              32t              64t              |RS+s(1t)        4t               8t               16t              32t              64t              instance_name
+sat,184.45       sat,207.09       sat,107.08       sat,141.1        sat,69.2         sat,76.25        sat,184.45       sat,236.21       sat,85.26        sat,34.29        sat,11.44        sat,23.78        49-132779.cnf
+sat,959.64       sat,636.14       sat,80.11        sat,255.13       sat,188.11       sat,262.52       sat,959.64       sat,238.22       sat,824.31       sat,231.3        sat,121.57       sat,58.55        49-133045.cnf
+sat,1433.99      sat,341.11       sat,209.12       sat,224.24       sat,219.18       sat,221.4        sat,1433.99      sat,310.23       sat,146.25       sat,79.34        sat,38.42        sat,42.57        49-133485.cnf
+sat,795.29       sat,104.09       sat,285.1        sat,231.12       sat,144.14       sat,89.2         sat,795.29       sat,140.21       sat,123.29       sat,60.35        sat,23.31        sat,39.57        53-129696.cnf
+sat,628.69       sat,223.13       sat,279.12       sat,148.12       sat,150.11       sat,110.25       sat,628.69       sat,113.13       sat,110.59       sat,46.32        sat,49.37        sat,15.54        53-131174.cnf
+sat,649.24       sat,275.11       sat,232.12       sat,161.12       sat,80.1         sat,123.3        sat,649.24       sat,203.23       sat,129.3        sat,56.34        sat,40.42        sat,21.57        53-131220.cnf
+sat,740.8        sat,308.09       sat,216.12       sat,252.14       sat,240.11       sat,159.28       sat,740.8        sat,152.21       sat,183.31       sat,47.43        sat,56.35        sat,33.54        53-131587.cnf
+sat,776.69       sat,305.09       sat,324.14       sat,216.13       sat,212.18       sat,160.27       sat,776.69       sat,410.24       sat,140.33       sat,85.33        sat,43.36        sat,22.49        53-131674.cnf
+sat,133.29       sat,84.07        sat,196.1        sat,211.11       sat,95.17        sat,101.2        sat,133.29       sat,384.23       sat,162.27       sat,71.36        sat,51.35        sat,32.55        58-134003.cnf
+sat,691.74       sat,362.09       sat,312.12       sat,249.14       sat,202.16       sat,220.34       sat,691.74       sat,638.25       sat,273.28       sat,111.31       sat,55.36        sat,35.49        59-129706.cnf
+sat,739.09       sat,446.1        sat,457.14       sat,359.14       sat,278.16       sat,299.45       sat,739.09       sat,683.17       sat,277.31       sat,163.39       sat,43.39        sat,27.46        59-131147.cnf
+sat,1005.08      sat,368.09       sat,314.1        sat,316.14       sat,190.16       sat,296.32       sat,1005.08      sat,841.24       sat,515.32       sat,197.38       sat,80.44        sat,76.53        60-129673.cnf
+dataset: station-repacking ( 12 instances)
++-------------+------------+------------+-------------+-------------+-------------+
+|    Solver   | 4t-speedup | 8t-speedup | 16t-speedup | 32t-speedup | 64t-speedup |
++-------------+------------+------------+-------------+-------------+-------------+
+| kissat+LA+s |    2.69    |    3.49    |     3.2     |     4.3     |     4.35    |
+| kissat+RS+s |    2.86    |    3.99    |     9.02    |    16.66    |    22.39    |
++-------------+------------+------------+-------------+-------------+-------------+
+
+LA+s(1t)         4t               8t               16t              32t              64t              |RS+s(1t)        4t               8t               16t              32t              64t              instance_name
+unknown,10000.0  unknown,10000.0  unknown,10000.0  sat,1683.2       sat,978.54       sat,1821.91      unknown,10000.0  unknown,10000.0  unknown,10000.0  unknown,10000.0  sat,500.28       sat,4611.36      sted1_0x0-649.cnf
+sat,2164.6       sat,538.12       sat,74.09        sat,334.13       sat,391.22       sat,233.35       sat,2164.6       sat,1785.33      sat,235.33       sat,750.43       sat,310.4        sat,64.75        sted1_0x0_n438-636.cnf
+sat,3664.73      sat,352.06       sat,195.04       sat,285.06       sat,79.11        sat,76.13        sat,3664.73      sat,323.11       sat,1250.22      sat,258.19       sat,124.21       sat,21.35        sted2_0x0_n219-342.cnf
+sat,163.51       sat,59.02        sat,65.02        sat,16.01        sat,19.04        sat,15.04        sat,163.51       sat,51.04        sat,13.08        sat,3.05         sat,8.07         sat,7.18         sted3_0x1e3-147.cnf
+sat,996.18       sat,68.02        sat,19.03        sat,58.03        sat,12.03        sat,43.09        sat,996.18       sat,308.05       sat,194.06       sat,20.05        sat,8.07         sat,18.16        sted4_0x1e3-124.cnf
+unknown,10000.0  sat,314.04       sat,380.09       sat,32.02        sat,178.04       sat,93.14        unknown,10000.0  sat,177.04       sat,683.09       sat,464.09       sat,8.06         sat,16.16        sted5_0x0-157.cnf
+sat,4936.0       sat,426.04       sat,165.02       sat,127.02       sat,35.06        sat,33.05        sat,4936.0       sat,1405.13      sat,132.06       sat,120.07       sat,6.06         sat,85.17        sted6_0x0-135.cnf
+dataset: stedman-triples ( 7 instances)
++-------------+------------+------------+-------------+-------------+-------------+
+|    Solver   | 4t-speedup | 8t-speedup | 16t-speedup | 32t-speedup | 64t-speedup |
++-------------+------------+------------+-------------+-------------+-------------+
+| kissat+LA+s |    8.69    |   26.56    |    17.11    |    56.82    |    48.15    |
+| kissat+RS+s |    4.5     |   13.43    |    32.28    |    198.95   |    68.12    |
++-------------+------------+------------+-------------+-------------+-------------+
+
+LA+s(1t)         4t               8t               16t              32t              64t              |RS+s(1t)        4t               8t               16t              32t              64t              instance_name
+unknown,10000.0  unknown,10000.0  unknown,10000.0  unknown,10000.0  unknown,10000.0  unknown,10000.0  unknown,10000.0  unknown,10000.0  unknown,10000.0  unknown,10000.0  unknown,10000.0  unknown,10000.0  Timetable_C_151_E_34_Cl_10_S_4.cnf
+unknown,10000.0  unknown,10000.0  unknown,10000.0  unknown,10000.0  unknown,10000.0  unknown,10000.0  unknown,10000.0  unknown,10000.0  unknown,10000.0  unknown,10000.0  unknown,10000.0  unknown,10000.0  Timetable_C_181_E_34_Cl_12_S_10.cnf
+unknown,10000.0  unknown,10000.0  unknown,10000.0  unknown,10000.0  unknown,10000.0  unknown,10000.0  unknown,10000.0  unknown,10000.0  unknown,10000.0  unknown,10000.0  unknown,10000.0  unknown,10000.0  Timetable_C_181_E_34_Cl_12_S_6.cnf
+unknown,10000.0  unknown,10000.0  unknown,10000.0  unknown,10000.0  unknown,10000.0  unknown,10000.0  unknown,10000.0  unknown,10000.0  unknown,10000.0  unknown,10000.0  unknown,10000.0  unknown,10000.0  Timetable_C_226_E_34_Cl_15_S_12.cnf
+unknown,10000.0  unknown,10000.0  unknown,10000.0  unknown,10000.0  unknown,10000.0  unknown,10000.0  unknown,10000.0  unknown,10000.0  unknown,10000.0  unknown,10000.0  unknown,10000.0  unknown,10000.0  Timetable_C_241_E_34_Cl_16_S_12.cnf
+unknown,10000.0  unknown,10000.0  unknown,10000.0  unknown,10000.0  unknown,10000.0  unknown,10000.0  unknown,10000.0  unknown,10000.0  unknown,10000.0  unknown,10000.0  unknown,10000.0  unknown,10000.0  Timetable_C_241_E_45_Cl_16_S_14.cnf
+sat,151.67       sat,151.15       sat,76.12        sat,92.17        sat,51.13        sat,47.2         sat,151.67       sat,2445.6       sat,4043.2       sat,1321.32      sat,1706.89      sat,28.78        Timetable_C_241_E_45_Cl_16_S_16.cnf
+unknown,10000.0  unknown,10000.0  unknown,10000.0  unknown,10000.0  unknown,10000.0  unknown,10000.0  unknown,10000.0  unknown,10000.0  unknown,10000.0  unknown,10000.0  unknown,10000.0  unknown,10000.0  Timetable_C_331_E_45_Cl_22_S_26.cnf
+sat,505.46       sat,205.28       sat,310.29       sat,254.21       sat,250.21       sat,291.54       sat,505.46       sat,472.88       sat,890.57       sat,2140.04      sat,109.96       sat,366.92       Timetable_C_392_E_50_Cl_26_S_26.cnf
+sat,253.18       sat,129.27       sat,125.29       sat,126.28       sat,135.26       sat,118.36       sat,253.18       sat,68.81        sat,102.35       sat,68.67        sat,72.88        sat,45.19        Timetable_C_392_E_50_Cl_26_S_28.cnf
+sat,101.22       sat,64.29        sat,57.3         sat,67.23        sat,65.3         sat,63.29        sat,101.22       sat,48.87        sat,41.35        sat,17.77        sat,45.0         sat,14.75        Timetable_C_392_E_62_Cl_26_S_28.cnf
+sat,544.16       sat,273.31       sat,330.33       sat,166.35       sat,188.31       sat,210.47       sat,544.16       sat,418.96       sat,194.4        sat,240.98       sat,114.25       sat,94.37        Timetable_C_437_E_62_Cl_29_S_28.cnf
+sat,1326.1       sat,638.34       sat,517.35       sat,599.4        sat,488.43       sat,517.98       sat,1326.1       unknown,10000.0  unknown,10000.0  sat,3697.42      sat,4451.53      sat,3785.38      Timetable_C_466_E_50_Cl_31_S_28.cnf
+sat,1210.73      sat,844.4        sat,573.41       sat,547.32       sat,509.4        sat,526.88       sat,1210.73      sat,2735.29      unknown,10000.0  sat,4505.86      sat,2078.73      sat,1935.4       Timetable_C_497_E_62_Cl_33_S_30.cnf
+dataset: timetable ( 14 instances)
++-------------+------------+------------+-------------+-------------+-------------+
+|    Solver   | 4t-speedup | 8t-speedup | 16t-speedup | 32t-speedup | 64t-speedup |
++-------------+------------+------------+-------------+-------------+-------------+
+| kissat+LA+s |    1.79    |    1.96    |     2.12    |     2.34    |     2.3     |
+| kissat+RS+s |    1.44    |    1.67    |     1.8     |     2.29    |     3.69    |
++-------------+------------+------------+-------------+-------------+-------------+
+
+LA+s(1t)         4t               8t               16t              32t              64t              |RS+s(1t)        4t               8t               16t              32t              64t              instance_name
+unknown,10000.0  unknown,10000.0  unknown,10000.0  unknown,10000.0  unknown,10000.0  unknown,10000.0  unknown,10000.0  unknown,10000.0  unknown,10000.0  unknown,10000.0  unknown,10000.0  unknown,10000.0  TT7F-33-24A.cnf
+unknown,10000.0  unknown,10000.0  unknown,10000.0  unknown,10000.0  sat,536.3        unknown,10000.0  unknown,10000.0  unknown,10000.0  sat,1729.2       unknown,10000.0  unknown,10000.0  unknown,10000.0  TT7F-33-24B.cnf
+unknown,10000.0  unknown,10000.0  unknown,10000.0  sat,4019.57      unknown,10000.0  unknown,10000.0  unknown,10000.0  unknown,10000.0  sat,2197.15      unknown,10000.0  unknown,10000.0  unknown,10000.0  TT7F-33-24C.cnf
+unknown,10000.0  unknown,10000.0  unknown,10000.0  unknown,10000.0  unknown,10000.0  unknown,10000.0  unknown,10000.0  unknown,10000.0  unknown,10000.0  unknown,10000.0  unknown,10000.0  unknown,10000.0  TT7F-33-24D.cnf
+unknown,10000.0  unknown,10000.0  unknown,10000.0  unknown,10000.0  unknown,10000.0  sat,4043.41      unknown,10000.0  unknown,10000.0  unknown,10000.0  unknown,10000.0  unknown,10000.0  sat,4456.48      TT7F-33-24E.cnf
+unknown,10000.0  unknown,10000.0  unknown,10000.0  unknown,10000.0  sat,2813.05      sat,4369.17      unknown,10000.0  unknown,10000.0  unknown,10000.0  unknown,10000.0  unknown,10000.0  unknown,10000.0  TT7F-33-25.cnf
+unknown,10000.0  unknown,10000.0  unknown,10000.0  unknown,10000.0  sat,3319.77      sat,1035.36      unknown,10000.0  unknown,10000.0  unknown,10000.0  sat,3827.86      unknown,10000.0  sat,1543.24      TT7F-33-26.cnf
+unknown,10000.0  unknown,10000.0  unknown,10000.0  unknown,10000.0  unknown,10000.0  unknown,10000.0  unknown,10000.0  unknown,10000.0  unknown,10000.0  unknown,10000.0  unknown,10000.0  unknown,10000.0  TT7F-34-24B.cnf
+unknown,10000.0  unknown,10000.0  unknown,10000.0  unknown,10000.0  unknown,10000.0  unknown,10000.0  unknown,10000.0  unknown,10000.0  unknown,10000.0  unknown,10000.0  unknown,10000.0  unknown,10000.0  TT7F-34-24C.cnf
+unknown,10000.0  unknown,10000.0  unknown,10000.0  unknown,10000.0  unknown,10000.0  unknown,10000.0  unknown,10000.0  unknown,10000.0  unknown,10000.0  unknown,10000.0  unknown,10000.0  unknown,10000.0  TT7F-34-24D.cnf
+unknown,10000.0  unknown,10000.0  unknown,10000.0  unknown,10000.0  unknown,10000.0  unknown,10000.0  unknown,10000.0  unknown,10000.0  unknown,10000.0  unknown,10000.0  unknown,10000.0  unknown,10000.0  TT7F-34-24E.cnf
+unknown,10000.0  unknown,10000.0  unknown,10000.0  unknown,10000.0  unknown,10000.0  unknown,10000.0  unknown,10000.0  unknown,10000.0  unknown,10000.0  unknown,10000.0  unknown,10000.0  unknown,10000.0  TT7F-34-25.cnf
+unknown,10000.0  unknown,10000.0  unknown,10000.0  unknown,10000.0  unknown,10000.0  unknown,10000.0  unknown,10000.0  unknown,10000.0  unknown,10000.0  unknown,10000.0  unknown,10000.0  unknown,10000.0  TT7F-34-26.cnf
+unknown,10000.0  unknown,10000.0  unknown,10000.0  unknown,10000.0  unknown,10000.0  unknown,10000.0  unknown,10000.0  unknown,10000.0  unknown,10000.0  unknown,10000.0  unknown,10000.0  unknown,10000.0  TT7F-34-27.cnf
+dataset: tournament ( 14 instances)
++-------------+------------+------------+-------------+-------------+-------------+
+|    Solver   | 4t-speedup | 8t-speedup | 16t-speedup | 32t-speedup | 64t-speedup |
++-------------+------------+------------+-------------+-------------+-------------+
+| kissat+LA+s |    ---     |    ---     |     ---     |     ---     |     ---     |
+| kissat+RS+s |    ---     |    ---     |     ---     |     ---     |     ---     |
++-------------+------------+------------+-------------+-------------+-------------+
+
+LA+s(1t)         4t               8t               16t              32t              64t              |RS+s(1t)        4t               8t               16t              32t              64t              instance_name
+unknown,10000.0  unknown,10000.0  unknown,10000.0  unknown,10000.0  unknown,10000.0  unknown,10000.0  unknown,10000.0  unknown,10000.0  unknown,10000.0  unknown,10000.0  unknown,10000.0  unknown,10000.0  vlsat2_15440_1409906.dimacs.cnf
+unknown,10000.0  unknown,10000.0  unknown,10000.0  unknown,10000.0  unknown,10000.0  unknown,10000.0  unknown,10000.0  unknown,10000.0  unknown,10000.0  unknown,10000.0  unknown,10000.0  unknown,10000.0  vlsat2_15960_1464039.dimacs.cnf
+sat,29.58        sat,19.14        sat,13.15        sat,9.13         sat,1.11         sat,2.14         sat,29.58        sat,22.3         sat,25.4         sat,17.39        sat,11.41        sat,16.75        vlsat2_16676_1598591.dimacs.cnf
+unknown,10000.0  unknown,10000.0  unknown,10000.0  unknown,10000.0  unknown,10000.0  unknown,10000.0  unknown,10000.0  unknown,10000.0  unknown,10000.0  unknown,10000.0  unknown,10000.0  unknown,10000.0  vlsat2_21114_2240429.dimacs.cnf
+sat,0.93         sat,1.24         sat,1.25         sat,1.25         sat,2.15         sat,2.17         sat,0.93         sat,1.55         sat,1.7          sat,1.66         sat,1.73         sat,2.11         vlsat2_24450_2770239.dimacs.cnf
+unknown,10000.0  unknown,10000.0  unknown,10000.0  unknown,10000.0  unknown,10000.0  unknown,10000.0  unknown,10000.0  unknown,10000.0  unknown,10000.0  unknown,10000.0  unknown,10000.0  unknown,10000.0  vlsat2_30195_3855554.dimacs.cnf
+sat,47.78        sat,16.36        sat,17.37        sat,16.41        sat,3.22         sat,4.24         sat,47.78        sat,4.76         sat,5.18         sat,6.04         sat,6.12         sat,7.64         vlsat2_30744_3925645.dimacs.cnf
+unknown,10000.0  unknown,10000.0  unknown,10000.0  unknown,10000.0  unknown,10000.0  unknown,10000.0  unknown,10000.0  unknown,10000.0  unknown,10000.0  unknown,10000.0  unknown,10000.0  unknown,10000.0  vlsat2_32480_4362044.dimacs.cnf
+sat,2.48         sat,15.4         sat,10.42        sat,7.31         sat,8.31         sat,8.35         sat,2.48         sat,21.03        sat,21.39        sat,21.26        sat,22.32        sat,26.1         vlsat2_34161_4607712.dimacs.cnf
+unknown,10000.0  unknown,10000.0  unknown,10000.0  unknown,10000.0  unknown,10000.0  unknown,10000.0  unknown,10000.0  unknown,10000.0  unknown,10000.0  unknown,10000.0  unknown,10000.0  unknown,10000.0  vlsat2_35929_5082743.dimacs.cnf
+sat,19.95        sat,2.47         sat,2.33         sat,2.34         sat,2.34         sat,3.35         sat,19.95        sat,255.19       sat,275.76       sat,285.49       sat,321.69       sat,343.64       vlsat2_37758_5364539.dimacs.cnf
+unknown,10000.0  unknown,10000.0  unknown,10000.0  unknown,10000.0  unknown,10000.0  unknown,10000.0  unknown,10000.0  unknown,10000.0  unknown,10000.0  unknown,10000.0  unknown,10000.0  unknown,10000.0  vlsat2_39552_5878762.dimacs.cnf
+sat,443.72       sat,201.52       sat,51.55        sat,26.55        sat,10.37        sat,10.39        sat,443.72       sat,961.35       unknown,10000.0  unknown,10000.0  sat,488.24       sat,852.5        vlsat2_40170_5970608.dimacs.cnf
+sat,123.66       sat,156.94       sat,150.92       sat,148.69       sat,22.58        sat,18.8         sat,123.66       sat,295.32       unknown,10000.0  sat,3404.16      sat,70.3         sat,180.68       vlsat2_57038_10572502.dimacs.cnf
+dataset: vlsat ( 14 instances)
++-------------+------------+------------+-------------+-------------+-------------+
+|    Solver   | 4t-speedup | 8t-speedup | 16t-speedup | 32t-speedup | 64t-speedup |
++-------------+------------+------------+-------------+-------------+-------------+
+| kissat+LA+s |    2.35    |    3.43    |     4.76    |    14.16    |    11.58    |
+| kissat+RS+s |    1.86    |    2.23    |     1.73    |     1.97    |     1.4     |
++-------------+------------+------------+-------------+-------------+-------------+
+
+LA+s(1t)         4t               8t               16t              32t              64t              |RS+s(1t)        4t               8t               16t              32t              64t              instance_name
+unsat,2874.73    unsat,2482.19    unsat,1372.11    unsat,1445.13    unsat,1991.19    unsat,791.63     unsat,2874.73    unsat,1800.18    unsat,970.13     unsat,707.11     unsat,665.17     unsat,486.61     w15.cnf
+unknown,10000.0  unknown,10000.0  unknown,10000.0  unknown,10000.0  unknown,10000.0  unknown,10000.0  unknown,10000.0  unknown,10000.0  unknown,10000.0  unknown,10000.0  unsat,3640.55    unsat,3276.53    w16-5.cnf
+unknown,10000.0  unknown,10000.0  unknown,10000.0  unknown,10000.0  unknown,10000.0  unknown,10000.0  unknown,10000.0  unknown,10000.0  unknown,10000.0  unsat,4907.46    unsat,3123.58    unsat,3211.17    w16-6a.cnf
+unsat,335.42     unsat,278.32     unsat,171.34     unsat,115.21     unsat,167.2      unsat,94.29      unsat,335.42     unsat,151.74     unsat,110.89     unsat,55.94      unsat,36.0       unsat,26.27      w19-20.0.cnf
+unsat,544.52     unsat,273.34     unsat,376.34     unsat,273.24     unsat,273.24     unsat,177.4      unsat,544.52     unsat,213.75     unsat,118.84     unsat,84.95      unsat,59.01      unsat,46.34      w19-20.1.cnf
+unsat,1023.0     unsat,762.29     unsat,554.28     unsat,376.19     unsat,303.25     unsat,203.26     unsat,1023.0     unsat,351.61     unsat,244.65     unsat,145.72     unsat,83.83      unsat,59.18      w19-2.0.cnf
+unsat,758.52     unsat,584.27     unsat,590.28     unsat,495.31     unsat,418.2      unsat,264.49     unsat,758.52     unsat,286.62     unsat,154.69     unsat,128.76     unsat,76.88      unsat,53.21      w19-49.0.cnf
+unsat,1063.74    unsat,618.25     unsat,575.26     unsat,332.18     unsat,282.32     unsat,229.48     unsat,1063.74    unsat,365.5      unsat,196.53     unsat,149.65     unsat,101.69     unsat,59.97      w19-5.1.cnf
+unsat,357.32     unsat,266.26     unsat,243.27     unsat,122.29     unsat,131.19     unsat,90.25      unsat,357.32     unsat,147.59     unsat,91.68      unsat,60.74      unsat,35.86      unsat,30.16      w19-8.0.cnf
+dataset: lam-discrete-geometry ( 9 instances)
++-------------+------------+------------+-------------+-------------+-------------+
+|    Solver   | 4t-speedup | 8t-speedup | 16t-speedup | 32t-speedup | 64t-speedup |
++-------------+------------+------------+-------------+-------------+-------------+
+| kissat+LA+s |    1.44    |    1.71    |     2.47    |     2.45    |     3.82    |
+| kissat+RS+s |    2.46    |    4.14    |     6.05    |     9.34    |    13.08    |
++-------------+------------+------------+-------------+-------------+-------------+
+
+LA+s(1t)         4t               8t               16t              32t              64t              |RS+s(1t)        4t               8t               16t              32t              64t              instance_name
+sat,0.19         sat,1.0          sat,1.0          sat,1.0          sat,1.0          sat,1.0          sat,0.19         sat,1.0          sat,1.01         sat,1.01         sat,1.01         sat,1.01         170055892.cnf
+sat,6.58         sat,1.0          sat,4.0          sat,4.0          sat,3.0          sat,1.0          sat,6.58         sat,3.0          sat,1.02         sat,1.01         sat,2.02         sat,1.01         170058143.cnf
+sat,255.95       sat,22.0         sat,252.02       sat,133.06       sat,2.0          sat,24.06        sat,255.95       sat,382.04       sat,116.02       sat,1.01         sat,1.02         sat,2.02         170058440.cnf
+sat,0.19         sat,1.0          sat,1.0          sat,1.0          sat,1.0          sat,1.0          sat,0.19         sat,1.0          sat,1.01         sat,1.01         sat,1.01         sat,1.01         170059081.cnf
+unknown,10000.0  sat,273.02       sat,3.0          sat,94.02        sat,13.03        sat,12.02        unknown,10000.0  sat,631.06       sat,107.03       sat,46.03        sat,6.03         sat,2.02         170059722.cnf
+unknown,10000.0  sat,2106.16      sat,596.06       sat,2054.2       sat,724.41       sat,454.74       unknown,10000.0  unknown,10000.0  sat,697.09       sat,1715.2       sat,7.02         sat,4060.95      170104584.cnf
+sat,75.04        sat,68.01        sat,72.01        sat,2.0          sat,1.0          sat,1.0          sat,75.04        sat,3.0          sat,2.01         sat,3.01         sat,2.02         sat,1.01         170105432.cnf
+sat,8.59         sat,4.0          sat,3.0          sat,1.0          sat,2.0          sat,1.0          sat,8.59         sat,3.0          sat,5.01         sat,2.02         sat,2.02         sat,1.02         170153306.cnf
+sat,43.2         sat,1.0          sat,2.0          sat,2.0          sat,1.0          sat,1.0          sat,43.2         sat,9.01         sat,1.02         sat,1.01         sat,1.01         sat,1.02         170154931.cnf
+sat,12.36        sat,23.0         sat,3.0          sat,1.0          sat,1.0          sat,1.0          sat,12.36        sat,4.0          sat,1.01         sat,1.01         sat,1.02         sat,1.01         170222843.cnf
+sat,4.48         sat,10.0         sat,4.0          sat,2.0          sat,1.0          sat,1.0          sat,4.48         sat,13.01        sat,21.01        sat,1.01         sat,1.01         sat,2.02         170223547.cnf
+sat,59.91        sat,5.0          sat,5.0          sat,1.0          sat,2.0          sat,2.01         sat,59.91        sat,27.01        sat,17.01        sat,1.01         sat,1.02         sat,14.05        170225515.cnf
+sat,0.8          sat,3.0          sat,1.0          sat,1.0          sat,1.0          sat,1.0          sat,0.8          sat,1.0          sat,1.01         sat,1.01         sat,1.01         sat,1.01         170225812.cnf
+dataset: hgen ( 13 instances)
++-------------+------------+------------+-------------+-------------+-------------+
+|    Solver   | 4t-speedup | 8t-speedup | 16t-speedup | 32t-speedup | 64t-speedup |
++-------------+------------+------------+-------------+-------------+-------------+
+| kissat+LA+s |    7.11    |    4.23    |    13.34    |    27.26    |    17.39    |
+| kissat+RS+s |    3.85    |    9.75    |     37.2    |    37.69    |    25.26    |
++-------------+------------+------------+-------------+-------------+-------------+
+
+LA+s(1t)         4t               8t               16t              32t              64t              |RS+s(1t)        4t               8t               16t              32t              64t              instance_name
+sat,6.35         sat,2.01         sat,1.01         sat,1.01         sat,1.01         sat,1.01         sat,6.35         sat,1.01         sat,1.02         sat,1.02         sat,1.03         sat,1.07         combined-crypto1-wff-seed-101-wffvars-500-cryptocplx-31-overlap-2.cnf
+sat,42.69        sat,11.01        sat,8.01         sat,3.01         sat,2.01         sat,3.01         sat,42.69        sat,8.02         sat,1.02         sat,2.02         sat,1.03         sat,1.07         combined-crypto1-wff-seed-102-wffvars-500-cryptocplx-31-overlap-2.cnf
+sat,3.36         sat,3.01         sat,2.01         sat,1.01         sat,1.01         sat,1.01         sat,3.36         sat,1.01         sat,1.02         sat,1.03         sat,1.03         sat,1.06         combined-crypto1-wff-seed-107-wffvars-500-cryptocplx-31-overlap-2.cnf
+sat,232.81       sat,7.01         sat,9.01         sat,8.01         sat,2.01         sat,4.01         sat,232.81       sat,2.02         sat,2.02         sat,4.06         sat,2.04         sat,1.07         combined-crypto1-wff-seed-108-wffvars-500-cryptocplx-31-overlap-2.cnf
+sat,14.46        sat,21.01        sat,5.01         sat,3.01         sat,2.01         sat,4.01         sat,14.46        sat,92.03        sat,2.02         sat,9.05         sat,1.03         sat,1.07         combined-crypto1-wff-seed-110-wffvars-500-cryptocplx-31-overlap-2.cnf
+sat,3.4          sat,5.01         sat,2.01         sat,1.01         sat,1.01         sat,1.01         sat,3.4          sat,1.01         sat,1.02         sat,1.02         sat,1.04         sat,1.07         combined-crypto1-wff-seed-115-wffvars-500-cryptocplx-31-overlap-2.cnf
+sat,242.46       sat,59.01        sat,61.01        sat,4.01         sat,4.01         sat,11.03        sat,242.46       sat,13.02        sat,1.02         sat,3.05         sat,6.05         sat,2.08         combined-crypto1-wff-seed-121-wffvars-500-cryptocplx-31-overlap-2.cnf
+sat,215.68       sat,29.01        sat,50.02        sat,23.02        sat,8.02         sat,2.02         sat,215.68       sat,40.02        sat,12.02        sat,7.03         sat,15.07        sat,5.09         combined-crypto1-wff-seed-12-wffvars-450-cryptocplx-40-overlap-2.cnf
+sat,11.1         sat,5.01         sat,1.01         sat,5.01         sat,2.01         sat,1.01         sat,11.1         sat,2.02         sat,1.02         sat,1.02         sat,1.03         sat,1.07         combined-crypto1-wff-seed-132-wffvars-500-cryptocplx-31-overlap-2.cnf
+sat,45.29        sat,9.01         sat,11.01        sat,2.01         sat,2.01         sat,3.01         sat,45.29        sat,5.02         sat,46.02        sat,1.02         sat,1.03         sat,1.08         combined-crypto1-wff-seed-133-wffvars-500-cryptocplx-31-overlap-2.cnf
+sat,14.64        sat,17.01        sat,8.01         sat,18.01        sat,7.01         sat,4.03         sat,14.64        sat,42.02        sat,18.03        sat,3.03         sat,1.03         sat,4.12         combined-crypto1-wff-seed-18-wffvars-450-cryptocplx-40-overlap-2.cnf
+sat,1.27         sat,2.01         sat,3.01         sat,3.01         sat,2.01         sat,4.02         sat,1.27         sat,3.02         sat,3.02         sat,1.03         sat,1.03         sat,2.1          combined-crypto1-wff-seed-1-wffvars-450-cryptocplx-40-overlap-2.cnf
+sat,28.81        sat,25.01        sat,7.01         sat,8.01         sat,3.01         sat,4.02         sat,28.81        sat,19.02        sat,5.02         sat,3.03         sat,2.04         sat,3.11         combined-crypto1-wff-seed-3-wffvars-450-cryptocplx-40-overlap-2.cnf
+sat,449.49       sat,37.01        sat,27.01        sat,6.01         sat,16.02        sat,4.02         sat,449.49       sat,37.02        sat,24.03        sat,5.03         sat,5.04         sat,9.13         combined-crypto1-wff-seed-8-wffvars-450-cryptocplx-40-overlap-2.cnf
+dataset: combined ( 14 instances)
++-------------+------------+------------+-------------+-------------+-------------+
+|    Solver   | 4t-speedup | 8t-speedup | 16t-speedup | 32t-speedup | 64t-speedup |
++-------------+------------+------------+-------------+-------------+-------------+
+| kissat+LA+s |    5.45    |    6.44    |     16.8    |    22.38    |    26.19    |
+| kissat+RS+s |   13.35    |   33.67    |    25.93    |     29.3    |    39.72    |
++-------------+------------+------------+-------------+-------------+-------------+
+
+LA+s(1t)         4t               8t               16t              32t              64t              |RS+s(1t)        4t               8t               16t              32t              64t              instance_name
+unknown,10000.0  sat,2140.22      sat,3970.45      sat,1099.15      sat,810.17       sat,3275.97      unknown,10000.0  unknown,10000.0  sat,620.27       sat,4860.69      sat,533.44       sat,1113.59      preimage_80r_490m_160h_seed_150.cnf
+unknown,10000.0  unknown,10000.0  unknown,10000.0  sat,2881.26      sat,999.2        sat,923.94       unknown,10000.0  unknown,10000.0  unknown,10000.0  sat,1102.36      sat,365.33       sat,295.85       preimage_80r_490m_160h_seed_6.cnf
+unknown,10000.0  unknown,10000.0  sat,1768.25      unknown,10000.0  sat,1513.33      sat,657.46       unknown,10000.0  unknown,10000.0  sat,1721.32      sat,1828.47      sat,191.42       sat,155.63       preimage_80r_491m_160h_seed_391.cnf
+unknown,10000.0  unknown,10000.0  unknown,10000.0  sat,4838.44      sat,3562.39      sat,310.32       unknown,10000.0  sat,4552.46      sat,2408.36      sat,305.29       sat,781.5        sat,397.9        preimage_80r_491m_160h_seed_407.cnf
+unknown,10000.0  unknown,10000.0  unknown,10000.0  sat,1047.14      sat,33.08        sat,65.19        unknown,10000.0  sat,1145.19      sat,1418.31      sat,30.26        sat,455.49       sat,1372.81      preimage_80r_491m_160h_seed_71.cnf
+unknown,10000.0  sat,2510.24      unknown,10000.0  sat,1852.23      sat,277.35       sat,442.33       unknown,10000.0  unknown,10000.0  sat,3661.51      sat,431.28       sat,920.44       sat,272.89       preimage_80r_491m_160h_seed_7.cnf
+sat,911.22       sat,344.07       sat,2640.3       sat,745.1        sat,464.52       sat,70.1         sat,911.22       sat,4510.43      sat,3.14         sat,625.29       sat,168.31       sat,208.59       preimage_80r_492m_160h_seed_136.cnf
+sat,3011.32      sat,2112.2       sat,2516.25      sat,947.13       sat,1295.38      sat,39.12        sat,3011.32      sat,2456.29      sat,599.23       sat,357.29       sat,69.34        sat,33.56        preimage_80r_493m_160h_seed_249.cnf
+sat,4473.71      sat,2331.23      sat,804.11       sat,620.1        sat,364.13       sat,47.08        sat,4473.71      sat,1835.24      sat,586.19       sat,63.25        sat,546.43       sat,36.48        preimage_80r_493m_160h_seed_457.cnf
+sat,3125.99      sat,551.09       sat,1161.14      sat,941.12       sat,203.26       sat,14.08        sat,3125.99      sat,660.15       sat,211.15       sat,410.3        sat,263.29       sat,14.43        preimage_80r_494m_160h_seed_378.cnf
+sat,516.53       sat,269.07       sat,82.13        sat,244.11       sat,40.04        sat,13.08        sat,516.53       sat,387.13       sat,221.26       sat,325.27       sat,86.28        sat,23.46        preimage_80r_495m_160h_seed_379.cnf
+dataset: preimage ( 11 instances)
++-------------+------------+------------+-------------+-------------+-------------+
+|    Solver   | 4t-speedup | 8t-speedup | 16t-speedup | 32t-speedup | 64t-speedup |
++-------------+------------+------------+-------------+-------------+-------------+
+| kissat+LA+s |    2.72    |    3.22    |     3.41    |     8.97    |     89.3    |
+| kissat+RS+s |    1.99    |   63.92    |    17.97    |    14.98    |    91.07    |
++-------------+------------+------------+-------------+-------------+-------------+
+
+LA+s(1t)         4t               8t               16t              32t              64t              |RS+s(1t)        4t               8t               16t              32t              64t              instance_name
+unknown,10000.0  unknown,10000.0  sat,965.08       sat,55.02        sat,4329.25      sat,377.64       unknown,10000.0  sat,2107.18      sat,1096.12      sat,980.16       sat,466.28       sat,156.38       Steiner-135-32-bce.cnf
+unknown,10000.0  unknown,10000.0  unknown,10000.0  unknown,10000.0  unknown,10000.0  unknown,10000.0  unknown,10000.0  unknown,10000.0  unknown,10000.0  unknown,10000.0  unknown,10000.0  unknown,10000.0  Steiner-135-33-bce.cnf
+unsat,0.0        unsat,1.0        unsat,1.0        unsat,1.0        unsat,1.0        unsat,1.0        unsat,0.0        unsat,1.0        unsat,1.01       unsat,1.01       unsat,1.01       unsat,1.01       Steiner-15-7-bce.cnf
+unknown,10000.0  unknown,10000.0  sat,3040.24      unknown,10000.0  sat,2011.68      sat,22.04        unknown,10000.0  sat,1256.13      sat,1953.28      sat,2330.31      sat,539.27       sat,21.31        Steiner-243-45-bce.cnf
+unknown,10000.0  unknown,10000.0  unknown,10000.0  unknown,10000.0  unknown,10000.0  unknown,10000.0  unknown,10000.0  unknown,10000.0  unknown,10000.0  unknown,10000.0  unknown,10000.0  unknown,10000.0  Steiner-243-46-bce.cnf
+unsat,0.14       unsat,1.0        unsat,1.0        unsat,1.0        unsat,1.0        unsat,1.0        unsat,0.14       unsat,1.0        unsat,1.01       unsat,1.01       unsat,1.01       unsat,1.01       Steiner-27-10-bce.cnf
+unknown,10000.0  unknown,10000.0  unknown,10000.0  unknown,10000.0  unknown,10000.0  unknown,10000.0  unknown,10000.0  unknown,10000.0  unknown,10000.0  unknown,10000.0  unknown,10000.0  unknown,10000.0  Steiner-405-70-bce.cnf
+unknown,10000.0  unknown,10000.0  unknown,10000.0  unknown,10000.0  unknown,10000.0  unknown,10000.0  unknown,10000.0  unknown,10000.0  unknown,10000.0  unknown,10000.0  unknown,10000.0  unknown,10000.0  Steiner-405-71-bce.cnf
+unsat,9.34       unsat,10.0       unsat,7.0        unsat,7.0        unsat,5.01       unsat,5.01       unsat,9.34       unsat,6.01       unsat,4.01       unsat,3.01       unsat,3.01       unsat,3.03       Steiner-45-16-bce.cnf
+unknown,10000.0  unknown,10000.0  unknown,10000.0  unknown,10000.0  unknown,10000.0  unknown,10000.0  unknown,10000.0  unknown,10000.0  unknown,10000.0  unknown,10000.0  unknown,10000.0  unknown,10000.0  Steiner-729-112-bce.cnf
+unknown,10000.0  unknown,10000.0  unknown,10000.0  unknown,10000.0  unknown,10000.0  unknown,10000.0  unknown,10000.0  unknown,10000.0  unknown,10000.0  unknown,10000.0  unknown,10000.0  unknown,10000.0  Steiner-729-113-bce.cnf
+unknown,10000.0  unknown,10000.0  unknown,10000.0  unknown,10000.0  unknown,10000.0  unknown,10000.0  unknown,10000.0  unknown,10000.0  unknown,10000.0  unknown,10000.0  unknown,10000.0  unknown,10000.0  Steiner-81-21-bce.cnf
+unsat,0.0        unsat,1.0        unsat,1.0        unsat,1.0        unsat,1.0        unsat,1.0        unsat,0.0        unsat,1.0        unsat,1.01       unsat,1.01       unsat,1.0        unsat,1.01       Steiner-9-5-bce.cnf
+dataset: Steiner-bce ( 13 instances)
++-------------+------------+------------+-------------+-------------+-------------+
+|    Solver   | 4t-speedup | 8t-speedup | 16t-speedup | 32t-speedup | 64t-speedup |
++-------------+------------+------------+-------------+-------------+-------------+
+| kissat+LA+s |    0.27    |    0.37    |     0.37    |     0.5     |     0.5     |
+| kissat+RS+s |    0.42    |    0.62    |     0.81    |     0.81    |     0.81    |
++-------------+------------+------------+-------------+-------------+-------------+
+
+LA+s(1t)         4t               8t               16t              32t              64t              |RS+s(1t)        4t               8t               16t              32t              64t              instance_name
+unknown,10000.0  unknown,10000.0  unknown,10000.0  unknown,10000.0  unknown,10000.0  unknown,10000.0  unknown,10000.0  unknown,10000.0  unknown,10000.0  unknown,10000.0  unknown,10000.0  unknown,10000.0  rbsat-v2400c266431gyes6.cnf
+unknown,10000.0  unknown,10000.0  unknown,10000.0  unknown,10000.0  unknown,10000.0  unknown,10000.0  unknown,10000.0  unknown,10000.0  unknown,10000.0  unknown,10000.0  unknown,10000.0  unknown,10000.0  rbsat-v2400c266431gyes7.cnf
+unknown,10000.0  unknown,10000.0  unknown,10000.0  unknown,10000.0  unknown,10000.0  unknown,10000.0  unknown,10000.0  unknown,10000.0  unknown,10000.0  unknown,10000.0  unknown,10000.0  unknown,10000.0  rbsat-v2640c305320g4.cnf
+unknown,10000.0  unknown,10000.0  unknown,10000.0  unknown,10000.0  unknown,10000.0  unknown,10000.0  unknown,10000.0  unknown,10000.0  unknown,10000.0  unknown,10000.0  unknown,10000.0  unknown,10000.0  rbsat-v2640c305320gyes10.cnf
+sat,680.16       sat,1009.09      sat,305.03       sat,83.02        sat,28.02        sat,9.02         sat,680.16       sat,557.06       sat,5.02         sat,38.03        sat,1.02         sat,4.06         rbsat-v760c43649g8.cnf
+dataset: rbsat ( 5 instances)
++-------------+------------+------------+-------------+-------------+-------------+
+|    Solver   | 4t-speedup | 8t-speedup | 16t-speedup | 32t-speedup | 64t-speedup |
++-------------+------------+------------+-------------+-------------+-------------+
+| kissat+LA+s |    0.67    |    2.23    |     8.19    |    24.27    |    75.42    |
+| kissat+RS+s |    1.22    |   135.49   |    17.89    |    665.52   |    167.44   |
++-------------+------------+------------+-------------+-------------+-------------+
+
+LA+s(1t)         4t               8t               16t              32t              64t              |RS+s(1t)        4t               8t               16t              32t              64t              instance_name
+unknown,10000.0  unknown,10000.0  unknown,10000.0  unknown,10000.0  unknown,10000.0  unknown,10000.0  unknown,10000.0  unknown,10000.0  unknown,10000.0  unknown,10000.0  unknown,10000.0  unknown,10000.0  full-bf-ga-6-ce.cnf
+sat,125.14       sat,86.02        sat,25.02        sat,29.02        sat,3.02         sat,6.03         sat,125.14       sat,10.03        sat,15.04        sat,12.08        sat,4.08         sat,3.18         full-bf-ga-7-ce.cnf
+sat,4.72         sat,25.03        sat,14.03        sat,14.03        sat,8.04         sat,9.06         sat,4.72         sat,14.05        sat,12.08        sat,2.14         sat,3.16         sat,7.24         full-bf-ga-9-ce.cnf
+unknown,10000.0  unknown,10000.0  unknown,10000.0  unknown,10000.0  unknown,10000.0  unknown,10000.0  unknown,10000.0  unknown,10000.0  unknown,10000.0  unknown,10000.0  unknown,10000.0  unknown,10000.0  full-bg-gb-6-ce.cnf
+sat,241.06       sat,199.03       sat,151.03       sat,42.02        sat,88.07        sat,13.04        sat,241.06       sat,746.09       sat,91.05        sat,59.07        sat,118.17       sat,94.27        full-bg-gb-7-ce.cnf
+sat,2142.47      sat,616.07       sat,588.07       sat,39.07        sat,3.02         sat,23.09        sat,2142.47      sat,1079.12      sat,344.09       sat,673.15       sat,59.16        sat,88.33        full-bg-gb-8-ce.cnf
+unknown,10000.0  sat,162.04       sat,68.04        sat,24.04        sat,98.05        sat,25.09        unknown,10000.0  sat,3740.34      sat,315.12       sat,355.19       sat,267.33       sat,36.38        full-bg-gb-9-ce.cnf
+dataset: full-bf ( 7 instances)
++-------------+------------+------------+-------------+-------------+-------------+
+|    Solver   | 4t-speedup | 8t-speedup | 16t-speedup | 32t-speedup | 64t-speedup |
++-------------+------------+------------+-------------+-------------+-------------+
+| kissat+LA+s |    1.58    |    2.64    |    16.31    |    188.5    |    33.14    |
+| kissat+RS+s |    3.78    |    4.4     |     4.96    |    17.61    |     16.7    |
++-------------+------------+------------+-------------+-------------+-------------+
+
+LA+s(1t)         4t               8t               16t              32t              64t              |RS+s(1t)        4t               8t               16t              32t              64t              instance_name
+unsat,688.14     unsat,413.04     unsat,328.03     unsat,230.03     unsat,103.1      unsat,62.08      unsat,688.14     unsat,314.04     unsat,147.03     unsat,68.03      unsat,40.05      unsat,22.12      hid-uns-enc-6-1-0-0-0-0-14492.cnf
+unsat,1546.2     unsat,740.06     unsat,956.08     unsat,412.05     unsat,270.23     unsat,160.24     unsat,1546.2     unsat,619.06     unsat,344.04     unsat,186.05     unsat,108.1      unsat,58.13      hid-uns-enc-6-1-0-0-0-0-26462.cnf
+unsat,617.53     unsat,289.03     unsat,289.03     unsat,202.03     unsat,73.08      unsat,47.1       unsat,617.53     unsat,214.03     unsat,152.03     unsat,68.03      unsat,42.05      unsat,23.1       hid-uns-enc-6-1-0-0-0-0-27601.cnf
+unsat,809.87     unsat,531.04     unsat,578.05     unsat,280.03     unsat,148.13     unsat,76.14      unsat,809.87     unsat,377.04     unsat,216.03     unsat,91.04      unsat,51.09      unsat,30.11      hid-uns-enc-6-1-0-0-0-0-3251.cnf
+dataset: hid-uns-enc ( 4 instances)
++-------------+------------+------------+-------------+-------------+-------------+
+|    Solver   | 4t-speedup | 8t-speedup | 16t-speedup | 32t-speedup | 64t-speedup |
++-------------+------------+------------+-------------+-------------+-------------+
+| kissat+LA+s |    1.85    |    1.81    |     3.17    |     6.58    |    11.12    |
+| kissat+RS+s |    2.43    |    4.25    |     9.1     |    15.51    |    27.83    |
++-------------+------------+------------+-------------+-------------+-------------+
+
+LA+s(1t)         4t               8t               16t              32t              64t              |RS+s(1t)        4t               8t               16t              32t              64t              instance_name
+unknown,10000.0  unknown,10000.0  unknown,10000.0  unknown,10000.0  unknown,10000.0  unknown,10000.0  unknown,10000.0  unknown,10000.0  unknown,10000.0  unknown,10000.0  unknown,10000.0  unknown,10000.0  ssAES_4-4-4_round_7-10_faultAt_7_fault_injections_2_seed_1564286498.cnf
+unknown,10000.0  unknown,10000.0  unknown,10000.0  unknown,10000.0  unknown,10000.0  unknown,10000.0  unknown,10000.0  unknown,10000.0  sat,912.45       sat,1155.69      sat,89.5         sat,62.06        ssAES_4-4-8_round_7-10_faultAt_8_fault_injections_2_seed_1579630418.cnf
+unknown,10000.0  unknown,10000.0  unknown,10000.0  unknown,10000.0  unknown,10000.0  unknown,10000.0  unknown,10000.0  unknown,10000.0  sat,957.32       sat,589.58       sat,83.48        sat,43.87        ssAES_4-4-8_round_8-10_faultAt_8_fault_injections_2_seed_1579630418.cnf
+unknown,10000.0  unknown,10000.0  unknown,10000.0  unknown,10000.0  unknown,10000.0  unknown,10000.0  unknown,10000.0  sat,2857.36      sat,883.28       sat,201.48       sat,120.45       sat,45.8         ssAES_4-4-8_round_8-10_faultAt_8_fault_injections_2_seed_31944661.cnf
+dataset: ssAES ( 4 instances)
++-------------+------------+------------+-------------+-------------+-------------+
+|    Solver   | 4t-speedup | 8t-speedup | 16t-speedup | 32t-speedup | 64t-speedup |
++-------------+------------+------------+-------------+-------------+-------------+
+| kissat+LA+s |    ---     |    ---     |     ---     |     ---     |     ---     |
+| kissat+RS+s |    ---     |    ---     |     ---     |     ---     |     ---     |
++-------------+------------+------------+-------------+-------------+-------------+
+
+LA+s(1t)         4t               8t               16t              32t              64t              |RS+s(1t)        4t               8t               16t              32t              64t              instance_name
+unsat,3015.63    unsat,1755.54    unsat,1359.84    unsat,1168.53    unsat,933.49     unsat,556.89     unsat,3015.63    unsat,1128.24    unsat,749.45     unsat,527.37     unsat,453.54     unsat,292.84     crafted_n10_d6_c3_num18.cnf
+unsat,884.37     unsat,273.16     unsat,151.79     unsat,173.8      unsat,175.91     unsat,115.88     unsat,884.37     unsat,215.58     unsat,152.78     unsat,102.83     unsat,65.53      unsat,54.26      crafted_n11_d6_c4_num19.cnf
+unsat,828.54     unsat,451.51     unsat,331.47     unsat,214.06     unsat,197.91     unsat,202.1      unsat,828.54     unsat,187.59     unsat,179.34     unsat,155.58     unsat,102.23     unsat,79.9       crafted_n12_d6_c4_num9.cnf
+dataset: crafted ( 3 instances)
++-------------+------------+------------+-------------+-------------+-------------+
+|    Solver   | 4t-speedup | 8t-speedup | 16t-speedup | 32t-speedup | 64t-speedup |
++-------------+------------+------------+-------------+-------------+-------------+
+| kissat+LA+s |    2.26    |    3.51    |     3.85    |     4.15    |     5.72    |
+| kissat+RS+s |    3.73    |    4.81    |     6.55    |     9.42    |    12.32    |
++-------------+------------+------------+-------------+-------------+-------------+
+
+LA+s(1t)         4t               8t               16t              32t              64t              |RS+s(1t)        4t               8t               16t              32t              64t              instance_name
+unknown,10000.0  unknown,10000.0  unknown,10000.0  unknown,10000.0  unknown,10000.0  unsat,3226.52    unknown,10000.0  unknown,10000.0  unsat,4252.43    unsat,2459.33    unsat,1437.27    unsat,862.42     ctl_4291_567_11_unsat.cnf
+unknown,10000.0  unknown,10000.0  unknown,10000.0  unknown,10000.0  unknown,10000.0  unknown,10000.0  unknown,10000.0  unknown,10000.0  unknown,10000.0  unknown,10000.0  unsat,3012.45    unsat,1842.67    ctl_4291_567_6_unsat_pre.cnf
+unsat,2042.28    unsat,1015.11    unsat,818.1      unsat,465.08     unsat,283.06     unsat,182.23     unsat,2042.28    unsat,619.12     unsat,339.11     unsat,203.14     unsat,117.27     unsat,71.37      ctl_4291_567_9_unsat_pre.cnf
+dataset: ctl ( 3 instances)
++-------------+------------+------------+-------------+-------------+-------------+
+|    Solver   | 4t-speedup | 8t-speedup | 16t-speedup | 32t-speedup | 64t-speedup |
++-------------+------------+------------+-------------+-------------+-------------+
+| kissat+LA+s |    2.01    |    2.5     |     4.39    |     7.22    |    11.21    |
+| kissat+RS+s |    3.3     |    6.02    |    10.05    |    17.42    |    28.62    |
++-------------+------------+------------+-------------+-------------+-------------+
+
+LA+s(1t)         4t               8t               16t              32t              64t              |RS+s(1t)        4t               8t               16t              32t              64t              instance_name
+unsat,404.53     unsat,195.03     unsat,198.02     unsat,208.03     unsat,193.02     unsat,168.14     unsat,404.53     unsat,211.04     unsat,271.05     unsat,191.05     unsat,188.11     unsat,211.27     grain-53-80-0s0-seed-125-4-init-35.cnf
+unsat,467.88     unsat,327.03     unsat,379.04     unsat,341.04     unsat,312.27     unsat,343.4      unsat,467.88     unsat,312.05     unsat,226.05     unsat,229.05     unsat,230.1      unsat,232.26     grain-53-80-0s0-seed-125-8-init-35.cnf
+unsat,308.53     unsat,303.03     unsat,282.04     unsat,135.02     unsat,127.04     unsat,117.13     unsat,308.53     unsat,254.04     unsat,225.04     unsat,190.05     unsat,176.1      unsat,175.25     grain-55-80-0s0-seed-125-45-init-40.cnf
+dataset: grain ( 3 instances)
++-------------+------------+------------+-------------+-------------+-------------+
+|    Solver   | 4t-speedup | 8t-speedup | 16t-speedup | 32t-speedup | 64t-speedup |
++-------------+------------+------------+-------------+-------------+-------------+
+| kissat+LA+s |    1.51    |    1.46    |     1.87    |     2.01    |     2.13    |
+| kissat+RS+s |    1.54    |    1.64    |     1.93    |     1.98    |     1.9     |
++-------------+------------+------------+-------------+-------------+-------------+
+
+LA+s(1t)         4t               8t               16t              32t              64t              |RS+s(1t)        4t               8t               16t              32t              64t              instance_name
+unknown,10000.0  unknown,10000.0  unknown,10000.0  unknown,10000.0  unknown,10000.0  unknown,10000.0  unknown,10000.0  unknown,10000.0  unknown,10000.0  unknown,10000.0  unknown,10000.0  unknown,10000.0  VanDerWaerden_2-3-16_238.cnf
+unknown,10000.0  unknown,10000.0  unknown,10000.0  unknown,10000.0  unknown,10000.0  unknown,10000.0  unknown,10000.0  unknown,10000.0  unknown,10000.0  unknown,10000.0  unknown,10000.0  unknown,10000.0  VanDerWaerden_2-3-32_1006.cnf
+unknown,10000.0  unknown,10000.0  unknown,10000.0  unknown,10000.0  unknown,10000.0  unknown,10000.0  unknown,10000.0  unknown,10000.0  unknown,10000.0  unknown,10000.0  unknown,10000.0  unknown,10000.0  VanDerWaerden_pd_2-3-26_635.cnf
+dataset: VanDerWaerden ( 3 instances)
++-------------+------------+------------+-------------+-------------+-------------+
+|    Solver   | 4t-speedup | 8t-speedup | 16t-speedup | 32t-speedup | 64t-speedup |
++-------------+------------+------------+-------------+-------------+-------------+
+| kissat+LA+s |    ---     |    ---     |     ---     |     ---     |     ---     |
+| kissat+RS+s |    ---     |    ---     |     ---     |     ---     |     ---     |
++-------------+------------+------------+-------------+-------------+-------------+
+
+LA+s(1t)         4t               8t               16t              32t              64t              |RS+s(1t)        4t               8t               16t              32t              64t              instance_name
+unsat,193.71     unsat,176.04     unsat,305.05     unsat,205.06     unsat,159.07     unsat,176.28     unsat,193.71     unsat,311.1      unsat,69.13      unsat,33.26      unsat,36.25      unsat,23.56      6s153.cnf
+unsat,2294.11    unsat,1428.13    unsat,1279.14    unsat,1061.16    unsat,1193.86    unsat,1234.08    unsat,2294.11    unsat,903.12     unsat,662.23     unsat,509.33     unsat,325.3      unsat,194.75     6s20.cnf
+sat,345.9        sat,68.04        sat,28.04        sat,58.03        sat,33.05        sat,45.1         sat,345.9        sat,141.08       sat,111.1        sat,48.12        sat,41.17        sat,22.26        atco_enc1_opt2_10_16.cnf
+sat,169.32       sat,93.09        sat,81.08        sat,21.09        sat,40.12        sat,37.2         sat,169.32       sat,70.18        sat,262.22       sat,47.26        sat,68.32        sat,66.49        atco_enc2_opt2_05_9-sc2014.cnf
+sat,4379.56      sat,2188.27      sat,856.17       sat,665.18       sat,354.32       sat,256.43       sat,4379.56      sat,1249.33      sat,1146.39      sat,1043.55      sat,208.54       sat,264.1        b1904P1-8x8c6h7SAT.cnf
+unknown,10000.0  unknown,10000.0  unknown,10000.0  unknown,10000.0  unknown,10000.0  unknown,10000.0  unknown,10000.0  unknown,10000.0  unknown,10000.0  unknown,10000.0  unknown,10000.0  unknown,10000.0  b1904P3-8x8c11h0SAT.cnf
+sat,1791.17      sat,331.03       sat,180.03       sat,9.01         sat,10.02        sat,12.03        sat,1791.17      sat,24.01        sat,85.03        sat,16.03        sat,1.02         sat,2.04         battleship-24-47-sat.cnf
+unknown,10000.0  unknown,10000.0  unknown,10000.0  unknown,10000.0  unknown,10000.0  unknown,10000.0  unknown,10000.0  unknown,10000.0  unknown,10000.0  unknown,10000.0  unknown,10000.0  unknown,10000.0  battleship-27-54-sat.cnf
+unsat,2681.03    unsat,1053.08    unsat,1152.09    unsat,1203.1     unsat,871.52     unsat,918.75     unsat,2681.03    unsat,1299.12    unsat,1242.16    unsat,1001.1     unsat,911.1      unsat,834.84     bivium-39-200-0s0-0x5fa955de2b4f64d00226837d226c955de4566ce95f660180d7-30.cnf
+unsat,781.19     unsat,339.03     unsat,330.03     unsat,363.03     unsat,334.21     unsat,352.27     unsat,781.19     unsat,534.05     unsat,424.05     unsat,321.06     unsat,342.19     unsat,335.31     bivium-40-200-0s0-0x92fc13b11169afbb2ef11a684d9fe9a19e743cd6aa5ce23fb5-19.cnf
+sat,65.17        sat,29.26        sat,49.29        sat,29.3         sat,28.27        sat,17.39        sat,65.17        sat,17.95        sat,20.93        sat,16.09        sat,18.79        sat,17.66        course0.2_2018_3_5.cnf
+sat,1140.5       sat,338.57       sat,263.59       sat,266.63       sat,148.51       sat,184.97       sat,1140.5       sat,684.44       sat,207.48       sat,105.96       sat,169.86       sat,115.59       course0.2_2018_3-sc2018.cnf
+unknown,10000.0  unknown,10000.0  unknown,10000.0  unknown,10000.0  unknown,10000.0  unknown,10000.0  unknown,10000.0  unknown,10000.0  unknown,10000.0  unknown,10000.0  unknown,10000.0  unknown,10000.0  gto_p50c314.cnf
+unsat,162.47     unsat,111.01     unsat,106.02     unsat,77.01      unsat,71.04      unsat,55.13      unsat,162.47     unsat,98.02      unsat,56.02      unsat,41.02      unsat,26.03      unsat,20.05      gto_p60c241.cnf
+unsat,2894.07    unsat,1562.13    unsat,1751.17    unsat,1769.17    unsat,1663.96    unsat,1439.49    unsat,2894.07    unsat,1030.12    unsat,823.13     unsat,827.19     unsat,661.64     unsat,622.57     LABS_n038_goal002.cnf
+unknown,10000.0  unsat,3641.31    unsat,4496.39    unsat,3265.38    unsat,2528.18    unsat,2182.78    unknown,10000.0  unsat,2256.39    unsat,2174.61    unsat,1483.03    unsat,1147.91    unsat,869.6      LABS_n071_goal001-sc2013.cnf
+sat,2.34         sat,2.02         sat,3.02         sat,2.02         sat,2.02         sat,3.04         sat,2.34         sat,2.04         sat,2.05         sat,2.07         sat,2.09         sat,2.17         mrpp_8x8#16_12.cnf
+sat,44.21        sat,18.02        sat,9.02         sat,14.02        sat,11.03        sat,9.06         sat,44.21        sat,17.05        sat,10.11        sat,5.09         sat,7.12         sat,6.2          mrpp_8x8#24_14.cnf
+unsat,1168.53    unsat,564.63     unsat,419.46     unsat,246.66     unsat,290.5      unsat,192.64     unsat,1168.53    unsat,334.56     unsat,167.98     unsat,111.01     unsat,93.44      unsat,73.25      velev-dlx-uns-1.0-05.cnf
+unsat,163.5      unsat,95.26      unsat,82.28      unsat,67.31      unsat,69.25      unsat,67.28      unsat,163.5      unsat,73.55      unsat,58.68      unsat,34.72      unsat,30.83      unsat,23.16      velev-pipe-uns-1.0-9.cnf
+unknown,10000.0  unknown,10000.0  unknown,10000.0  unknown,10000.0  unknown,10000.0  unknown,10000.0  unknown,10000.0  unknown,10000.0  unknown,10000.0  unknown,10000.0  unknown,10000.0  unknown,10000.0  tseitingrid7x165_shuffled.cnf
+unknown,10000.0  unknown,10000.0  unknown,10000.0  unknown,10000.0  unknown,10000.0  unknown,10000.0  unknown,10000.0  unknown,10000.0  unknown,10000.0  unknown,10000.0  unknown,10000.0  unknown,10000.0  tseitingrid7x185_shuffled.cnf
+dataset: other2 ( 22 instances)
++-------------+------------+------------+-------------+-------------+-------------+
+|    Solver   | 4t-speedup | 8t-speedup | 16t-speedup | 32t-speedup | 64t-speedup |
++-------------+------------+------------+-------------+-------------+-------------+
+| kissat+LA+s |    2.39    |    3.49    |    15.54    |     15.0    |    13.46    |
+| kissat+RS+s |    6.8     |    4.32    |    11.84    |    115.83   |    62.21    |
++-------------+------------+------------+-------------+-------------+-------------+
+
+LA+s(1t)         4t               8t               16t              32t              64t              |RS+s(1t)        4t               8t               16t              32t              64t              instance_name
+sat,3688.88      sat,803.12       sat,120.08       sat,287.11       sat,162.22       sat,109.25       sat,3688.88      sat,213.16       sat,105.22       sat,82.47        sat,87.39        sat,25.64        hcp_CP16_16.cnf
+sat,2392.99      sat,2491.3       sat,433.15       sat,209.16       sat,162.29       sat,394.52       sat,2392.99      sat,1270.33      sat,121.33       sat,67.42        sat,361.67       sat,234.72       009-80-8.cnf
+unknown,10000.0  unknown,10000.0  sat,1704.45      sat,1284.28      sat,1238.29      sat,977.28       unknown,10000.0  sat,2639.81      sat,1501.88      sat,1267.12      sat,615.05       sat,1081.39      8-5-6.cnf
+sat,1237.35      sat,242.16       sat,231.21       sat,104.24       sat,112.23       sat,118.37       sat,1237.35      sat,302.69       sat,198.97       sat,157.63       sat,110.41       sat,36.98        ACG-15-10p1.cnf
+unknown,10000.0  unknown,10000.0  sat,473.19       unknown,10000.0  sat,1605.55      sat,1251.02      unknown,10000.0  unknown,10000.0  sat,3354.96      unknown,10000.0  sat,91.89        sat,362.75       apn-sbox6-cut4-helpbox26.cnf
+unknown,10000.0  unsat,3725.29    unknown,10000.0  unknown,10000.0  unknown,10000.0  unknown,10000.0  unknown,10000.0  unknown,10000.0  unsat,2809.28    unsat,621.18     unsat,178.18     unsat,119.33     beempgsol5b1.cnf
+unknown,10000.0  unknown,10000.0  unknown,10000.0  unknown,10000.0  unknown,10000.0  unknown,10000.0  unknown,10000.0  unknown,10000.0  unknown,10000.0  unknown,10000.0  unknown,10000.0  unknown,10000.0  ccp-s8-facto4.cnf
+unsat,297.56     unsat,168.02     unsat,78.02      unsat,42.02      unsat,23.02      unsat,16.04      unsat,297.56     unsat,103.03     unsat,44.03      unsat,25.04      unsat,12.05      unsat,9.1        contest03-SGI_30_50_30_20_3-dir.sat05-440.reshuffled-07.cnf
+unknown,10000.0  unsat,3666.31    unsat,2363.21    unsat,2419.22    unsat,2125.65    unsat,1266.57    unknown,10000.0  unsat,2153.21    unsat,1573.18    unsat,1070.16    unsat,866.55     unsat,661.37     cz-alt-3-7.cnf
+unsat,0.06       unsat,1.01       unsat,1.01       unsat,1.01       unsat,1.01       unsat,1.02       unsat,0.06       unsat,1.02       unsat,1.03       unsat,1.05       unsat,1.06       unsat,1.1        dlx1c.ucl.sat.chaff.4.1.bryant.cnf
+unknown,10000.0  unknown,10000.0  unknown,10000.0  unknown,10000.0  unknown,10000.0  unknown,10000.0  unknown,10000.0  unsat,3117.26    unsat,1172.15    unsat,499.11     unsat,232.18     unsat,139.37     e_rphp096_04.cnf
+unknown,10000.0  unsat,4993.46    unknown,10000.0  unknown,10000.0  unknown,10000.0  unsat,4500.94    unknown,10000.0  unsat,4212.52    unsat,3323.52    unsat,2193.5     unsat,1554.64    unsat,982.38     ex051_9-sc2018.cnf
+unsat,22.82      unsat,13.06      unsat,20.1       unsat,20.1       unsat,21.13      unsat,16.16      unsat,22.82      unsat,14.26      unsat,12.61      unsat,9.87       unsat,9.82       unsat,9.73       f6bidw.cnf
+unsat,622.66     unsat,595.4      unsat,1054.43    unsat,914.32     unsat,842.35     unsat,984.09     unsat,622.66     unsat,393.15     unsat,241.87     unsat,147.78     unsat,118.93     unsat,81.27      filter_iir_true-unreach-call.c.cnf
+unknown,10000.0  unknown,10000.0  unknown,10000.0  sat,965.13       unknown,10000.0  unknown,10000.0  unknown,10000.0  unknown,10000.0  unknown,10000.0  unknown,10000.0  unknown,10000.0  sat,1996.27      frb59-26-1.used-as.sat04-891.cnf
+sat,115.34       sat,130.01       sat,5.01         sat,11.01        sat,2.01         sat,1.01         sat,115.34       sat,18.01        sat,26.02        sat,12.03        sat,1.03         sat,1.06         fsf-300-354-2-2-3-2.23.opt.cnf
+unsat,2371.59    unsat,1232.11    unsat,1118.12    unsat,690.08     unsat,404.17     unsat,246.2      unsat,2371.59    unsat,805.11     unsat,692.11     unsat,204.11     unsat,112.12     unsat,62.26      goldb-heqc-k2mul.cnf
+unknown,10000.0  unknown,10000.0  unknown,10000.0  unknown,10000.0  unknown,10000.0  unknown,10000.0  unknown,10000.0  unknown,10000.0  unknown,10000.0  unknown,10000.0  unknown,10000.0  unknown,10000.0  GreenTao_2-5-5_34308.cnf
+unknown,10000.0  unknown,10000.0  unknown,10000.0  unknown,10000.0  unknown,10000.0  unknown,10000.0  unknown,10000.0  unknown,10000.0  unknown,10000.0  unknown,10000.0  unknown,10000.0  unknown,10000.0  harder-php-025-024.sat05-1191.reshuffled-07.cnf
+unsat,3702.97    unsat,559.04     unsat,346.03     unsat,349.04     unsat,123.17     unsat,188.4      unsat,3702.97    unsat,1726.14    unsat,1550.14    unsat,835.12     unsat,503.25     unsat,317.54     homer17.shuffled.cnf
+unknown,10000.0  unknown,10000.0  unknown,10000.0  unknown,10000.0  unknown,10000.0  unknown,10000.0  unknown,10000.0  unknown,10000.0  unknown,10000.0  unknown,10000.0  unknown,10000.0  unknown,10000.0  IBM_FV_2004_rule_batch_1_31_1_SAT_dat.k90.debugged.cnf
+unsat,126.97     unsat,88.02      unsat,69.01      unsat,62.03      unsat,43.04      unsat,29.06      unsat,126.97     unsat,55.02      unsat,42.03      unsat,34.05      unsat,24.07      unsat,17.12      jkkk-one-one-10-30-unsat.cnf
+unknown,10000.0  unsat,3899.35    unsat,2584.29    unsat,2512.26    unsat,2121.31    unsat,1395.06    unknown,10000.0  unsat,2202.25    unsat,1635.32    unsat,838.29     unsat,534.37     unsat,227.55     Kittell-k7.cnf
+unknown,10000.0  unknown,10000.0  unknown,10000.0  unknown,10000.0  unknown,10000.0  unknown,10000.0  unknown,10000.0  unknown,10000.0  unknown,10000.0  unknown,10000.0  unknown,10000.0  sat,2524.51      LED_round_29-32_faultAt_29_fault_injections_5_seed_1579630418.cnf
+unknown,10000.0  unsat,1639.19    unsat,1951.2     unsat,1618.19    unsat,1498.45    unsat,1334.71    unknown,10000.0  unsat,1294.24    unsat,1000.27    unsat,1068.26    unsat,667.41     unsat,538.08     logistics-unsat-logistics-rotate-11t5.sat05-1141.reshuffled-07.cnf
+unsat,862.23     unsat,421.06     unsat,310.05     unsat,273.05     unsat,264.06     unsat,189.22     unsat,862.23     unsat,316.07     unsat,230.08     unsat,162.08     unsat,113.11     unsat,86.32      mm-2x3-8-8-sb.1.sat05-475.reshuffled-07.cnf
+sat,276.3        sat,91.01        sat,9.0          sat,9.01         sat,7.01         sat,9.02         sat,276.3        sat,59.01        sat,8.01         sat,17.02        sat,5.02         sat,7.04         mod2c-rand3bip-sat-220-2.sat05-2489.reshuffled-07.cnf
+unknown,10000.0  unknown,10000.0  unknown,10000.0  unknown,10000.0  unknown,10000.0  unknown,10000.0  unknown,10000.0  unsat,4886.04    unsat,3581.61    unsat,3589.72    unsat,2863.91    unsat,2048.84    Nb51T6-sc2018.cnf
+unsat,573.56     unsat,376.24     unsat,296.19     unsat,209.27     unsat,150.23     unsat,122.41     unsat,573.56     unsat,295.64     unsat,172.96     unsat,100.53     unsat,60.37      unsat,50.09      post-cbmc-aes-ee-r2.cnf
+unknown,10000.0  unknown,10000.0  unknown,10000.0  unknown,10000.0  unknown,10000.0  unknown,10000.0  unknown,10000.0  unknown,10000.0  unknown,10000.0  unknown,10000.0  unknown,10000.0  unknown,10000.0  PRESENT_round_1-32_faultAt_30_fault_injections_10_seed_1579630418.cnf
+sat,1.81         sat,2.06         sat,2.06         sat,2.08         sat,2.06         sat,2.12         sat,1.81         sat,2.13         unknown,10000.0  sat,2.45         sat,2.4          sat,2.72         prime2209-84.cnf
+unsat,4489.58    unsat,1618.13    unsat,2187.18    unsat,1944.17    unsat,1815.74    unsat,1056.2     unsat,4489.58    unsat,863.09     unsat,852.1      unsat,581.1      unsat,269.1      unsat,132.33     QG7a-gensys-ukn009.sat05-3849.reshuffled-07.cnf
+unsat,1917.0     unsat,1077.09    unsat,755.07     unsat,659.07     unsat,389.33     unsat,243.34     unsat,1917.0     unsat,656.08     unsat,562.08     unsat,323.08     unsat,209.17     unsat,154.3      rbcl_xits_08_UNSAT.cnf
+unknown,10000.0  unknown,10000.0  unknown,10000.0  unknown,10000.0  unknown,10000.0  unknown,10000.0  unknown,10000.0  unknown,10000.0  unknown,10000.0  unknown,10000.0  unknown,10000.0  unknown,10000.0  rook-42-0-1.cnf
+unknown,10000.0  unsat,3193.24    unsat,1846.15    unsat,946.1      unsat,585.16     unsat,352.52     unknown,10000.0  unsat,2041.18    unsat,853.1      unsat,321.06     unsat,183.17     unsat,113.24     rphp4_090_shuffled.cnf
+unsat,707.74     unsat,398.08     unsat,347.08     unsat,407.09     unsat,336.11     unsat,352.48     unsat,707.74     unsat,1289.16    unsat,323.18     unsat,156.16     unsat,126.22     unsat,88.51      SAT_dat.k80.cnf
+unsat,1051.06    unsat,660.22     unsat,534.21     unsat,666.29     unsat,459.24     unsat,340.55     unsat,1051.06    unsat,418.78     unsat,294.04     unsat,224.46     unsat,156.0      unsat,123.72     schup-l2s-bc56s-1-k391.cnf
+unsat,2339.5     unsat,797.06     unsat,488.04     unsat,245.02     unsat,132.03     unsat,143.22     unsat,2339.5     unsat,1823.15    unsat,1815.17    unsat,1450.14    unsat,1476.32    unsat,1623.41    sgen4-unsat-89-1.cnf
+unknown,10000.0  unsat,2427.19    unsat,1083.09    unsat,627.08     unsat,283.24     unsat,142.27     unknown,10000.0  unsat,1444.12    unsat,666.08     unsat,281.07     unsat,160.11     unsat,84.18      SGI_30_70_20_60_10-dir.shuffled-as.sat03-144.cnf
+sat,269.62       sat,174.12       sat,124.12       sat,14.13        sat,28.11        sat,30.18        sat,269.62       sat,22.46        sat,61.66        sat,39.64        sat,27.81        sat,13.96        sgp_5-6-8.sat05-2669.reshuffled-07.cnf
+unsat,4.05       unsat,4.07       unsat,3.08       unsat,3.09       unsat,3.07       unsat,4.1        unsat,4.05       unsat,4.18       unsat,5.21       unsat,4.22       unsat,5.26       unsat,1.48       simon03:sat02bis:k2fix_gr_2pinvar_w8.used-as.sat04-349.cnf
+unsat,231.64     unsat,221.03     unsat,110.02     unsat,149.03     unsat,153.12     unsat,121.18     unsat,231.64     unsat,135.03     unsat,96.04      unsat,68.05      unsat,46.11      unsat,45.21      simon-mixed-s02bis-05.cnf
+unknown,10000.0  unknown,10000.0  unknown,10000.0  unknown,10000.0  unknown,10000.0  unknown,10000.0  unknown,10000.0  unknown,10000.0  unknown,10000.0  unknown,10000.0  unknown,10000.0  unknown,10000.0  SocialGolfers-6-6-6-cp_c18.cnf
+sat,3.61         sat,14.12        sat,21.13        sat,5.15         sat,4.11         sat,2.17         sat,3.61         sat,4.27         sat,4.46         sat,3.78         sat,3.69         sat,3.36         sqrt_ineq_3.c.cnf
+sat,327.86       sat,35.01        sat,1.01         sat,1.01         sat,1.01         sat,3.02         sat,327.86       sat,12.02        sat,6.04         sat,3.03         sat,4.04         sat,1.07         stable-300-0.1-20-98765432130020.cnf
+unsat,333.28     unsat,201.11     unsat,185.12     unsat,199.09     unsat,152.24     unsat,100.11     unsat,333.28     unsat,109.28     unsat,79.35      unsat,44.41      unsat,30.55      unsat,23.85      traffic_kkb_unknown.cnf
+unknown,10000.0  unknown,10000.0  unknown,10000.0  unknown,10000.0  unknown,10000.0  unknown,10000.0  unknown,10000.0  unknown,10000.0  unknown,10000.0  unknown,10000.0  unknown,10000.0  unknown,10000.0  unsat-set-a-clqcolor-16-10-11.sat05-1253.reshuffled-07.cnf
+dataset: other1 ( 47 instances)
++-------------+------------+------------+-------------+-------------+-------------+
+|    Solver   | 4t-speedup | 8t-speedup | 16t-speedup | 32t-speedup | 64t-speedup |
++-------------+------------+------------+-------------+-------------+-------------+
+| kissat+LA+s |    2.28    |   17.95    |    18.26    |    22.17    |    16.12    |
+| kissat+RS+s |    4.3     |    8.38    |    12.16    |    17.67    |    33.42    |
++-------------+------------+------------+-------------+-------------+-------------+
+
+LA+s(1t)         4t               8t               16t              32t              64t              |RS+s(1t)        4t               8t               16t              32t              64t              instance_name
+sat,145.39       sat,56.04        sat,5.05         sat,52.06        sat,18.03        sat,14.05        sat,145.39       sat,201.08       sat,52.08        sat,40.09        sat,31.14        sat,12.18        mp1-9_49.cnf
+unsat,1279.09    unsat,771.09     unsat,713.08     unsat,439.08     unsat,217.07     unsat,159.18     unsat,1279.09    unsat,559.1      unsat,247.08     unsat,148.11     unsat,74.14      unsat,53.22      mp1-blockpuzzle_5x10_s7_free4.cnf
+unknown,10000.0  unknown,10000.0  unknown,10000.0  unknown,10000.0  unsat,4896.71    unsat,3332.43    unknown,10000.0  unknown,10000.0  unsat,4953.45    unsat,4305.42    unsat,3474.1     unsat,2647.37    mp1-rubikcube312.cnf
+unsat,1200.6     unsat,441.04     unsat,320.03     unsat,304.04     unsat,198.04     unsat,126.16     unsat,1200.6     unsat,561.05     unsat,316.04     unsat,187.04     unsat,110.15     unsat,74.13      mp1-squ_any_s09x07_c27_bail_UNS.cnf
+unsat,2293.11    unsat,1282.1     unsat,1235.12    unsat,1234.13    unsat,1133.17    unsat,885.9      unsat,2293.11    unsat,996.11     unsat,622.12     unsat,399.13     unsat,262.21     unsat,182.44     g2-hwmcc15deep-6s33-k34.cnf
+unsat,864.03     unsat,763.08     unsat,757.11     unsat,656.1      unsat,454.12     unsat,408.54     unsat,864.03     unsat,536.1      unsat,368.12     unsat,211.22     unsat,139.28     unsat,98.49      g2-hwmcc15deep-6s516r-k17.cnf
+unknown,10000.0  unknown,10000.0  unknown,10000.0  unknown,10000.0  unknown,10000.0  unknown,10000.0  unknown,10000.0  unknown,10000.0  unknown,10000.0  unsat,2537.14    unsat,1578.27    unsat,961.66     g2-hwmcc15deep-bobpcihm-k31.cnf
+unsat,1501.29    unsat,1014.79    unsat,1238.98    unsat,1446.18    unsat,1406.38    unsat,1483.35    unsat,1501.29    unsat,810.43     unsat,493.98     unsat,454.26     unsat,396.02     unsat,322.61     g2-T83.2.1.cnf
+unsat,1065.87    unsat,906.79     unsat,984.94     unsat,1273.32    unsat,1166.68    unsat,1334.64    unsat,1065.87    unsat,599.14     unsat,457.16     unsat,302.23     unsat,232.7      unsat,183.8      g2-T85.2.1.cnf
+unsat,369.58     unsat,234.02     unsat,193.02     unsat,159.02     unsat,130.13     unsat,95.14      unsat,369.58     unsat,157.02     unsat,119.02     unsat,84.03      unsat,57.06      unsat,56.13      size_4_4_4_i4096_r8.cnf
+unknown,10000.0  unsat,2470.18    unsat,2284.18    unsat,1773.16    unsat,1583.52    unsat,968.88     unknown,10000.0  unsat,1696.13    unsat,1072.1     unsat,733.09     unsat,501.42     unsat,421.56     size_4_5_5_i000_w31_r9.cnf
+unsat,4508.51    unsat,2205.16    unsat,3112.28    unsat,2321.19    unsat,1657.23    unsat,1016.91    unsat,4508.51    unsat,1511.13    unsat,1207.12    unsat,687.08     unsat,543.22     unsat,445.53     size_4_5_5_i003_w31_r9.cnf
+unsat,2252.81    unsat,777.06     unsat,1186.09    unsat,836.08     unsat,701.25     unsat,492.31     unsat,2252.81    unsat,904.08     unsat,555.06     unsat,326.04     unsat,281.2      unsat,195.25     size_4_5_5_i028_w31_r9.cnf
+unknown,10000.0  unsat,3177.22    unsat,2478.21    unsat,2160.2     unsat,1541.54    unsat,1153.18    unknown,10000.0  unsat,1765.14    unsat,1278.12    unsat,876.1      unsat,623.19     unsat,516.62     size_4_5_5_i031_w31_r9.cnf
+unknown,10000.0  unsat,2509.18    unsat,2609.22    unsat,2240.19    unsat,1547.44    unsat,1202.01    unknown,10000.0  unsat,2400.2     unsat,1111.11    unsat,752.12     unsat,654.38     unsat,523.68     size_4_5_5_i032_w31_r9.cnf
+unsat,4732.87    unsat,2252.17    unsat,2522.2     unsat,2068.16    unsat,1505.35    unsat,1205.11    unsat,4732.87    unsat,1470.13    unsat,1043.1     unsat,598.07     unsat,464.18     unsat,386.46     size_4_5_5_i035_w31_r9.cnf
+unknown,10000.0  unsat,2514.19    unsat,2816.22    unsat,1629.14    unsat,1323.42    unsat,1086.15    unknown,10000.0  unsat,1082.09    unsat,978.1      unsat,890.12     unsat,710.25     unsat,606.7      size_4_5_5_i037_w31_r9.cnf
+sat,808.48       sat,559.04       sat,119.01       sat,32.01        sat,16.02        sat,21.05        sat,808.48       sat,42.02        sat,15.02        sat,33.03        sat,12.05        sat,3.07         size_5_5_5_i003_r12.cnf
+sat,139.92       sat,26.01        sat,21.01        sat,13.01        sat,19.05        sat,7.02         sat,139.92       sat,186.03       sat,95.03        sat,15.03        sat,16.05        sat,8.08         size_5_5_5_i019_r12.cnf
+sat,88.28        sat,837.07       sat,84.01        sat,58.01        sat,19.03        sat,13.02        sat,88.28        sat,97.02        sat,35.02        sat,24.03        sat,3.03         sat,17.1         size_5_5_5_i041_r12.cnf
+sat,8.16         sat,11.01        sat,35.01        sat,33.01        sat,9.01         sat,13.02        sat,8.16         sat,55.02        sat,76.04        sat,17.03        sat,17.05        sat,4.07         size_5_5_5_i053_r12.cnf
+sat,183.44       sat,102.01       sat,12.01        sat,6.01         sat,20.02        sat,14.02        sat,183.44       sat,106.02       sat,66.03        sat,42.03        sat,14.05        sat,20.09        size_5_5_5_i058_r12.cnf
+sat,3221.5       sat,22.01        sat,37.01        sat,81.01        sat,28.02        sat,17.04        sat,3221.5       sat,34.02        sat,75.02        sat,17.03        sat,14.06        sat,6.08         size_5_5_5_i059_r12.cnf
+sat,72.92        sat,8.01         sat,8.01         sat,25.01        sat,29.04        sat,17.03        sat,72.92        sat,109.02       sat,22.04        sat,25.03        sat,3.03         sat,13.08        size_5_5_5_i092_r12.cnf
+sat,75.79        sat,12.01        sat,17.01        sat,9.01         sat,13.02        sat,7.01         sat,75.79        sat,20.01        sat,7.02         sat,17.03        sat,4.03         sat,4.07         size_5_5_5_i131_r12.cnf
+sat,203.31       sat,29.01        sat,9.01         sat,14.01        sat,34.05        sat,13.02        sat,203.31       sat,66.02        sat,14.02        sat,18.03        sat,14.07        sat,19.11        size_5_5_5_i235_r12.cnf
+sat,891.14       sat,100.01       sat,270.03       sat,21.02        sat,22.05        sat,24.04        sat,891.14       sat,21.02        sat,66.02        sat,21.03        sat,28.06        sat,47.16        size_5_5_5_i260_r12.cnf
+unsat,522.89     unsat,257.1      unsat,255.11     unsat,175.15     unsat,153.14     unsat,132.26     unsat,522.89     unsat,202.24     unsat,205.55     unsat,77.71      unsat,22.82      unsat,14.6       sv-comp19_prop-reachsafety.newton_2_2_true-unreach-call_true-termination.i-witness.cnf
+sat,295.59       sat,184.62       sat,175.97       sat,194.75       sat,179.07       sat,119.18       sat,295.59       sat,299.13       sat,179.09       sat,236.71       sat,214.41       sat,276.02       sv-comp19_prop-reachsafety.queue_longer_false-unreach-call.i-witness.cnf
+dataset: old ( 29 instances)
++-------------+------------+------------+-------------+-------------+-------------+
+|    Solver   | 4t-speedup | 8t-speedup | 16t-speedup | 32t-speedup | 64t-speedup |
++-------------+------------+------------+-------------+-------------+-------------+
+| kissat+LA+s |    9.22    |    9.0     |     8.9     |    12.39    |     17.1    |
+| kissat+RS+s |    8.47    |    8.2     |    15.72    |    23.92    |     45.3    |
++-------------+------------+------------+-------------+-------------+-------------+
