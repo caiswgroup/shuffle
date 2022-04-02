@@ -1,8 +1,0 @@
-*.o
-*.a
-lglcfg.h
-lglcflags.h
-lglmbt
-lingeling
-makefile
-plingeling
